@@ -9,8 +9,6 @@ tags:
 date: 2022-10-06  
 ---  
   
-  
-  
 # I wykład  
 - 9:45 - Wykład // [Metody pomiaru efektywności organizacji gospodarczych](Metody%20pomiaru%20efektywności%20organizacji%20gospodarczych.md)  
     -   Prowadzący  
@@ -73,7 +71,6 @@ date: 2022-10-06
 	- listy zadań związane z tematem  
 		- przerabiane na zajęciach  
   
-  
 ### Projekt wersja 1  
 - wybór 1 przedsiębiorstwa + zebranie danych do obliczenia wybranych wskaźników ekonomicznych  
 	- bezpośredni dostęp do danych? // raczej nie ze sprawozdań finansowych  
@@ -94,8 +91,6 @@ date: 2022-10-06
 - nacisk  
 	- rezultaty obliczeń  
 	- rekomendacje na podstawie rezultatów  
-  
-  
   
 ### Projekt - wersja 2  
 - wybór minimum **10 przedsiębiorstw** z danej branży + zebranie danych w celu obliczenia efektywności metodą DEA  
@@ -122,7 +117,7 @@ date: 2022-10-06
 	- opracowanie wyników i wniosków dla przedsiębiorstw  
   
   
-## Bazy danych // źródła  
+## Bazy danych, źródła  
 - emis  
 - GPW  
 - urzędy statystyczne  
@@ -137,9 +132,9 @@ date: 2022-10-06
 	- ilość pracowników  
 	- wartości niematerialne i prawne  
   
-## Program  
-- EMS  
-	- stary program  
+- Program  
+	- EMS  
+		- stary program  
   
 - rachunek wyników w wariancie porównawczym  
 	- inputs  
@@ -151,9 +146,7 @@ date: 2022-10-06
 - rachunek wyników w war kalk  
 	- inputs  
 		- koszty sprzedanych produktów  
-  
 # Homework  
-  
 ## Inputs  
   
 - inputs  
