@@ -152,7 +152,6 @@ date: 2022-10-06
 	- inputs  
 		- koszty sprzedanych produktów  
   
----  
 # Homework  
   
 ## Inputs  
