@@ -194,6 +194,13 @@ date: 2022-10-06
 - Książka do analizy finansowej  
 	- Analiza finansowa przedsiębiorstwa - Bławat  
   
+  
+# DEA research papers  
+- [efficiency of international container shipping lines](https://sci-hub.se/https://link.springer.com/article/10.1057/mel.2013.21?error=cookies_not_supported&code=e7eb584f-80d6-401f-b8a9-27edb7502434)  
+- [efficiency of Italian airports](https://sci-hub.se/https://www.sciencedirect.com/science/article/abs/pii/S0038012110000571)  
+- [efficiency at Brazilian ports](https://sci-hub.se/https://www.inderscienceonline.com/doi/abs/10.1504/IJSTL.2016.076240)  
+  
+  
 [^1]: https://www.deaos.com/en-US/Product/Product/0005/DEA-and-Transportation/DEA-and-Transportation  
 [^2]: Which inputs and outputs should I add on my DEA Analysis? | ResearchGate - https://www.researchgate.net/post/Which_inputs_and_outputs_should_I_add_on_my_DEA_Analysis  
 [^3]: Which inputs and outputs should I add on my DEA Analysis? | ResearchGate - https://www.researchgate.net/post/Which_inputs_and_outputs_should_I_add_on_my_DEA_Analysis
