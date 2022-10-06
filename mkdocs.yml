@@ -2,6 +2,10 @@ site_name: obsidian-mkdocs template
 
 theme:
     name: 'material'
+    
+    features:
+    - navigation.top
+    
     palette:
 
     # Light mode
@@ -47,6 +51,7 @@ plugins:
   - search
   - roamlinks 
   - mermaid2
+  - tags
 
 extra_javascript:
   - javascripts/mathjax.js
