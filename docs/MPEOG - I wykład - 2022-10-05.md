@@ -104,7 +104,6 @@ date: 2022-10-06
 - struktura  
 	- zdefiniowanie problemu  
 		- inwestycje -> CAPEX  
-		-   
 	- jakie przedsiębiorstwo + opis  
 	- opis danych i źródła danych  
 		- stat. opisowe  
@@ -153,23 +152,25 @@ date: 2022-10-06
 	- inputs  
 		- koszty sprzedanych produktów  
   
+---  
+# Homework  
+  
+## Inputs  
   
 - inputs  
-	- działka transportowa - https://www.deaos.com/en-US/Product/Product/0005/DEA-and-Transportation/DEA-and-Transportation  
+	- działka transportowa[^1]  
 		- inputs  
 			- employees  
 			- no of transportation crew  
 			- no of transportation machinery  
   
-	- Which inputs and outputs should I add on my DEA Analysis? | ResearchGate - https://www.researchgate.net/post/Which_inputs_and_outputs_should_I_add_on_my_DEA_Analysis  
 	- Input would be circulating capital, Investment, labor, selling cost, expense, and energy consumption.   
-	-  
-	- circulating capital, Investment, labor, selling cost, expense, and energy consumption   
+	- circulating capital, Investment, labor, selling cost, expense, and energy consumption[^2]  
   
-  
+## Outputs  
   
 - outputs  
-	- Output would be revenue, monetary income, profit and net value of output value   
+	- Output would be revenue, monetary income, profit and net value of output value[^3]  
   
 # Indicators  
   
@@ -194,3 +195,6 @@ date: 2022-10-06
 - Książka do analizy finansowej  
 	- Analiza finansowa przedsiębiorstwa - Bławat  
   
+[^1]: https://www.deaos.com/en-US/Product/Product/0005/DEA-and-Transportation/DEA-and-Transportation  
+[^2]: Which inputs and outputs should I add on my DEA Analysis? | ResearchGate - https://www.researchgate.net/post/Which_inputs_and_outputs_should_I_add_on_my_DEA_Analysis  
+[^3]: Which inputs and outputs should I add on my DEA Analysis? | ResearchGate - https://www.researchgate.net/post/Which_inputs_and_outputs_should_I_add_on_my_DEA_Analysis
