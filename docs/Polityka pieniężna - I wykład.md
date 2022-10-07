@@ -7,7 +7,7 @@ tags:
 - wykład    
 ---  
   
-# Wstęp  
+## Wstęp  
 - przedmiot kończy się zaliczeniem  
 	- nie ma egzaminu w sesji, jest egzamin na ostatnim wykładzie  
 - 12 tematów  
@@ -17,12 +17,12 @@ tags:
 		- post-covid  
 - prowadząca lubi glapińskiego :((  
   
-# Literatura  
+## Literatura  
 - F.S. Mishkin - Ekonomika pieniądza, bankowości, rynków finansowych  
 - skrypt  
 	- skopiowski, Wiśniewski - instrumenty współczesnej polityki pieniężnej  
   
-# Zaliczenie  
+## Zaliczenie  
 - 80% test na ostatnim wykładzie  
 	- jednokrotnego wyboru, pytań ok. 30  
 - 20% praca pisemna  
@@ -35,7 +35,7 @@ tags:
 - aktywność :)  
 	- można dostać dodatkowe punkty, jeżeli zabraknie z czegoś innego  
   
-# Polityka pieniężna  
+## Polityka pieniężna  
   
 - polityka a polityka pieniężną  
 	- polityka - sztuka rządzenia państwem  
@@ -59,7 +59,7 @@ tags:
 	- działalność bc prowadzona w imieniu państwa  
 	- regulowanie popytu na pieniądz i podaży pieniądza  
   
-# Bank centralny  
+## Bank centralny  
   
 - funkcje banku centralnego  
 	- kierowanie polityką pieniężną  
@@ -70,13 +70,13 @@ tags:
 	- niska i stabilna inflacja  
   
   
-## NBP  
+### NBP  
   
 - konstytucja  
 	- art. 227 ust. 1  
 		- NBP odpowiada za wartość polskiego pieniądza  
   
-### Ustawa o NBP  
+#### Ustawa o NBP  
 - ustawa o narodowym banku polskim  
 	- najważniejsza ustawa  
 	- ustawa ==nie określa== funkcji banku centralnego  
@@ -87,7 +87,7 @@ tags:
 	- stabilność systemu finansowego  
 	- odpieranie ryzyk systemowych  
   
-### Organy NBP  
+#### Organy NBP  
   
 - organy nbp  
 	- prezes nbp  
@@ -111,7 +111,7 @@ tags:
 	- zarząd nbp  
 		- wyznaczani przez rząd (?)  
   
-### Cele polityki pieniężnej NBP  
+#### Cele polityki pieniężnej NBP  
   
 - cel strategiczny  
 	- średniookresowy cel inflacyjny  
@@ -123,7 +123,7 @@ tags:
 - cele operacyjne  
 	- stawka Polonia  
   
-# Inne  
+## Inne  
   
 - recesja techniczna  
 	- spadek pkb i rosnąca inflacja  
