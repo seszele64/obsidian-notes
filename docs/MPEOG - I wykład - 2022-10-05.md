@@ -9,7 +9,7 @@ tags:
 date: 2022-10-06  
 ---  
   
-# I wykład  
+## I wykład  
 - 9:45 - Wykład // [Metody pomiaru efektywności organizacji gospodarczych](Metody%20pomiaru%20efektywności%20organizacji%20gospodarczych.md)  
     -   Prowadzący  
         -   Dr hab. inż. Magdalena Kapelko  
@@ -26,7 +26,7 @@ date: 2022-10-06
 			- metody bazujące na programowaniu liniowym  
 			- katedra logistyki  
   
-## Tematy wykładów  
+### Tematy wykładów  
   
 - Tematy  
 	1. performance measurement i ekonomiczne wyniki przedsiębiorstw - 2 spotkania  
@@ -38,7 +38,7 @@ date: 2022-10-06
 		- metody parametryczne i nieparametryczne  
 		- DEA + rozszerzenia (zmiany produktywności w czasie)  
   
-## literatura  
+### literatura  
   
 - Literatura polska (I i II)  
 	- pierwsze trzy pozycje!  
@@ -51,7 +51,7 @@ date: 2022-10-06
 	- Coelli, Prasada - An introduction to efficiency and productivity analysis, Springer  
 	- Bogetoft - Benchmarking with DEA, SFA and R  
   
-## materiały do zajęć  
+### materiały do zajęć  
 - https://eportal.ue.wroc.pl  
 - hasło: `dimequiensoy`  
 - dużo materiału  
@@ -61,7 +61,7 @@ date: 2022-10-06
 - TEAMS  
 	- kod: `306axba`  
   
-## zaliczenie  
+### zaliczenie  
 - (1) projekt + (2) prezentacje projektów (w grupach 2-osobowych)  
 	- lub indywidualnie  
 	- umieścić na platformie  e-learningowej do 22.11.2022, godzina 8:00  
@@ -71,7 +71,7 @@ date: 2022-10-06
 	- listy zadań związane z tematem  
 		- przerabiane na zajęciach  
   
-### Projekt wersja 1  
+#### Projekt wersja 1  
 - wybór 1 przedsiębiorstwa + zebranie danych do obliczenia wybranych wskaźników ekonomicznych  
 	- bezpośredni dostęp do danych? // raczej nie ze sprawozdań finansowych  
   
@@ -92,7 +92,7 @@ date: 2022-10-06
 	- rezultaty obliczeń  
 	- rekomendacje na podstawie rezultatów  
   
-### Projekt - wersja 2  
+#### Projekt - wersja 2  
 - wybór minimum **10 przedsiębiorstw** z danej branży + zebranie danych w celu obliczenia efektywności metodą DEA  
 	- dane mogą dotyczyć województw, państw, regionów  
   
@@ -117,7 +117,7 @@ date: 2022-10-06
 	- opracowanie wyników i wniosków dla przedsiębiorstw  
   
   
-## Bazy danych, źródła  
+### Bazy danych, źródła  
 - emis  
 - GPW  
 - urzędy statystyczne  
@@ -146,8 +146,8 @@ date: 2022-10-06
 - rachunek wyników w war kalk  
 	- inputs  
 		- koszty sprzedanych produktów  
-# Homework  
-## Inputs  
+## Homework  
+### Inputs  
   
 - inputs  
 	- działka transportowa[^1]  
@@ -159,12 +159,12 @@ date: 2022-10-06
 	- Input would be circulating capital, Investment, labor, selling cost, expense, and energy consumption.   
 	- circulating capital, Investment, labor, selling cost, expense, and energy consumption[^2]  
   
-## Outputs  
+### Outputs  
   
 - outputs  
 	- Output would be revenue, monetary income, profit and net value of output value[^3]  
   
-# Indicators  
+## Indicators  
   
 - inputs  
 	- Financial > Balance sheet > Assets >  
@@ -188,7 +188,7 @@ date: 2022-10-06
 	- Analiza finansowa przedsiębiorstwa - Bławat  
   
   
-# DEA research papers  
+## DEA research papers  
 - [efficiency of international container shipping lines](https://sci-hub.se/https://link.springer.com/article/10.1057/mel.2013.21?error=cookies_not_supported&code=e7eb584f-80d6-401f-b8a9-27edb7502434)  
 - [efficiency of Italian airports](https://sci-hub.se/https://www.sciencedirect.com/science/article/abs/pii/S0038012110000571)  
 - [efficiency at Brazilian ports](https://sci-hub.se/https://www.inderscienceonline.com/doi/abs/10.1504/IJSTL.2016.076240)  
