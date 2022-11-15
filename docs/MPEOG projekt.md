@@ -121,7 +121,7 @@ date: 2022-11-14
 		- interests paid on deposits  
 		- interests earned on loans  
 		- non-interest income.  
-	- ## Outputs[^13]  
+	- Outputs[^13]  
 		>The output set of profitability analysis, on the other hand, included only two items which accounted for a sufficiently large part of total income of a bank branch  
 		  
 		- interests earned on loans  
