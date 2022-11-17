@@ -507,6 +507,11 @@ It has a wide range of end-uses in, for example, the electronics industry, trans
   
 ### Uses  
 - manufacture of austenitic stainless steel accounts for about two-thirds of total nickel consumption  
+	- Nickel, which is used to make stainless steel and the batteries used in electric cars, has suffered an extremely turbulent year. - 2022-11-17 [^7]  
+		- That was followed by a 5 per cent rise on Tuesday after a ==nickel mine in New Caledonia, which supplies Tesla, cut its fourth-quarter production forecast.==  
+		- volatile price movements were a testament to the low liquidity that has haunted the market since the LME suspended and cancelled billions of dollars worth of nickel trades in March following an unprecedented price rise  
+		- ![Attachments/Pasted image 20221117020933.png](./images/Pasted%20image%2020221117020933.png)  
+  
 - Nickel can constitute 10% or more of austenitic steels, but the most common alloys contain 8% nickel and cheaper grades use as little as 6%  
 - Nickel improves workability by counteracting the embrittling effect of chrome, while maintaining and enhancing corrosion resistance  
   
@@ -829,3 +834,7 @@ It is found in underground rock beds or with other hydrocarbons (oil and coal de
 - 👎  
 	- many reserves difficult to tap  
 		- unconventional gas production may thus rise  
+  
+  
+  
+[^7]: https://www.ft.com/content/eb2ca13b-858e-4b4a-8da1-9098606de449 
