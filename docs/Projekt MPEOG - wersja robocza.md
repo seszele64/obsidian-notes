@@ -1,4 +1,3 @@
-  
 ---  
 share: True  
 title: [Projekt MPEOG - wersja robocza](Projekt%20MPEOG%20-%20wersja%20robocza.md)  
@@ -7,7 +6,7 @@ tags:
 ---  
   
   
-# Plan  
+## Plan  
 ![UE/I semestr/MPEOG/Projekt/MPEOG projekt > Plan projektu](./MPEOG%20projekt#Plan%20projektu.md)  
   
 ## Wstęp  
@@ -120,7 +119,7 @@ Zdecydowaliśmy się na taki temat, ze względu na kilka powodów.
 - Among all the frontier techniques (as illustrated in Figure 1), DEA has emerged over the years as a most potent approach for measuring relative efficiency across banks due to its intrinsic advantages over others. In the 122 studies reviewed by Berger and Humphrey (1997), DEA has been applied in 62 studies (i.e., just over 50 percent). This fact indicates DEA’s significance, popularity and relevance in banking efficiency analyses.[^22]  
   
   
-### Przedsiębiorstwa  
+### Sektor  
   
 >W 1980 roku banki posiadały 52% prywatnie zgromadzonych aktywów finansowych, jednakże do 2017 roku odsetek aktywów finansowych należących do banków spadł do zaledwie 27%, co odpowiada odsetkowi łącznego majątku posiadanego przez fundusze inwestycyjne[^23].  
   
@@ -143,6 +142,7 @@ Ze względu na wielkość posiadanych aktywów, banki w Stanach Zjednoczonych mo
 | Kredyty (% aktywów)     |             69.67% |            64.08% |  
 | Depozyty (% aktywów)    |             83.66% |               76% |    
   
+### Przedsiębiorstwa  
   
 - Jakie przedsiębiorstwa analizujemy + ich krótki opis #todo  
   
@@ -206,27 +206,27 @@ Ze względu na wielkość posiadanych aktywów, banki w Stanach Zjednoczonych mo
 - kwota udzielonych kredytów i pożyczek  
   
 #### źródła  
-Dane zostały pobrane z Reuters Refinitiv.  
+Dane zostały pobrane z Reuters Refinitiv, objęły banki działające na terenie Stanów Zjednoczonych.  
   
   
   
-# przyklady  
+## przyklady analiz dea  
 - https://www.scribd.com/document/387239793/PRODUCTION-EFFICIENCY-MEASUREMENT-OF-SUGAR-INDUSTRY-IN-BANGLADESH-AN-APPLICATION-OF-DEA  
 -   
   
   
-# General  
+## General  
 - dea in general[^26] [^27]  
 - dea in banks  
 - banks efficiency  
   
   
-## dea  
+### dea  
 - productivity  
 	- In each organization, productivity depends on two factors: efficiency and effectiveness.  
 	- Organizations always use combinations of facilities to achieve the predefined objectives, so that these products lead to goals and programs  
   
-### Efficiency vs Effectiveness  
+#### Efficiency vs Effectiveness  
   
 - ==efficiency==  
 	- Efficiency is defined as the function of the obtained results and the outputs produced by using the resources  
@@ -237,7 +237,7 @@ Dane zostały pobrane z Reuters Refinitiv.
   
 - It can be said that organizational productivity is in the best position whenever ==both efficiency and effectiveness== indicators are optimal  
   
-### DEA models  
+#### DEA models  
 - The present study employs the DEA method, first introduced by Charnes et al. (1978) (hereafter the CCR model) to estimate the input-oriented TE of the Korean banking sector. The DEA method involves constructing a non-parametric production frontier based on the actual input-output observations in the sample relative to which efficiency of each bank in the sample is measured (Coelli, 1996).[^28]  
 - To achieve technical eﬃciency, one can possibly be interested in either input reduction (input orientation) or output augmentation (output orientation). In the input orientation, the objective is to produce the observed outputs with minimum resources and, as a result, ineﬃciency is treated in terms of input excess[^29]  
   
