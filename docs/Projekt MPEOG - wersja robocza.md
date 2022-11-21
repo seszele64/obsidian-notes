@@ -191,74 +191,61 @@ Ze względu na wielkość posiadanych aktywów, banki w Stanach Zjednoczonych mo
   
 ### Przedsiębiorstwa  
   
-- Jakie przedsiębiorstwa analizujemy + ich krótki opis #todo  
-  
-- total assets  
-- market cap[^25]  
-  
-	  
-	- EAST WEST BANC/d  
-	- WEBSTER FINL C/d  
-	- COMMERCE BANCS/d  
-	- CULLEN FROST/d  
-	- SVB FINANCIAL/d  
-	- FIRST CITIZEN /d  
-	- COMERICA INC/d  
-	- FRST HRZ CRP O/d  
-	- M&T BANK CRP/d  
-	- CITIZENS FINAN/d  
-	- KEYCORP NEW/d  
-	- HUNTGTN BKSHR/d  
-	- REGIONS FINANC/d  
-	- TRST FINANCL O/d  
-	- PNC FINL SVC/d  
-	- US BANCORP/d  
-	- BANK OF AMERIC/d  
-	- WELLS FARGO & /d  
-	- JPMORGAN CHASE/d   
-  
+| Nazwa banku    | RIC     | Kapitalizacja rynkowa (miliony USD) | Wartość aktywów (miliony USD) |  
+| -------------- | ------- | ----------------------------------- | ----------------------------- |  
+| EAST WEST BANC | BWFG.O  | 240.72                              | 2,456.26                      |  
+| WEBSTER FINL C | WBS     | 9,154.64                            | 34,915.60                     |  
+| COMMERCE BANCS | CBSH.O  | 8,721.09                            | 36,689.09                     |  
+| CULLEN FROST   | CFR     | 9,330.39                            | 50,878.49                     |  
+| SVB FINANCIAL  | SIVB.O  | 13,211.54                           | 211,308.00                    |  
+| FIRST CITIZEN  | FCNCA.O | 12,508.61                           | 58,308.14                     |  
+| COMERICA INC   | CMA     | 9,153.57                            | 94,616.00                     |  
+| FRST HRZ CRP O | FHN     | 13,130.22                           | 89,092.00                     |  
+| M&T BANK CRP   | MTB     | 29,449.56                           | 155,107.16                    |  
+| CITIZENS FINAN | CFG     | 19,901.56                           | 188,409.00                    |  
+| KEYCORP NEW    | KEY     | 17,362.56                           | 186,346.00                    |  
+| HUNTGTN BKSHR  | HBAN.O  | 21,482.31                           | 174,064.00                    |  
+| REGIONS FINANC | RF      | 21,015.68                           | 162,938.00                    |  
+| TRST FINANCL O | TFC     | 60,580.14                           | 541,241.00                    |  
+| PNC FINL SVC   | PNC     | 64,998.89                           | 557,191.00                    |  
+| US BANCORP     | USB     | 64,455.02                           | 573,284.00                    |  
+| BANK OF AMERIC | BAC     | 298,354.30                          | 3,169,495.00                  |  
+| WELLS FARGO    | WFC     | 177,187.80                          | 1,948,068.00                  |  
+| JPMORGAN CHASE | JPM     | 392,580.20                          | 3,743,567.00                  |  
   
   
 ## Dane  
-- why we chose this data?  
-	- dlaczego te dane -> slr  
-		- odwołanie do [UE/I semestr/MPEOG/Projekt/MPEOG projekt](./MPEOG%20projekt.md)  
-  
-- Following prior studies (Debnath and Shankar, 2008; Paul and Karouche, 2008; Rajput and Gupta, 2011), we selected the input and output in our model.   
-  
-- The inputs used in this study for DEA are interest expenses, labor‐ related expenses, total deposits, and total expenses.   
-- Similarly, we used interest and dividend income as output, besides non‐interest income  
-  
-  
-- Opis zastosowanych danych (statystyki opisowe) i źródła danych  
-  
-  
-  
-  
-  
-### Statystyki opisowe  
-  
-|      | ArWNiP {I}          | Fin {I}                   | Prac{I}            | Kredpoz {O}        |  
-| ---- | ------------------- | ------------------------- | ------------------ | ------------------ |  
-|      | aktywa razem + wnip | depozyty + kapitał własny | liczba pracowników | kredyty + pozyczki |  
-| min  | 34933468000         | 33250371000               | 3100               | 31188826000        |  
-| mean | 635149062842        | 510300625000              | 54592              | 475901985263       |  
-| max  | 3749943000000       | 2756430000000             | 271025             | 2045853000000      |  
-| sd   | 1091773813311       | 811442997059              | 86281              | 667952182856       |  
-  
-- aktywa razem  
-- wartości niematerialne i prawne (wnip)  
-- kwota przechowywanych depozytów  
-- kapitał własny  
-- liczba pracowników  
-- kwota udzielonych kredytów i pożyczek  
   
 ### źródła  
-Dane zostały pobrane z Reuters Refinitiv, objęły banki działające na terenie Stanów Zjednoczonych.  
+  
+Dane zostały pobrane z Reuters Refinitiv, objęły banki działające na terenie Stanów Zjednoczonych z lat 2020-2021 dla 19 największych banków, dla których dostępne były wybrane wskaźniki.  
+  
+### Nakłady  
+  
+Jako nakłady przyjęliśmy następujące wskaźniki:  
+- aktywa razem[^35]  
+- wartości niematerialne i prawne[^38]  
+- kwota przechowywanych depozytów[^35]  
+- kapitał własny[^39] [^40]  
+- liczba pracowników[^36][^35]  
+  
+### Rezultaty  
+  
+Za rezultaty przyjęliśmy wartość:  
+- kwota udzielonych kredytów i pożyczek[^37]     [^41]  
+  
+### Statystyki opisowe  
+#todo  
   
   
   
 ## Rezultaty obliczeń efektywności  
+#todo  
+  
+  
+- technical efficiency from CRS DEA  
+- the pure technical efficiency from VRS DEA  
+  
   
   
 ## Rekomendacje dla przedsiębiorstw  
@@ -327,7 +314,6 @@ Dane zostały pobrane z Reuters Refinitiv, objęły banki działające na tereni
 [^22]: https://www.ejbe.org/EJBE2008Vol01No02p33KUMAR-GULATI.pdf  
 [^23]: DeYoung, Robert, 'Banking in the United States', in Allen N. Berger, Philip Molyneux, and John O. S. Wilson (eds), The Oxford Handbook of Banking, 3rd edn, Oxford Handbooks (2019; online edn, Oxford Academic, 6 Nov. 2019), https://doi.org/10.1093/oxfordhb/9780198824633.013.31, accessed 21 Nov. 2022.   
 [^24]: DeYoung, Robert, 'Banking in the United States', in Allen N. Berger, Philip Molyneux, and John O. S. Wilson (eds), The Oxford Handbook of Banking, 3rd edn, Oxford Handbooks (2019; online edn, Oxford Academic, 6 Nov. 2019), https://doi.org/10.1093/oxfordhb/9780198824633.013.31, accessed 21 Nov. 2022.   
-[^25]: https://en.wikipedia.org/wiki/List_of_largest_banks_in_the_United_States  
 [^26]: [(PDF) Data Envelopment Analysis (DEA) Model in Operation Management](https://www.researchgate.net/publication/323206826_Data_Envelopment_Analysis_DEA_Model_in_Operation_Management)  
 [^27]: [(PDF) Data Envelopment Analysis: History, Models, and Interpretations](https://www.researchgate.net/publication/226038831_Data_Envelopment_Analysis_History_Models_and_Interpretations)  
 [^28]: [Sufian, F. (2011). Benchmarking the efficiency of the Korean banking sector: a DEA approach. Benchmarking: An International Journal, 18(1), 107–127. https://doi.org/10.1108/14635771111109841](https://doi.org/10.1108%2F14635771111109841)  
@@ -336,4 +322,11 @@ Dane zostały pobrane z Reuters Refinitiv, objęły banki działające na tereni
 [^31]: Ahn, H., & Le, M. H. (2014). An insight into the specification of the input-output set for DEA-based bank efficiency measurement. Management Review Quarterly, 64(1), 3–37. doi:10.1007/s11301-013-0098-9   
 [^32]: DeYoung, Robert, 'Banking in the United States', in Allen N. Berger, Philip Molyneux, and John O. S. Wilson (eds), The Oxford Handbook of Banking, 3rd edn, Oxford Handbooks (2019; online edn, Oxford Academic, 6 Nov. 2019), https://doi.org/10.1093/oxfordhb/9780198824633.013.31, accessed 21 Nov. 2022.   
 [^33]: (Board of Governors of the Federal Reserve System et al., 2021); Retrieved 21 November 2022, from https://www.federalreserve.gov/econres/feds/files/2021035pap.pdf  
-[^34]: DeYoung, Robert, 'Banking in the United States', in Allen N. Berger, Philip Molyneux, and John O. S. Wilson (eds), The Oxford Handbook of Banking, 3rd edn, Oxford Handbooks (2019; online edn, Oxford Academic, 6 Nov. 2019), https://doi.org/10.1093/oxfordhb/9780198824633.013.31, accessed 21 Nov. 2022. 
+[^34]: DeYoung, Robert, 'Banking in the United States', in Allen N. Berger, Philip Molyneux, and John O. S. Wilson (eds), The Oxford Handbook of Banking, 3rd edn, Oxford Handbooks (2019; online edn, Oxford Academic, 6 Nov. 2019), https://doi.org/10.1093/oxfordhb/9780198824633.013.31, accessed 21 Nov. 2022.   
+[^35]: Redecka, A. (2014). Związek między efektywnością i rentownością banków komercyjnych w Polsce. _Ruch Prawniczy, Ekonomiczny I Socjologiczny_, _76_(4), 279–295. https://doi.org/10.14746/rpeis.2014.76.4.19  
+[^36]: ORAL, M., KETTANI, O., & YOLALAN, R. (1992). AN EMPIRICAL STUDY ON ANALYZING THE PRODUCTIVITY OF BANK BRANCHES. IIE Transactions, 24(5), 166–176. doi:10.1080/07408179208964257 s. 174  
+[^37]: Porembski, M., Breitenstein, K., & Alpar, P. (2005). Visualizing Efficiency and Reference Relations in Data Envelopment Analysis with an Application to the Branches of a German Bank. Journal of Productivity Analysis, 23(2), 203–221. doi:10.1007/s11123-005-1328-5   
+[^38]: Harasim, J. (2008). The role of intangible assets in bank’s competitiveness and effectiveness. _Journal of Economics and Management_, _4_(1), 41-57.  
+[^39]: Ray, S. C. (2007). Are some Indian banks too large? An examination of size efficiency in Indian banking. _Journal of Productivity Analysis_, _27_(1), 41-56.  
+[^40]: Das, A., Nag, A., & Ray, S. C. (2004). Liberalization, ownership, and efficiency in Indian banking: A Nonparametric Approach.  
+[^41]: Ray, S. C. (2007). Are some Indian banks too large? An examination of size efficiency in Indian banking. _Journal of Productivity Analysis_, _27_(1), 41-56.
