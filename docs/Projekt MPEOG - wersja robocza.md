@@ -221,7 +221,7 @@ Ze względu na wielkość posiadanych aktywów, banki w Stanach Zjednoczonych mo
   
   
   
-### Dane  
+## Dane  
 - why we chose this data?  
 	- dlaczego te dane -> slr  
 		- odwołanie do [UE/I semestr/MPEOG/Projekt/MPEOG projekt](./MPEOG%20projekt.md)  
@@ -238,7 +238,7 @@ Ze względu na wielkość posiadanych aktywów, banki w Stanach Zjednoczonych mo
   
   
   
-#### Statystyki opisowe  
+### Statystyki opisowe  
   
 |      | ArWNiP {I}          | Fin {I}                   | Prac{I}            | Kredpoz {O}        |  
 | ---- | ------------------- | ------------------------- | ------------------ | ------------------ |  
@@ -255,21 +255,20 @@ Ze względu na wielkość posiadanych aktywów, banki w Stanach Zjednoczonych mo
 - liczba pracowników  
 - kwota udzielonych kredytów i pożyczek  
   
-#### źródła  
+### źródła  
 Dane zostały pobrane z Reuters Refinitiv, objęły banki działające na terenie Stanów Zjednoczonych.  
   
   
   
-## przyklady analiz dea  
-- https://www.scribd.com/document/387239793/PRODUCTION-EFFICIENCY-MEASUREMENT-OF-SUGAR-INDUSTRY-IN-BANGLADESH-AN-APPLICATION-OF-DEA  
--   
+## Rezultaty obliczeń efektywności  
   
   
-## General  
+## Rekomendacje dla przedsiębiorstw  
   
   
+## Podsumowanie i wnioski  
   
-## Wnioski  
+### Wnioski  
   
   
   
@@ -299,7 +298,12 @@ Dane zostały pobrane z Reuters Refinitiv, objęły banki działające na tereni
 	- Miary input i output to odwrotności w CRS. W VRS otrzymamy inne wartości efektywności dla firm nieefektywnych.  
   
   
-# Footnotes  
+  
+### Podsumowanie  
+- #todo  
+  
+  
+# Bibliografia  
   
 [^1]: [COVID-19 Impact on the banking sector - KPMG Global](https://home.kpmg/xx/en/home/insights/2020/07/covid-19-impact-on-banking-m-and-a-2020.html)  
 [^2]: [Interactive Access to Industry Economic Accounts Data](https://apps.bea.gov/iTable/?reqid=150&step=2&isuri=1&categories=gdpxind)  
