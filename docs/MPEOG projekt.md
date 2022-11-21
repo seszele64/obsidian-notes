@@ -6,6 +6,9 @@ tags:
 date: 2022-11-14  
 ---  
   
+  
+[UE/I semestr/MPEOG/Projekt/MPEOG projekt - tekst](../MPEOG%20projekt%20-%20tekst.md)  
+  
 ## wariant 2  
   
 - Wybór ==minimum 10 przedsiębiorstw z jednej branży== (dowolnej) + zebranie danych (np. w Bibliotece) w celu obliczenia efektywności metodą DEA.[^1]  
