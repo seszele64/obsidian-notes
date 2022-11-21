@@ -148,6 +148,69 @@ date: 2022-11-14
 	- placówki – liczba placówek banku.  
   
   
+# Dodatkowo  
+  
+  
+  
+#### dea in banking sector  
+[UE/I semestr/MPEOG/Projekt/MPEOG projekt](MPEOG%20projekt.md)  
+- Among all the frontier techniques (as illustrated in Figure 1), DEA has emerged over the years as a most potent approach for measuring relative efficiency across banks due to its intrinsic advantages over others. In the 122 studies reviewed by Berger and Humphrey (1997), DEA has been applied in 62 studies (i.e., just over 50 percent). This fact indicates DEA’s significance, popularity and relevance in banking efficiency analyses.[^22]  
+  
+  
+##### dea  
+  
+- dea in general[^23] [^24]  
+- dea in banks  
+- banks efficiency  
+  
+- productivity  
+	- In each organization, productivity depends on two factors: efficiency and effectiveness.  
+	- Organizations always use combinations of facilities to achieve the predefined objectives, so that these products lead to goals and programs  
+  
+###### Efficiency vs Effectiveness  
+  
+- ==efficiency==  
+	- Efficiency is defined as the function of the obtained results and the outputs produced by using the resources  
+  
+- ==effectiveness==  
+	- Effectiveness is described in terms of how much work is done and how well the products fit into the organization’s goals.  
+	- How effective productions can be in society is defined as effectiveness, so the effectiveness is the function of products and objectives of the organization  
+  
+- It can be said that organizational productivity is in the best position whenever ==both efficiency and effectiveness== indicators are optimal  
+  
+###### DEA models  
+- The present study employs the DEA method, first introduced by Charnes et al. (1978) (hereafter the CCR model) to estimate the input-oriented TE of the Korean banking sector. The DEA method involves constructing a non-parametric production frontier based on the actual input-output observations in the sample relative to which efficiency of each bank in the sample is measured (Coelli, 1996).[^25]  
+- To achieve technical eﬃciency, one can possibly be interested in either input reduction (input orientation) or output augmentation (output orientation). In the input orientation, the objective is to produce the observed outputs with minimum resources and, as a result, ineﬃciency is treated in terms of input excess[^26]  
+  
+- input oriented CCR model  
+	- Efektywność „input” (zorientowana na nakłady): 1 (100% efektywności) minus maksymalna redukcja w „inputs”, przy jednoczesnym utrzymaniu produkcji pierwotnie określonych poziomów „output” (minimalizacja nakładów)  
+- output oriented CCR model  
+	- Efektywność „output” (zorientowana na rezultaty): 1 (100% efektywności) plus maksymalny wzrost w „outputs”, przy jednoczesnym użyciu pierwotnie określonych poziomów „input” (maksymalizacja wyników).  
+  
+  
+- It is to be noted that the technical efficiency comprises pure technical efficiency and scale efficiency. This requires the estimation of two DEA models — one with constant returns to scale (CRS) and the other with variable returns to scale (VRS).  
+  
+  
+---  
+  
+- BANKS  
+	- dea  
+		- examination of the efficiency of Chinese banks is valuable for a number of reasons  
+		-   
+		-   
+		-   
+		- [^27]  
+		- In recent years, DEA has been widely used for efficiency evaluation in different areas, especially in the banking industry (see Chen et al. [[25](https://encyclopedia.pub/entry/13#ref_25)] for the detailed development of the related studies). Moreover, DEA has been considered as an efficient way to explore banking efficiency [[26](https://encyclopedia.pub/entry/13#ref_26)]. For instance, Staub, Souza, and Tabak believed that efficiency evaluation using DEA was valuable for bank managers and financial supervisors [[27](https://encyclopedia.pub/entry/13#ref_27)]. LaPlante and Paradi applied DEA in evaluating the bank branch efficiency of a Canadian bank [[28](https://encyclopedia.pub/entry/13#ref_28)]. Chortareas et al. measured the productivity of commercial banks in Latin American countries using DEA [[29](https://encyclopedia.pub/entry/13#ref_29)].  
+		- banks[^28]  
+  
+  
+- banks in us  
+  
+  
+  
+  
+  
+  
 [^1]: [teams](https://teams.microsoft.com/_#/pdf/viewer/teamsSdk/https:~2F~2Fuewrc.sharepoint.com~2Fsites~2FGRP_Metodypomiaruefektywnociorganizacjigospodarczych20222023~2FMateriay%20z%20zaj~2FTEMAT0%20upload%202022.pdf?threadId=19:2VpVm0zko-TdJLPcFG5FIronNiWiq4PotFP5uukURsk1@thread.tacv2&baseUrl=https:~2F~2Fuewrc.sharepoint.com~2Fsites~2FGRP_Metodypomiaruefektywnociorganizacjigospodarczych20222023&fileId=646f4d5f-4c49-4b25-bfcf-1534f3661be6&ctx=openFilePreview&viewerAction=view)  
 [^2]: [Emmanuel Thanassoulis](https://pubsonline.informs.org/action/doSearch?text1=Thanassoulis%2C+Emmanuel&field1=Contrib), (1999) Data Envelopment Analysis and Its Use in Banking. Interfaces 29(3):1-13. [https://doi.org/10.1287/inte.29.3.1](https://doi.org/10.1287/inte.29.3.1)  
 [^3]: Porembski, M., Breitenstein, K., & Alpar, P. (2005). Visualizing Efficiency and Reference Relations in Data Envelopment Analysis with an Application to the Branches of a German Bank. Journal of Productivity Analysis, 23(2), 203–221. doi:10.1007/s11123-005-1328-5   
