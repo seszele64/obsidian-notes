@@ -5,6 +5,9 @@ tags:
 - MPEOG  
 ---  
   
+## TODOS  
+  
+- Zdefiniowanie celu projektu #todo  
   
 ## Plan  
 ![UE/I semestr/MPEOG/Projekt/MPEOG projekt > Plan projektu](./MPEOG%20projekt#Plan%20projektu.md)  
@@ -23,29 +26,22 @@ Zdecydowaliśmy się na taki temat, ze względu na kilka powodów.
   
 ##### ważna rola banków  
   
-- Przede wszystkim, banki odgrywają znaczącą rolę w gospodarkach rynkowych spełniając role  źródła finansowania dla podmiotów prywatnych. Banki oferują swoim klientom inwestycje o niskim ryzyku i niskiej stopie zwrotu (depozyty terminowe, rachunki rynku pieniężnego), pełną płynność (rachunki transakcyjne), bezpieczne przechowywanie (depozyty ubezpieczone) oraz dostęp do kredytów (kredyty i linie kredytowe dla klientów komercyjnych, nieruchomości i konsumentów). Ponadto banki oferują szereg usług finansowych, które nie są reprezentowane przez aktywa w ich bilansach, w tym sprzedaż funduszy inwestycyjnych, sekurytyzację aktywów, zarządzanie majątkiem, ubezpieczenia i renty, obsługę pożyczek i wymianę walut[^34].  
-	-   
-	- Ze względu na turbulencje na rynku spowodowane pandemią COVID-19 szczególnie ważna stała się spełniana przez banki rola.   
-	- COVID-19 has generated significant instability and high volatility in global capital markets. The financial sector has been one of the most affected, with bank valuations dropping in all countries around the world (P/NAV multiple experienced a severe downfall from 1.00x on 31 December 2019 to 0.69x on 30 April 2020).[^1]  
+Przede wszystkim, banki odgrywają znaczącą rolę w gospodarkach rynkowych spełniając role  źródła finansowania dla podmiotów prywatnych. Banki oferują swoim klientom inwestycje o niskim ryzyku i niskiej stopie zwrotu (depozyty terminowe, rachunki rynku pieniężnego), pełną płynność (rachunki transakcyjne), bezpieczne przechowywanie (depozyty ubezpieczone) oraz dostęp do kredytów (kredyty i linie kredytowe dla klientów komercyjnych, nieruchomości i konsumentów). Ponadto banki oferują szereg usług finansowych, które nie są reprezentowane przez aktywa w ich bilansach, w tym sprzedaż funduszy inwestycyjnych, sekurytyzację aktywów, zarządzanie majątkiem, ubezpieczenia i renty, obsługę pożyczek i wymianę walut[^34].  
+  
+Ze względu na turbulencje na rynku spowodowane pandemią COVID-19 szczególnie ważna stała się spełniana przez banki rola.   
+  
+Globalne rynki finansowe doświadczyły ekstremalnej zmienności w wyniku COVID-19. Sektor finansowy został szczególnie mocno uderzony, a wyceny banków odnotowały spadki we wszystkich krajach (mnożnik P/NAV gwałtownie spadł z 1,00x w dniu 31 grudnia 2019 r. do 0,69x w dniu 30 kwietnia 2020 r.)[^1].  
   
 Dodatkowo, rynek finansowy i bankowy wciąż pozostaje największym pod względem udziału w tworzeniu wartości dodanej w PKB Stanów Zjednoczonych   
   
 Wartość dodana według branż jako % PKB w 2022 r.[^2]  
 	![](https://i.imgur.com/gF3pT9W.png)  
   
-  
-  
-- Penetracja rynku bankowości internetowej w Stanach Zjednoczonych wynosiła 56% i pozostawiała wiele do życzenia, zajmując dalekie 20. miejsce głównie za państwami europejskimi[^4].  
-  
 ##### kryzysowa niepewność  
   
+Wykazano, że niepewność polityki gospodarczej (NPG) zwiększa koszty oprocentowania kredytów bankowych[^5] [^6]. Z drugiej strony jednak, niedawno przeprowadzone badania sugerują, że NPG przekłada się na zwiększoną wartość kredytów zagrożonych spłatą (Nonperforming Loans)[^7]. Dodatkowo, NPG może istotnie niekorzystnie wpływać na dynamikę kredytową banków[^8].  
   
-- Wykazano, że niepewność polityki gospodarczej (NPG) zwiększa koszty oprocentowania kredytów bankowych[^5] [^6]. Z drugiej strony jednak, niedawno przeprowadzone badania sugerują, że NPG przekłada się na zwiększoną wartość kredytów zagrożonych spłatą (Nonperforming Loans)[^7]. Dodatkowo, NPG może istotnie niekorzystnie wpływać na dynamikę kredytową banków[^8].  
-  
-  
-  
-- The rise of global COVID-19 cases also affects the US banks; however, its impact is not as strong as US COVID-19 cases  
-- it is evident that US COVID-19 cases have strongly driven the return of bank indices at the beginning, the mid, and the end of the study period. US banks response quickly with the increase of COVID cases, also people may feel uncertainty about the banks stability which ultimately reduced the return of bank indices.[^9]  
+Przypadki zakażeń COVID-19 silnie napędzały zyski banków w trakcie 2020 roku. Amerykańskie banki szybko reagowały na wzrost liczby przypadków COVID, jednocześnie klienci nie mieli pewności co do stabilności banków, co ostatecznie mogło doprowadzić do zmniejszenia zysków[^9].  
   
 - **covid**  
 	- The outbreak of the coronavirus left no industries unaffected and had [significant impact on the global financial markets](https://www.statista.com/statistics/1105021/coronavirus-outbreak-stock-market-change/). This can be seen in the banking industry, as the market capitalization of the largest banks worldwide [dropped markedly](https://www.statista.com/statistics/1105159/market-cap-leading-global-banks-coronavirus/) between December 2019 and March 2020. For the largest bank, JPMorgan Chase, it was not until February 2021 the market capitalization saw pre-pandemic figures again.[^13]  
@@ -85,7 +81,8 @@ Wartość dodana według branż jako % PKB w 2022 r.[^2]
 	- #todo  
   
   
-##### Covid crisis  
+#### Cel projektu  
+- #todo  
   
   
 ---  
@@ -198,6 +195,7 @@ Ze względu na wielkość posiadanych aktywów, banki w Stanach Zjednoczonych mo
   
 - total assets  
 - market cap[^25]  
+  
 	  
 	- EAST WEST BANC/d  
 	- WEBSTER FINL C/d  
