@@ -19,6 +19,10 @@ Przygotowany projekt zajmuje się kwestią efektywności ==technicznej== wybrany
   
 Zdecydowaliśmy się na taki temat, ze względu na kilka powodów.  
   
+#### Powody  
+  
+##### ważna rola banków  
+  
 - Przede wszystkim, banki odgrywają znaczącą rolę w gospodarkach rynkowych spełniając role  źródła finansowania dla podmiotów prywatnych. Banki oferują swoim klientom inwestycje o niskim ryzyku i niskiej stopie zwrotu (depozyty terminowe, rachunki rynku pieniężnego), pełną płynność (rachunki transakcyjne), bezpieczne przechowywanie (depozyty ubezpieczone) oraz dostęp do kredytów (kredyty i linie kredytowe dla klientów komercyjnych, nieruchomości i konsumentów). Ponadto banki oferują szereg usług finansowych, które nie są reprezentowane przez aktywa w ich bilansach, w tym sprzedaż funduszy inwestycyjnych, sekurytyzację aktywów, zarządzanie majątkiem, ubezpieczenia i renty, obsługę pożyczek i wymianę walut[^34].  
 	-   
 	- Ze względu na turbulencje na rynku spowodowane pandemią COVID-19 szczególnie ważna stała się spełniana przez banki rola.   
@@ -26,14 +30,14 @@ Zdecydowaliśmy się na taki temat, ze względu na kilka powodów.
   
 Dodatkowo, rynek finansowy i bankowy wciąż pozostaje największym pod względem udziału w tworzeniu wartości dodanej w PKB Stanów Zjednoczonych   
   
-- Wartość dodana według branż jako % PKB w 2022 r.[^2]  
+Wartość dodana według branż jako % PKB w 2022 r.[^2]  
 	![](https://i.imgur.com/gF3pT9W.png)  
   
   
   
 - Penetracja rynku bankowości internetowej w Stanach Zjednoczonych wynosiła 56% i pozostawiała wiele do życzenia, zajmując dalekie 20. miejsce głównie za państwami europejskimi[^4].  
   
-#### Narratives  
+##### kryzysowa niepewność  
   
   
 - Wykazano, że niepewność polityki gospodarczej (NPG) zwiększa koszty oprocentowania kredytów bankowych[^5] [^6]. Z drugiej strony jednak, niedawno przeprowadzone badania sugerują, że NPG przekłada się na zwiększoną wartość kredytów zagrożonych spłatą (Nonperforming Loans)[^7]. Dodatkowo, NPG może istotnie niekorzystnie wpływać na dynamikę kredytową banków[^8].  
@@ -42,6 +46,22 @@ Dodatkowo, rynek finansowy i bankowy wciąż pozostaje największym pod względe
   
 - The rise of global COVID-19 cases also affects the US banks; however, its impact is not as strong as US COVID-19 cases  
 - it is evident that US COVID-19 cases have strongly driven the return of bank indices at the beginning, the mid, and the end of the study period. US banks response quickly with the increase of COVID cases, also people may feel uncertainty about the banks stability which ultimately reduced the return of bank indices.[^9]  
+  
+- **covid**  
+	- The outbreak of the coronavirus left no industries unaffected and had [significant impact on the global financial markets](https://www.statista.com/statistics/1105021/coronavirus-outbreak-stock-market-change/). This can be seen in the banking industry, as the market capitalization of the largest banks worldwide [dropped markedly](https://www.statista.com/statistics/1105159/market-cap-leading-global-banks-coronavirus/) between December 2019 and March 2020. For the largest bank, JPMorgan Chase, it was not until February 2021 the market capitalization saw pre-pandemic figures again.[^13]  
+	- savings during covid crisis  
+		- <a href="https://www.statista.com/statistics/246261/total-personal-savings-in-the-united-states/" rel="nofollow"><img src="https://www.statista.com/graphic/1/246261/total-personal-savings-in-the-united-states.jpg" alt="Statistic: Value of personal savings in the United States from 1960 to 2021 (in billion U.S. dollars) | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a>  
+		- The value of personal savings in the United States reached a value of almost 2.3 trillion U.S. dollars in 2021. This figure represents a ==very strong increase== compared to pre-pandemic levels, as personal savings amounted to 1.2 trillion U.S. dollars in 2019.  
+		- It is generally the case that in times of austerity people [hold on to capital](https://www.statista.com/statistics/246241/gross-private-savings-in-the-united-states/). In the wake of the 2008 financial crisis, this has also been the case. The periods of growth and seeming economic stability in the pre-2008 crisis period were due to falling [savings rates](https://www.statista.com/statistics/246234/personal-savings-rate-in-the-united-states/) and growing [household debt.](https://www.statista.com/statistics/275615/breakdown-of-household-debt-in-the-united-states-as-of-2008/) People were confident the good times would stay and felt comfortable in borrowing money. [Interest rates](https://www.statista.com/statistics/275701/capital-market-interest-rate-in-the-us/) were low and credit was easily accessible and widely available - these factors encouraged people to spend money.  
+		- <a href="https://www.statista.com/statistics/246268/personal-savings-rate-in-the-united-states-by-month/" rel="nofollow"><img src="https://www.statista.com/graphic/1/246268/personal-savings-rate-in-the-united-states-by-month.jpg" alt="Statistic: Personal saving rate in the United States from June 2015 to June 2022 | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a>  
+		- ![](https://i.imgur.com/5BbTXMm.png)[^14]  
+			- personal saving to disposable personal income  
+			- Many households have been financially distressed during the COVID-19 pandemic, struggling to pay for necessities such as rent and groceries  
+			- From the end of the Great Recession to February 2020, the personal saving rate has averaged 7.25%; since the start of the pandemic, however, it has averaged 17.9%.[^15]  
+				- There are several reasons for this ==increased average saving rate==:  
+					- Households practicing precautionary saving during an economic downturn  
+					- Inability to spend money due to business closures and social distancing guidelines  
+					- Stimulus checks (or relief payments) distributed to a large majority of U.S. households  
   
 ##### Why us banks?  
 - **us banks**  
@@ -67,21 +87,6 @@ Dodatkowo, rynek finansowy i bankowy wciąż pozostaje największym pod względe
   
 ##### Covid crisis  
   
-- **covid**  
-	- The outbreak of the coronavirus left no industries unaffected and had [significant impact on the global financial markets](https://www.statista.com/statistics/1105021/coronavirus-outbreak-stock-market-change/). This can be seen in the banking industry, as the market capitalization of the largest banks worldwide [dropped markedly](https://www.statista.com/statistics/1105159/market-cap-leading-global-banks-coronavirus/) between December 2019 and March 2020. For the largest bank, JPMorgan Chase, it was not until February 2021 the market capitalization saw pre-pandemic figures again.[^13]  
-	- savings during covid crisis  
-		- <a href="https://www.statista.com/statistics/246261/total-personal-savings-in-the-united-states/" rel="nofollow"><img src="https://www.statista.com/graphic/1/246261/total-personal-savings-in-the-united-states.jpg" alt="Statistic: Value of personal savings in the United States from 1960 to 2021 (in billion U.S. dollars) | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a>  
-		- The value of personal savings in the United States reached a value of almost 2.3 trillion U.S. dollars in 2021. This figure represents a ==very strong increase== compared to pre-pandemic levels, as personal savings amounted to 1.2 trillion U.S. dollars in 2019.  
-		- It is generally the case that in times of austerity people [hold on to capital](https://www.statista.com/statistics/246241/gross-private-savings-in-the-united-states/). In the wake of the 2008 financial crisis, this has also been the case. The periods of growth and seeming economic stability in the pre-2008 crisis period were due to falling [savings rates](https://www.statista.com/statistics/246234/personal-savings-rate-in-the-united-states/) and growing [household debt.](https://www.statista.com/statistics/275615/breakdown-of-household-debt-in-the-united-states-as-of-2008/) People were confident the good times would stay and felt comfortable in borrowing money. [Interest rates](https://www.statista.com/statistics/275701/capital-market-interest-rate-in-the-us/) were low and credit was easily accessible and widely available - these factors encouraged people to spend money.  
-		- <a href="https://www.statista.com/statistics/246268/personal-savings-rate-in-the-united-states-by-month/" rel="nofollow"><img src="https://www.statista.com/graphic/1/246268/personal-savings-rate-in-the-united-states-by-month.jpg" alt="Statistic: Personal saving rate in the United States from June 2015 to June 2022 | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a>  
-		- ![](https://i.imgur.com/5BbTXMm.png)[^14]  
-			- personal saving to disposable personal income  
-			- Many households have been financially distressed during the COVID-19 pandemic, struggling to pay for necessities such as rent and groceries  
-			- From the end of the Great Recession to February 2020, the personal saving rate has averaged 7.25%; since the start of the pandemic, however, it has averaged 17.9%.[^15]  
-				- There are several reasons for this ==increased average saving rate==:  
-					- Households practicing precautionary saving during an economic downturn  
-					- Inability to spend money due to business closures and social distancing guidelines  
-					- Stimulus checks (or relief payments) distributed to a large majority of U.S. households  
   
 ---  
   
