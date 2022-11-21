@@ -24,9 +24,6 @@ Zdecydowaliśmy się na taki temat, ze względu na kilka powodów.
 	- Ze względu na turbulencje na rynku spowodowane pandemią COVID-19 szczególnie ważna stała się spełniana przez banki rola.   
 	- COVID-19 has generated significant instability and high volatility in global capital markets. The financial sector has been one of the most affected, with bank valuations dropping in all countries around the world (P/NAV multiple experienced a severe downfall from 1.00x on 31 December 2019 to 0.69x on 30 April 2020).[^1]  
   
-  
-  
-  
 Dodatkowo, rynek finansowy i bankowy wciąż pozostaje największym pod względem udziału w tworzeniu wartości dodanej w PKB Stanów Zjednoczonych   
   
 - Wartość dodana według branż jako % PKB w 2022 r.[^2]  
@@ -38,21 +35,15 @@ Dodatkowo, rynek finansowy i bankowy wciąż pozostaje największym pod względe
   
 #### Narratives  
   
+  
 - Wykazano, że niepewność polityki gospodarczej (NPG) zwiększa koszty oprocentowania kredytów bankowych[^5] [^6]. Z drugiej strony jednak, niedawno przeprowadzone badania sugerują, że NPG przekłada się na zwiększoną wartość kredytów zagrożonych spłatą (Nonperforming Loans)[^7]. Dodatkowo, NPG może istotnie niekorzystnie wpływać na dynamikę kredytową banków[^8].  
-  
-  
   
   
   
 - The rise of global COVID-19 cases also affects the US banks; however, its impact is not as strong as US COVID-19 cases  
 - it is evident that US COVID-19 cases have strongly driven the return of bank indices at the beginning, the mid, and the end of the study period. US banks response quickly with the increase of COVID cases, also people may feel uncertainty about the banks stability which ultimately reduced the return of bank indices.[^9]  
   
-  
-  
-- **central bank**  
-	- #todo  
-  
-  
+##### Why us banks?  
 - **us banks**  
 	- us banks among the biggest in democratic economies  
 		- by market cap[^10]  
@@ -67,9 +58,14 @@ Dodatkowo, rynek finansowy i bankowy wciąż pozostaje największym pod względe
 		- The value of deposits of FDIC-insured commercial banks in the United States increased steadily between 2000 and 2021. In 2021, the value of deposits of FDIC-insured commercial banks in the U.S. amounted to approximately 18.4 trillion US dollars.  
 		- ![](https://i.imgur.com/2I4wlhe.png)  
   
+##### Fintech opposition  
+  
 - **fintech**  
 	- with growing number of fintech companies[^12]  
 	- #todo  
+  
+  
+##### Covid crisis  
   
 - **covid**  
 	- The outbreak of the coronavirus left no industries unaffected and had [significant impact on the global financial markets](https://www.statista.com/statistics/1105021/coronavirus-outbreak-stock-market-change/). This can be seen in the banking industry, as the market capitalization of the largest banks worldwide [dropped markedly](https://www.statista.com/statistics/1105159/market-cap-leading-global-banks-coronavirus/) between December 2019 and March 2020. For the largest bank, JPMorgan Chase, it was not until February 2021 the market capitalization saw pre-pandemic figures again.[^13]  
@@ -86,13 +82,6 @@ Dodatkowo, rynek finansowy i bankowy wciąż pozostaje największym pod względe
 					- Households practicing precautionary saving during an economic downturn  
 					- Inability to spend money due to business closures and social distancing guidelines  
 					- Stimulus checks (or relief payments) distributed to a large majority of U.S. households  
-  
-  
-  
-- **crisis**  
-	- 2008 crisis  
-	- chinese crisis  
-		-   
   
 ---  
   
