@@ -88,9 +88,10 @@ Przypadki zakażeń COVID-19 silnie napędzały zyski banków w trakcie 2020 rok
 ---  
   
   
-#### Key moments #todo   
-- Highlights in the US banking sector, 2020-2021  
-	- 2020  
+#### Key moments  
+  
+- Najważniejsze wydarzenia w amerykańskim sektorze bankowym, 2020-2021  
+- 2020  
 		- 03/2020  
 			- 3/3/2020 - 3/3/2020 - Federalny Komitet Otwartego Rynku (FOMC) obniża docelową stopę procentową (FFTR) o 0,50 punktu procentowego, do poziomu 1%-1,25%.  
 			- 15/03/2020  
