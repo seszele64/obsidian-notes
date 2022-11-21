@@ -19,17 +19,20 @@ Przygotowany projekt zajmuje się kwestią efektywności ==technicznej== wybrany
   
 Zdecydowaliśmy się na taki temat, ze względu na kilka powodów.  
   
-- Przede wszystkim, banki odgrywają znaczącą rolę w gospodarkach rynkowych spełniając role  źródła finansowania dla podmiotów prywatnych.  
+- Przede wszystkim, banki odgrywają znaczącą rolę w gospodarkach rynkowych spełniając role  źródła finansowania dla podmiotów prywatnych. Banki oferują swoim klientom inwestycje o niskim ryzyku i niskiej stopie zwrotu (depozyty terminowe, rachunki rynku pieniężnego), pełną płynność (rachunki transakcyjne), bezpieczne przechowywanie (depozyty ubezpieczone) oraz dostęp do kredytów (kredyty i linie kredytowe dla klientów komercyjnych, nieruchomości i konsumentów). Ponadto banki oferują szereg usług finansowych, które nie są reprezentowane przez aktywa w ich bilansach, w tym sprzedaż funduszy inwestycyjnych, sekurytyzację aktywów, zarządzanie majątkiem, ubezpieczenia i renty, obsługę pożyczek i wymianę walut[^34].  
+	-   
 	- Ze względu na turbulencje na rynku spowodowane pandemią COVID-19 szczególnie ważna stała się spełniana przez banki rola.   
 	- COVID-19 has generated significant instability and high volatility in global capital markets. The financial sector has been one of the most affected, with bank valuations dropping in all countries around the world (P/NAV multiple experienced a severe downfall from 1.00x on 31 December 2019 to 0.69x on 30 April 2020).[^1]  
   
-- Dodatkowo, rynek finansowy i bankowy wciąż pozostaje największym pod względem udziału w tworzeniu wartości dodanej w PKB Stanów Zjednoczonych   
-	- financial industry remains the biggest  
-		- Value added by industry as % of GDP in 2022  
-		- ![](https://i.imgur.com/gF3pT9W.png)[^2]  
   
   
-- On March 16, 2020, amid an economic crisis caused by the [COVID-19 pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic "COVID-19 pandemic"), for the first time since the inception of the Federal Reserve, the fractional [reserve requirement](https://en.wikipedia.org/wiki/Reserve_requirement "Reserve requirement") was reduced to 0%[^3]  
+  
+Dodatkowo, rynek finansowy i bankowy wciąż pozostaje największym pod względem udziału w tworzeniu wartości dodanej w PKB Stanów Zjednoczonych   
+  
+- Wartość dodana według branż jako % PKB w 2022 r.[^2]  
+	![](https://i.imgur.com/gF3pT9W.png)  
+  
+  
   
 - Penetracja rynku bankowości internetowej w Stanach Zjednoczonych wynosiła 56% i pozostawiała wiele do życzenia, zajmując dalekie 20. miejsce głównie za państwami europejskimi[^4].  
   
@@ -66,6 +69,7 @@ Zdecydowaliśmy się na taki temat, ze względu na kilka powodów.
   
 - **fintech**  
 	- with growing number of fintech companies[^12]  
+	- #todo  
   
 - **covid**  
 	- The outbreak of the coronavirus left no industries unaffected and had [significant impact on the global financial markets](https://www.statista.com/statistics/1105021/coronavirus-outbreak-stock-market-change/). This can be seen in the banking industry, as the market capitalization of the largest banks worldwide [dropped markedly](https://www.statista.com/statistics/1105159/market-cap-leading-global-banks-coronavirus/) between December 2019 and March 2020. For the largest bank, JPMorgan Chase, it was not until February 2021 the market capitalization saw pre-pandemic figures again.[^13]  
@@ -101,7 +105,9 @@ Zdecydowaliśmy się na taki temat, ze względu na kilka powodów.
 			- 15/03/2020  
 				- FOMC lowers FFTR by 1 percentage point, to 0% to 0.25%, and introduces forward guidance  
 				- FOMC to increase its holdings of Treasury and agency mortgage backed securities by at least $500 billion and $200 billion, respectively, over the coming months  
-			- 16/03/2020 - Introduces a second daily overnight repo operation and increases the amount offered in each to $500 billion[^16]  
+			- 16/03/2020  
+				- Fed introduces a second daily overnight repo operation and increases the amount offered in each to $500 billion[^16]  
+				- Amid an economic crisis caused by the [COVID-19 pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic "COVID-19 pandemic"), for the first time since the inception of the Federal Reserve, the fractional [reserve requirement](https://en.wikipedia.org/wiki/Reserve_requirement "Reserve requirement") was reduced to 0%[^3]  
 			- 20/03/2020 - The Fed announced QE purchases of USD500bn of Treasuries and USD200bn of agency MBS[^17]  
 	- 04/2020  
 		- Unemployment record  
@@ -117,6 +123,56 @@ Zdecydowaliśmy się na taki temat, ze względu na kilka powodów.
 #### dea in banking sector  
 [UE/I semestr/MPEOG/Projekt/MPEOG projekt](./MPEOG%20projekt.md)  
 - Among all the frontier techniques (as illustrated in Figure 1), DEA has emerged over the years as a most potent approach for measuring relative efficiency across banks due to its intrinsic advantages over others. In the 122 studies reviewed by Berger and Humphrey (1997), DEA has been applied in 62 studies (i.e., just over 50 percent). This fact indicates DEA’s significance, popularity and relevance in banking efficiency analyses.[^22]  
+  
+  
+##### dea  
+  
+- dea in general[^26] [^27]  
+- dea in banks  
+- banks efficiency  
+  
+- productivity  
+	- In each organization, productivity depends on two factors: efficiency and effectiveness.  
+	- Organizations always use combinations of facilities to achieve the predefined objectives, so that these products lead to goals and programs  
+  
+###### Efficiency vs Effectiveness  
+  
+- ==efficiency==  
+	- Efficiency is defined as the function of the obtained results and the outputs produced by using the resources  
+  
+- ==effectiveness==  
+	- Effectiveness is described in terms of how much work is done and how well the products fit into the organization’s goals.  
+	- How effective productions can be in society is defined as effectiveness, so the effectiveness is the function of products and objectives of the organization  
+  
+- It can be said that organizational productivity is in the best position whenever ==both efficiency and effectiveness== indicators are optimal  
+  
+###### DEA models  
+- The present study employs the DEA method, first introduced by Charnes et al. (1978) (hereafter the CCR model) to estimate the input-oriented TE of the Korean banking sector. The DEA method involves constructing a non-parametric production frontier based on the actual input-output observations in the sample relative to which efficiency of each bank in the sample is measured (Coelli, 1996).[^28]  
+- To achieve technical eﬃciency, one can possibly be interested in either input reduction (input orientation) or output augmentation (output orientation). In the input orientation, the objective is to produce the observed outputs with minimum resources and, as a result, ineﬃciency is treated in terms of input excess[^29]  
+  
+- input oriented CCR model  
+	- Efektywność „input” (zorientowana na nakłady): 1 (100% efektywności) minus maksymalna redukcja w „inputs”, przy jednoczesnym utrzymaniu produkcji pierwotnie określonych poziomów „output” (minimalizacja nakładów)  
+- output oriented CCR model  
+	- Efektywność „output” (zorientowana na rezultaty): 1 (100% efektywności) plus maksymalny wzrost w „outputs”, przy jednoczesnym użyciu pierwotnie określonych poziomów „input” (maksymalizacja wyników).  
+  
+  
+- It is to be noted that the technical efficiency comprises pure technical efficiency and scale efficiency. This requires the estimation of two DEA models — one with constant returns to scale (CRS) and the other with variable returns to scale (VRS).  
+  
+  
+---  
+  
+- BANKS  
+	- dea  
+		- examination of the efficiency of Chinese banks is valuable for a number of reasons  
+		-   
+		-   
+		-   
+		- [^30]  
+		- In recent years, DEA has been widely used for efficiency evaluation in different areas, especially in the banking industry (see Chen et al. [[25](https://encyclopedia.pub/entry/13#ref_25)] for the detailed development of the related studies). Moreover, DEA has been considered as an efficient way to explore banking efficiency [[26](https://encyclopedia.pub/entry/13#ref_26)]. For instance, Staub, Souza, and Tabak believed that efficiency evaluation using DEA was valuable for bank managers and financial supervisors [[27](https://encyclopedia.pub/entry/13#ref_27)]. LaPlante and Paradi applied DEA in evaluating the bank branch efficiency of a Canadian bank [[28](https://encyclopedia.pub/entry/13#ref_28)]. Chortareas et al. measured the productivity of commercial banks in Latin American countries using DEA [[29](https://encyclopedia.pub/entry/13#ref_29)].  
+		- banks[^31]  
+  
+  
+- banks in us  
   
   
 ### Sektor  
@@ -216,38 +272,12 @@ Dane zostały pobrane z Reuters Refinitiv, objęły banki działające na tereni
   
   
 ## General  
-- dea in general[^26] [^27]  
-- dea in banks  
-- banks efficiency  
   
   
-### dea  
-- productivity  
-	- In each organization, productivity depends on two factors: efficiency and effectiveness.  
-	- Organizations always use combinations of facilities to achieve the predefined objectives, so that these products lead to goals and programs  
   
-#### Efficiency vs Effectiveness  
-  
-- ==efficiency==  
-	- Efficiency is defined as the function of the obtained results and the outputs produced by using the resources  
-  
-- ==effectiveness==  
-	- Effectiveness is described in terms of how much work is done and how well the products fit into the organization’s goals.  
-	- How effective productions can be in society is defined as effectiveness, so the effectiveness is the function of products and objectives of the organization  
-  
-- It can be said that organizational productivity is in the best position whenever ==both efficiency and effectiveness== indicators are optimal  
-  
-#### DEA models  
-- The present study employs the DEA method, first introduced by Charnes et al. (1978) (hereafter the CCR model) to estimate the input-oriented TE of the Korean banking sector. The DEA method involves constructing a non-parametric production frontier based on the actual input-output observations in the sample relative to which efficiency of each bank in the sample is measured (Coelli, 1996).[^28]  
-- To achieve technical eﬃciency, one can possibly be interested in either input reduction (input orientation) or output augmentation (output orientation). In the input orientation, the objective is to produce the observed outputs with minimum resources and, as a result, ineﬃciency is treated in terms of input excess[^29]  
-  
-- input oriented CCR model  
-	- Efektywność „input” (zorientowana na nakłady): 1 (100% efektywności) minus maksymalna redukcja w „inputs”, przy jednoczesnym utrzymaniu produkcji pierwotnie określonych poziomów „output” (minimalizacja nakładów)  
-- output oriented CCR model  
-	- Efektywność „output” (zorientowana na rezultaty): 1 (100% efektywności) plus maksymalny wzrost w „outputs”, przy jednoczesnym użyciu pierwotnie określonych poziomów „input” (maksymalizacja wyników).  
+## Wnioski  
   
   
-- It is to be noted that the technical efficiency comprises pure technical efficiency and scale efficiency. This requires the estimation of two DEA models — one with constant returns to scale (CRS) and the other with variable returns to scale (VRS).  
   
 - ccr output  
 	- efficiency scores of 0.83, 0.86, 0.89, 0.82, 0.76, 0.92, 0.71, 0.53, and 0.88, respectively, indicating that the National Bank of Kenya had to increase its variable return to scale by 0.17%, Cooperative Bank of Kenya by 0.14%, Barclays Bank of Kenya by 0.11%, Equatorial Bank of Kenya by 0.18%,  
@@ -265,23 +295,6 @@ Dane zostały pobrane z Reuters Refinitiv, objęły banki działające na tereni
 - scale efficient  
 	- ccr/bcc  
   
----  
-  
-- BANKS  
-	- dea  
-		- examination of the efficiency of Chinese banks is valuable for a number of reasons  
-		-   
-		-   
-		-   
-		- [^30]  
-		- In recent years, DEA has been widely used for efficiency evaluation in different areas, especially in the banking industry (see Chen et al. [[25](https://encyclopedia.pub/entry/13#ref_25)] for the detailed development of the related studies). Moreover, DEA has been considered as an efficient way to explore banking efficiency [[26](https://encyclopedia.pub/entry/13#ref_26)]. For instance, Staub, Souza, and Tabak believed that efficiency evaluation using DEA was valuable for bank managers and financial supervisors [[27](https://encyclopedia.pub/entry/13#ref_27)]. LaPlante and Paradi applied DEA in evaluating the bank branch efficiency of a Canadian bank [[28](https://encyclopedia.pub/entry/13#ref_28)]. Chortareas et al. measured the productivity of commercial banks in Latin American countries using DEA [[29](https://encyclopedia.pub/entry/13#ref_29)].  
-		- banks[^31]  
-  
-  
-- banks in us  
-  
-  
-## Wnioski  
 - CRS versus VRS  
 	- Analityk musi rozumieć ograniczenia analizowanego sektora.  
 	- Użycie VRS w praktyce oznacza, że analizowana firma jest porównana tylko z firmami o podobnej wielkości.  
@@ -327,3 +340,4 @@ Dane zostały pobrane z Reuters Refinitiv, objęły banki działające na tereni
 [^31]: Ahn, H., & Le, M. H. (2014). An insight into the specification of the input-output set for DEA-based bank efficiency measurement. Management Review Quarterly, 64(1), 3–37. doi:10.1007/s11301-013-0098-9   
 [^32]: DeYoung, Robert, 'Banking in the United States', in Allen N. Berger, Philip Molyneux, and John O. S. Wilson (eds), The Oxford Handbook of Banking, 3rd edn, Oxford Handbooks (2019; online edn, Oxford Academic, 6 Nov. 2019), https://doi.org/10.1093/oxfordhb/9780198824633.013.31, accessed 21 Nov. 2022.   
 [^33]: (Board of Governors of the Federal Reserve System et al., 2021); Retrieved 21 November 2022, from https://www.federalreserve.gov/econres/feds/files/2021035pap.pdf  
+[^34]: DeYoung, Robert, 'Banking in the United States', in Allen N. Berger, Philip Molyneux, and John O. S. Wilson (eds), The Oxford Handbook of Banking, 3rd edn, Oxford Handbooks (2019; online edn, Oxford Academic, 6 Nov. 2019), https://doi.org/10.1093/oxfordhb/9780198824633.013.31, accessed 21 Nov. 2022. 
