@@ -5,10 +5,6 @@ tags:
 - MPEOG  
 ---  
   
-## TODOS  
-  
-- Zdefiniowanie celu projektu #todo  
-  
 ## Plan  
 ![UE/I semestr/MPEOG/Projekt/MPEOG projekt > Plan projektu](./MPEOG%20projekt#Plan%20projektu.md)  
   
@@ -18,7 +14,7 @@ tags:
 - Jakim problemem się zajęliśmy i dlaczego. Zdefiniowanie celu projektu  
   
   
-Przygotowany projekt zajmuje się kwestią efektywności ==technicznej== wybranych banków działających w Stanach Zjednoczonych w latach 2020-2021.  
+Przygotowany projekt zajmuje się kwestią efektywności wybranych banków działających w Stanach Zjednoczonych w latach 2020-2021.  
   
 Zdecydowaliśmy się na taki temat, ze względu na kilka powodów.  
   
@@ -51,39 +47,30 @@ Wielkość oszczędności w Stanach Zjednoczonych osiągnęła w 2021 roku warto
   
 <a href="https://www.statista.com/statistics/246268/personal-savings-rate-in-the-united-states-by-month/" rel="nofollow"><img src="https://www.statista.com/graphic/1/246268/personal-savings-rate-in-the-united-states-by-month.jpg" alt="Statistic: Personal saving rate in the United States from June 2015 to June 2022 | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a>  
   
-- Wiele gospodarstw domowych znalazło się w trudnej sytuacji finansowej podczas pandemii COVID-19, z trudem płacąc za artykuły pierwszej potrzeby, takie jak czynsz i artykuły spożywcze  
-- Od końca Wielkiej Recesji do lutego 2020 r. osobista stopa oszczędności wynosiła średnio 7,25%; od początku pandemii natomiast średnio 17,9%.[^11]  
+Wiele gospodarstw domowych znalazło się w trudnej sytuacji finansowej podczas pandemii COVID-19, z trudem płacąc za artykuły pierwszej potrzeby, takie jak czynsz i artykuły spożywcze. Od końca Wielkiej Recesji do lutego 2020 r. osobista stopa oszczędności wynosiła średnio 7,25%; od początku pandemii natomiast średnio 17,9%.[^10]  
   
-- Istnieje kilka powodów tej podwyższonej średniej stopy oszczędzania:  
-	- Gospodarstwa domowe praktykujące oszczędzanie zapobiegawcze podczas spowolnienia gospodarczego  
-	- Niezdolność do wydawania pieniędzy z powodu zamykania firm i wytycznych dotyczących dystansu społecznego  
-	- Stimulus checks dystrybuowane do znacznej większości amerykańskich gospodarstw domowych[^11]  
+Istnieje kilka powodów tej podwyższonej średniej stopy oszczędzania:  
+- Gospodarstwa domowe praktykujące oszczędzanie zapobiegawcze podczas spowolnienia gospodarczego  
+- Niezdolność do wydawania pieniędzy z powodu zamykania firm i wytycznych dotyczących dystansu społecznego  
+- Stimulus checks dystrybuowane do znacznej większości amerykańskich gospodarstw domowych[^10]  
   
-##### Why us banks?  
-#todo   
+##### Czemu amerykańskie banki?  
   
-- **us banks**  
-	- us banks among the biggest in democratic economies  
-		- by market cap[^12]  
-			- The U.S. bank JPMorgan Chase was the largest bank worldwide as of December 31, 2021, by market capitalization. JPMorgan Chase’s market capitalization reached a value of around 468 billion U.S. dollars at that time, which was significantly above the market capitalization of Bank of America, ranked second, at a value of around 364 billion U.S. dollars. JPMorgan Chase is also the [largest bank in the United States](https://www.statista.com/statistics/799197/largest-banks-by-assets-usa/) in terms of total assets, but from a global perspective only the [fifth largest in terms of total assets](https://www.statista.com/statistics/269845/largest-banks-in-the-world-by-total-assets/).  
-			- ![](https://i.imgur.com/jLGDFn9.png)  
-		- by assets[^13]  
-			- <a href="https://www.statista.com/statistics/269845/largest-banks-in-the-world-by-total-assets/" rel="nofollow"><img src="https://www.statista.com/graphic/1/269845/largest-banks-in-the-world-by-total-assets.jpg" alt="Statistic: Largest banks worldwide as of December 2021, by assets (in trillion U.S. dollars) | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a>  
-	- number of fdic insured banks is shrinking  
-		- In 2021, there were 4,236 FDIC-insured commercial banks in the United States. The FDIC, of Federal Deposit Insurance Corporation, is an agency that insures the banking system in the U.S. The number of such registered banks has been declining since 20000, when it there were over 8,300 FDIC-insured banks in the country.  
-		- <a href="https://www.statista.com/statistics/184536/number-of-fdic-insured-us-commercial-bank-institutions/" rel="nofollow"><img src="https://www.statista.com/graphic/1/184536/number-of-fdic-insured-us-commercial-bank-institutions.jpg" alt="Statistic: Number of FDIC-insured commercial banks in the United States from 2000 to 2021 | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a>  
-	- while the value of deposits rises  
-		- The value of deposits of FDIC-insured commercial banks in the United States increased steadily between 2000 and 2021. In 2021, the value of deposits of FDIC-insured commercial banks in the U.S. amounted to approximately 18.4 trillion US dollars.  
-		- ![](https://i.imgur.com/2I4wlhe.png)  
+Banki amerykańskie należą do największych banków w demokratycznych krajach rynkowych[^11][^12].  
+  
+Amerykański bank JPMorgan Chase był na dzień 31 grudnia 2021 roku największym bankiem na świecie pod względem kapitalizacji rynkowej. Kapitalizacja rynkowa JPMorgan Chase osiągnęła w tym czasie wartość około 468 mld dolarów, co znacznie przewyższało kapitalizację rynkową Bank of America, zajmującego drugie miejsce, o wartości około 364 mld dolarów amerykańskich. JPMorgan Chase jest również największym bankiem w Stanach Zjednoczonych pod względem sumy aktywów, ale z perspektywy globalnej dopiero piątym pod względem sumy aktywów.  
+  
+Największe banki na świecie, według kapitalizacji rynkowej, 2021   
+![](https://i.imgur.com/jLGDFn9.png)[^40]  
+  
+Największe banki na świecie, według wartości aktywów, 2021   
+<a href="https://www.statista.com/statistics/269845/largest-banks-in-the-world-by-total-assets/" rel="nofollow"><img src="https://www.statista.com/graphic/1/269845/largest-banks-in-the-world-by-total-assets.jpg" alt="Statistic: Largest banks worldwide as of December 2021, by assets (in trillion U.S. dollars) | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a>  
   
 #### Cel projektu  
   
 - Zbadać oraz porównać efektywności banków w trakcie kryzysu COVID-19 - pod koniec 2020 roku i po zakończeniu bezpośredniego okresu kryzysowego - na koniec 2021 roku.  
   
-  
----  
-  
-#### Key moments  
+#### Najważniejsze wydarzenia  
   
 >Najważniejsze wydarzenia w amerykańskim sektorze bankowym, 2020-2021  
   
@@ -99,24 +86,24 @@ Wielkość oszczędności w Stanach Zjednoczonych osiągnęła w 2021 roku warto
 	- FOMC zwiększa swój stan posiadania papierów wartościowych zabezpieczonych wierzytelnościami skarbowymi i agencyjnymi o co najmniej 500 mld USD i 200 mld USD, odpowiednio, w ciągu najbliższych miesięcy  
   
 - 16/03/2020  
-	- Fed wprowadza drugą dzienną operację overnight repo i zwiększa kwotę oferowaną w każdej z nich do 500 mld USD[^15]  
-	- W obliczu kryzysu gospodarczego spowodowanego pandemią COVID-19, po raz pierwszy od powstania Rezerwy Federalnej, obniżono stopę rezerw cząstkowych do 0%[^16]  
+	- Fed wprowadza drugą dzienną operację overnight repo i zwiększa kwotę oferowaną w każdej z nich do 500 mld USD[^13]  
+	- W obliczu kryzysu gospodarczego spowodowanego pandemią COVID-19, po raz pierwszy od powstania Rezerwy Federalnej, obniżono stopę rezerw cząstkowych do 0%[^14]  
   
 - 20/03/2020  
-	- Fed zapowiedział zakupy w ramach luzowania ilościowego 500 mld USD papierów skarbowych i 200 mld USD agencyjnych MBS[^17]  
+	- Fed zapowiedział zakupy w ramach luzowania ilościowego 500 mld USD papierów skarbowych i 200 mld USD agencyjnych MBS[^15]  
   
 - 04/2020  
-	- skokowy wzrost stopy bezrobocia w czasie kryzysu COVID-19 do 14,7% - najwyższa wartość od czasów Wielkiego Kryzysu[^18].  
+	- skokowy wzrost stopy bezrobocia w czasie kryzysu COVID-19 do 14,7% - najwyższa wartość od czasów Wielkiego Kryzysu[^16].  
 	- ![](https://i.imgur.com/m111EzZ.png)  
-	- Efektywna stopa oprocentowania Rezerwy Federalnej[^19] spadła z poziomu 1.58% w lutym 2020 roku do poziomu 0.05% dwa miesiące później[^20].  
+	- Efektywna stopa oprocentowania Rezerwy Federalnej[^17] spadła z poziomu 1.58% w lutym 2020 roku do poziomu 0.05% dwa miesiące później[^18].  
   
 - 04/2020 - 12/2020  
 	- ![](https://i.imgur.com/WXTt9An.png)  
-	- spowolnienie w dynamice wartości udzielanych kredytów przez banki komercyjne w USA do końca 2020 roku po ogromnym (o wartości niemal miliarda dolarów) z lutego na kwiecień[^21]   
+	- spowolnienie w dynamice wartości udzielanych kredytów przez banki komercyjne w USA do końca 2020 roku po ogromnym (o wartości niemal miliarda dolarów) z lutego na kwiecień[^19]   
   
 ### Sektor  
   
->W 1980 roku banki posiadały 52% prywatnie zgromadzonych aktywów finansowych, jednakże do 2017 roku odsetek aktywów finansowych należących do banków spadł do zaledwie 27%, co odpowiada odsetkowi łącznego majątku posiadanego przez fundusze inwestycyjne[^29].  
+>W 1980 roku banki posiadały 52% prywatnie zgromadzonych aktywów finansowych, jednakże do 2017 roku odsetek aktywów finansowych należących do banków spadł do zaledwie 27%, co odpowiada odsetkowi łącznego majątku posiadanego przez fundusze inwestycyjne[^20].  
   
   
 Struktura banków w Stanach Zjednoczonych  
@@ -126,7 +113,7 @@ Struktura banków w Stanach Zjednoczonych
   
 Ze względu na wielkość posiadanych aktywów, banki w Stanach Zjednoczonych można podzielić na "małe" (banki komercyjne o aktywach od 500 mln do 2 mld USD) i "duże" (o wartości aktywów powyżej 10 mld USD).  
   
-Charakterystyki małych i dużych banków w Stanach Zjednoczonych, 2017[^30]  
+Charakterystyki małych i dużych banków w Stanach Zjednoczonych, 2017[^21]  
   
 | wskaźnik \ rodzaj banku | "mały" bank        | "duży" bank       |  
 |:------------------------|:-------------------|:------------------|  
@@ -171,19 +158,20 @@ Dane zostały pobrane z Reuters Refinitiv, objęły banki działające na tereni
 ### Nakłady  
   
 Jako nakłady przyjęliśmy następujące wskaźniki:  
-- aktywa razem[^31]  
-- kwota przechowywanych depozytów[^31]  
-- kapitał własny[^33] [^34]  
-- liczba pracowników[^35][^31]  
+- aktywa razem[^22]  
+- kwota przechowywanych depozytów[^22]  
+- kapitał własny[^23] [^24]  
+- liczba pracowników[^25][^22]  
   
 ### Rezultaty  
   
 Za rezultaty przyjęliśmy wartość:  
-- kwota udzielonych kredytów i pożyczek[^36]     [^37]  
+- kwota udzielonych kredytów i pożyczek[^26]     [^27]  
   
 ### Statystyki opisowe  
   
 - wartości za 2021 rok  
+  
 | 2021   | Aktyw {I}    | Fin {I}                   | Prac{I}            | Kred {O}        |  
 | ------ | ------------ | ------------------------- | ------------------ | --------------- |  
 |        | aktywa razem | depozyty + kapitał własny | liczba pracowników | kredyty         |  
@@ -194,6 +182,7 @@ Za rezultaty przyjęliśmy wartość:
   
   
 - wartości za 2020 rok  
+  
 | 2020   | Aktyw {I}    | Fin {I}                   | Prac{I}            | Kred {O}    |  
 | ------ | ------------ | ------------------------- | ------------------ | ----------- |  
 |        | aktywa razem | depozyty + kapitał własny | liczba pracowników | kredyty     |  
@@ -202,6 +191,8 @@ Za rezultaty przyjęliśmy wartość:
 | max    | 268531       | 1,79548E+12               | 2,81963E+12        | 2,72924E+11 |  
 | st dev | 72793,84367  | 4,79144E+11               | 7,27409E+11        | 70095452177 |  
   
+  
+---  
   
 ## Rezultaty obliczeń efektywności  
 #todo  
@@ -262,35 +253,35 @@ Za rezultaty przyjęliśmy wartość:
 [^6]: Karadima, M. and Louri, H. (2020). Economic policy uncertainty and non-performing loans: The moderating role of bank concentration. _Finance Research Letters_, p.101458.  
 [^7]: Bordo MD, Duca JV, Koch C. Economic policy uncertainty and the credit channel: Aggregate and bank level US evidence over several decades. Journal of Financial Stability. 2016;26:90–106. doi: [10.1016/j.jfs.2016.07.002](https://doi.org/10.1016/j.jfs.2016.07.002)  
 [^8]: Jeris, S. S., & Nath, R. D. (2021). US banks in the time of COVID-19: fresh insights from the wavelet approach. Eurasian Economic Review, 11(2), 349–361. https://doi.org/10.1007/s40822-021-00171-8  
-[^9]: https://www.statista.com/statistics/264905/top-10-banks-by-market-capitalization/  
-[^10]: U.S. Bureau of Economic Analysis, Personal Saving Rate [PSAVERT], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/PSAVERT, November 20, 2022.  
-[^11]: [Personal savings during the pandemic | FRED Blog](https://fredblog.stlouisfed.org/2021/08/personal-savings-during-the-pandemic/?utm_campaign=fredblog)  
-[^12]: Statista. (February 17, 2022). Largest banks worldwide as of December 2021, by market capitalization (in billion U.S. dollars) [Graph]. In Statista. Retrieved November 20, 2022, from https://www.statista.com/statistics/264905/top-10-banks-by-market-capitalization/  
-[^13]: S&P Global. (April 11, 2022). Largest banks worldwide as of December 2021, by assets (in trillion U.S. dollars) [Graph]. In Statista. Retrieved November 20, 2022, from https://www.statista.com/statistics/269845/largest-banks-in-the-world-by-total-assets/  
-[^14]: BCG (FinTech Control Tower). (November 8, 2021). Number of fintech startups worldwide from 2018 to 2021, by region [Graph]. In Statista. Retrieved November 20, 2022, from https://www.statista.com/statistics/893954/number-fintech-startups-by-region/  
-[^15]: (Board of Governors of the Federal Reserve System et al., 2021); Retrieved 21 November 2022, from https://www.federalreserve.gov/econres/feds/files/2021035pap.pdf  
-[^16]: [The Fed Fires ‘The Big One’](https://www.forbes.com/sites/bobhaber/2020/03/16/the-fed-fires-the-big-one/?sh=1369069c6aa8)  
-[^17]: Demirgüç-Kunt, A., Pedraza, A., & Ruiz-Ortega, C. (2021). Banking sector performance during the COVID-19 crisis. _Journal of Banking & Finance_, _133_. https://doi.org/10.1016/j.jbankfin.2021.106305  
-[^18]: U.S. Bureau of Labor Statistics, Unemployment Level [UNEMPLOY], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/UNEMPLOY, November 20, 2022.  
-[^19]: średnia ważona stóp ustalonych między instytucjami kredytującymi i kredytobiorczymi jest ustalana rynkowo, jednak Rezerwa Federalna może ją zmieniać poprzez operacje otwartego rynku w celu osiągnięcia poziomu docelowego stopy  
-[^20]: Board of Governors of the Federal Reserve System (US), Federal Funds Effective Rate [FEDFUNDS], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/FEDFUNDS, November 20, 2022.  
-[^21]: St. Louis Fed. (September 16, 2022). Value of loans of all commercial banks in the United States from January 2007 to August 2022 (in billion U.S. dollars) [Graph]. In Statista. Retrieved November 21, 2022, from https://www.statista.com/statistics/214283/bank-credit-of-all-commercial-banks-in-the-united-states-monthly/  
-[^22]: https://www.ejbe.org/EJBE2008Vol01No02p33KUMAR-GULATI.pdf  
-[^23]: [(PDF) Data Envelopment Analysis (DEA) Model in Operation Management](https://www.researchgate.net/publication/323206826_Data_Envelopment_Analysis_DEA_Model_in_Operation_Management)  
-[^24]: [(PDF) Data Envelopment Analysis: History, Models, and Interpretations](https://www.researchgate.net/publication/226038831_Data_Envelopment_Analysis_History_Models_and_Interpretations)  
-[^25]: [Sufian, F. (2011). Benchmarking the efficiency of the Korean banking sector: a DEA approach. Benchmarking: An International Journal, 18(1), 107–127. https://doi.org/10.1108/14635771111109841](https://doi.org/10.1108%2F14635771111109841)  
-[^26]: [PDF Efficiency Analysis of Public Transportation Subunits Using DEA and Bootstrap Approaches – Dakar Dem Dikk Case Study](https://www.researchgate.net/publication/311107627_Efficiency_Analysis_of_Public_Transportation_Subunits_Using_DEA_and_Bootstrap_Approaches_-_Dakar_Dem_Dikk_Case_Study)  
-[^27]: CHEN, X., SKULLY, M., & BROWN, K. (2005). Banking efficiency in China: Application of DEA to pre- and post-deregulation eras: 1993–2000. China Economic Review, 16(3), 229–245. https://doi.org/10.1016/j.chieco.2005.02.001  
-[^28]: Ahn, H., & Le, M. H. (2014). An insight into the specification of the input-output set for DEA-based bank efficiency measurement. Management Review Quarterly, 64(1), 3–37. doi:10.1007/s11301-013-0098-9   
-[^29]: DeYoung, Robert, 'Banking in the United States', in Allen N. Berger, Philip Molyneux, and John O. S. Wilson (eds), The Oxford Handbook of Banking, 3rd edn, Oxford Handbooks (2019; online edn, Oxford Academic, 6 Nov. 2019), https://doi.org/10.1093/oxfordhb/9780198824633.013.31, accessed 21 Nov. 2022.   
-[^30]: DeYoung, Robert, 'Banking in the United States', in Allen N. Berger, Philip Molyneux, and John O. S. Wilson (eds), The Oxford Handbook of Banking, 3rd edn, Oxford Handbooks (2019; online edn, Oxford Academic, 6 Nov. 2019), https://doi.org/10.1093/oxfordhb/9780198824633.013.31, accessed 21 Nov. 2022.   
-[^31]: Redecka, A. (2014). Związek między efektywnością i rentownością banków komercyjnych w Polsce. _Ruch Prawniczy, Ekonomiczny I Socjologiczny_, _76_(4), 279–295. https://doi.org/10.14746/rpeis.2014.76.4.19  
-[^32]: Harasim, J. (2008). The role of intangible assets in bank’s competitiveness and effectiveness. _Journal of Economics and Management_, _4_(1), 41-57.  
-[^33]: Ray, S. C. (2007). Are some Indian banks too large? An examination of size efficiency in Indian banking. _Journal of Productivity Analysis_, _27_(1), 41-56.  
-[^34]: Das, A., Nag, A., & Ray, S. C. (2004). Liberalization, ownership, and efficiency in Indian banking: A Nonparametric Approach.  
-[^35]: ORAL, M., KETTANI, O., & YOLALAN, R. (1992). AN EMPIRICAL STUDY ON ANALYZING THE PRODUCTIVITY OF BANK BRANCHES. IIE Transactions, 24(5), 166–176. doi:10.1080/07408179208964257 s. 174  
-[^36]: Porembski, M., Breitenstein, K., & Alpar, P. (2005). Visualizing Efficiency and Reference Relations in Data Envelopment Analysis with an Application to the Branches of a German Bank. Journal of Productivity Analysis, 23(2), 203–221. doi:10.1007/s11123-005-1328-5   
-[^37]: Ray, S. C. (2007). Are some Indian banks too large? An examination of size efficiency in Indian banking. _Journal of Productivity Analysis_, _27_(1), 41-56.  
-[^38]: Statista. (May 25, 2021). Ranking of the online banking penetration by country 2020 [Graph]. In Statista. Retrieved November 20, 2022, from https://www.statista.com/forecasts/1169529/online-banking-penetration-by-country  
-[^39]: DeYoung, Robert, 'Banking in the United States', in Allen N. Berger, Philip Molyneux, and John O. S. Wilson (eds), The Oxford Handbook of Banking, 3rd edn, Oxford Handbooks (2019; online edn, Oxford Academic, 6 Nov. 2019), https://doi.org/10.1093/oxfordhb/9780198824633.013.31, accessed 21 Nov. 2022.   
-[^40]: (Board of Governors of the Federal Reserve System et al., 2021); Retrieved 21 November 2022, from https://www.federalreserve.gov/econres/feds/files/2021035pap.pdf  
+[^9]: Statista. (February 17, 2022). Largest banks worldwide as of December 2021, by market capitalization (in billion U.S. dollars) [Graph]. In Statista. Retrieved November 22, 2022, from https://www.statista.com/statistics/264905/top-10-banks-by-market-capitalization/  
+[^10]: [Personal savings during the pandemic | FRED Blog](https://fredblog.stlouisfed.org/2021/08/personal-savings-during-the-pandemic/?utm_campaign=fredblog)  
+[^11]: Statista. (February 17, 2022). Largest banks worldwide as of December 2021, by market capitalization (in billion U.S. dollars) [Graph]. In Statista. Retrieved November 20, 2022, from https://www.statista.com/statistics/264905/top-10-banks-by-market-capitalization/  
+[^12]: S&P Global. (April 11, 2022). Largest banks worldwide as of December 2021, by assets (in trillion U.S. dollars) [Graph]. In Statista. Retrieved November 20, 2022, from https://www.statista.com/statistics/269845/largest-banks-in-the-world-by-total-assets/  
+[^13]: (Board of Governors of the Federal Reserve System et al., 2021); Retrieved 21 November 2022, from https://www.federalreserve.gov/econres/feds/files/2021035pap.pdf  
+[^14]: [The Fed Fires ‘The Big One’](https://www.forbes.com/sites/bobhaber/2020/03/16/the-fed-fires-the-big-one/?sh=1369069c6aa8)  
+[^15]: Demirgüç-Kunt, A., Pedraza, A., & Ruiz-Ortega, C. (2021). Banking sector performance during the COVID-19 crisis. _Journal of Banking & Finance_, _133_. https://doi.org/10.1016/j.jbankfin.2021.106305  
+[^16]: U.S. Bureau of Labor Statistics, Unemployment Level [UNEMPLOY], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/UNEMPLOY, November 20, 2022.  
+[^17]: średnia ważona stóp ustalonych między instytucjami kredytującymi i kredytobiorczymi jest ustalana rynkowo, jednak Rezerwa Federalna może ją zmieniać poprzez operacje otwartego rynku w celu osiągnięcia poziomu docelowego stopy  
+[^18]: Board of Governors of the Federal Reserve System (US), Federal Funds Effective Rate [FEDFUNDS], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/FEDFUNDS, November 20, 2022.  
+[^19]: St. Louis Fed. (September 16, 2022). Value of loans of all commercial banks in the United States from January 2007 to August 2022 (in billion U.S. dollars) [Graph]. In Statista. Retrieved November 21, 2022, from https://www.statista.com/statistics/214283/bank-credit-of-all-commercial-banks-in-the-united-states-monthly/  
+[^20]: DeYoung, Robert, 'Banking in the United States', in Allen N. Berger, Philip Molyneux, and John O. S. Wilson (eds), The Oxford Handbook of Banking, 3rd edn, Oxford Handbooks (2019; online edn, Oxford Academic, 6 Nov. 2019), https://doi.org/10.1093/oxfordhb/9780198824633.013.31, accessed 21 Nov. 2022.   
+[^21]: DeYoung, Robert, 'Banking in the United States', in Allen N. Berger, Philip Molyneux, and John O. S. Wilson (eds), The Oxford Handbook of Banking, 3rd edn, Oxford Handbooks (2019; online edn, Oxford Academic, 6 Nov. 2019), https://doi.org/10.1093/oxfordhb/9780198824633.013.31, accessed 21 Nov. 2022.   
+[^22]: Redecka, A. (2014). Związek między efektywnością i rentownością banków komercyjnych w Polsce. _Ruch Prawniczy, Ekonomiczny I Socjologiczny_, _76_(4), 279–295. https://doi.org/10.14746/rpeis.2014.76.4.19  
+[^23]: Ray, S. C. (2007). Are some Indian banks too large? An examination of size efficiency in Indian banking. _Journal of Productivity Analysis_, _27_(1), 41-56.  
+[^24]: Das, A., Nag, A., & Ray, S. C. (2004). Liberalization, ownership, and efficiency in Indian banking: A Nonparametric Approach.  
+[^25]: ORAL, M., KETTANI, O., & YOLALAN, R. (1992). AN EMPIRICAL STUDY ON ANALYZING THE PRODUCTIVITY OF BANK BRANCHES. IIE Transactions, 24(5), 166–176. doi:10.1080/07408179208964257 s. 174  
+[^26]: Porembski, M., Breitenstein, K., & Alpar, P. (2005). Visualizing Efficiency and Reference Relations in Data Envelopment Analysis with an Application to the Branches of a German Bank. Journal of Productivity Analysis, 23(2), 203–221. doi:10.1007/s11123-005-1328-5   
+[^27]: Ray, S. C. (2007). Are some Indian banks too large? An examination of size efficiency in Indian banking. _Journal of Productivity Analysis_, _27_(1), 41-56.  
+[^28]: U.S. Bureau of Economic Analysis, Personal Saving Rate [PSAVERT], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/PSAVERT, November 20, 2022.  
+[^29]: BCG (FinTech Control Tower). (November 8, 2021). Number of fintech startups worldwide from 2018 to 2021, by region [Graph]. In Statista. Retrieved November 20, 2022, from https://www.statista.com/statistics/893954/number-fintech-startups-by-region/  
+[^30]: [(PDF) Data Envelopment Analysis (DEA) Model in Operation Management](https://www.researchgate.net/publication/323206826_Data_Envelopment_Analysis_DEA_Model_in_Operation_Management)  
+[^31]: [(PDF) Data Envelopment Analysis: History, Models, and Interpretations](https://www.researchgate.net/publication/226038831_Data_Envelopment_Analysis_History_Models_and_Interpretations)  
+[^32]: [Sufian, F. (2011). Benchmarking the efficiency of the Korean banking sector: a DEA approach. Benchmarking: An International Journal, 18(1), 107–127. https://doi.org/10.1108/14635771111109841](https://doi.org/10.1108%2F14635771111109841)  
+[^33]: [PDF Efficiency Analysis of Public Transportation Subunits Using DEA and Bootstrap Approaches – Dakar Dem Dikk Case Study](https://www.researchgate.net/publication/311107627_Efficiency_Analysis_of_Public_Transportation_Subunits_Using_DEA_and_Bootstrap_Approaches_-_Dakar_Dem_Dikk_Case_Study)  
+[^34]: CHEN, X., SKULLY, M., & BROWN, K. (2005). Banking efficiency in China: Application of DEA to pre- and post-deregulation eras: 1993–2000. China Economic Review, 16(3), 229–245. https://doi.org/10.1016/j.chieco.2005.02.001  
+[^35]: Ahn, H., & Le, M. H. (2014). An insight into the specification of the input-output set for DEA-based bank efficiency measurement. Management Review Quarterly, 64(1), 3–37. doi:10.1007/s11301-013-0098-9   
+[^36]: Harasim, J. (2008). The role of intangible assets in bank’s competitiveness and effectiveness. _Journal of Economics and Management_, _4_(1), 41-57.  
+[^37]: Statista. (May 25, 2021). Ranking of the online banking penetration by country 2020 [Graph]. In Statista. Retrieved November 20, 2022, from https://www.statista.com/forecasts/1169529/online-banking-penetration-by-country  
+[^38]: DeYoung, Robert, 'Banking in the United States', in Allen N. Berger, Philip Molyneux, and John O. S. Wilson (eds), The Oxford Handbook of Banking, 3rd edn, Oxford Handbooks (2019; online edn, Oxford Academic, 6 Nov. 2019), https://doi.org/10.1093/oxfordhb/9780198824633.013.31, accessed 21 Nov. 2022.   
+[^39]: (Board of Governors of the Federal Reserve System et al., 2021); Retrieved 21 November 2022, from https://www.federalreserve.gov/econres/feds/files/2021035pap.pdf  
+[^40]: Statista. (February 17, 2022). Largest banks worldwide as of December 2021, by market capitalization (in billion U.S. dollars) [Graph]. In Statista. Retrieved November 22, 2022, from https://www.statista.com/statistics/264905/top-10-banks-by-market-capitalization/
