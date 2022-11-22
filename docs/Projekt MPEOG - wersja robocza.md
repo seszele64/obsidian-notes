@@ -5,9 +5,6 @@ tags:
 - MPEOG  
 ---  
   
-## Plan  
-![UE/I semestr/MPEOG/Projekt/MPEOG projekt > Plan projektu](./MPEOG%20projekt#Plan%20projektu.md)  
-  
 ## Wstęp  
   
 ### Cel projektu, problem  
@@ -29,7 +26,7 @@ Globalne rynki finansowe doświadczyły ekstremalnej zmienności w wyniku COVID-
 Dodatkowo, rynek finansowy i bankowy wciąż pozostaje największym pod względem udziału w tworzeniu wartości dodanej w PKB Stanów Zjednoczonych   
   
 Wartość dodana według branż jako % PKB w 2022 r.[^3]  
-	![](https://i.imgur.com/gF3pT9W.png)  
+![](https://i.imgur.com/gF3pT9W.png)  
   
 ##### kryzysowa niepewność  
   
@@ -74,8 +71,6 @@ Największe banki na świecie, według wartości aktywów, 2021
   
 ##### 2020  
   
-  
-  
 - 3/3/2020  
 	- Federalny Komitet Otwartego Rynku (FOMC) obniża docelową stopę procentową (FFTR) o 0,50 punktu procentowego, do poziomu 1%-1,25%.  
   
@@ -105,8 +100,7 @@ Największe banki na świecie, według wartości aktywów, 2021
   
   
 Struktura banków w Stanach Zjednoczonych  
-  
-![Attachments/Banki w Stanach Zjednoczonych wg wartości aktywów, 2017.svg](./images/Banki%20w%20Stanach%20Zjednoczonych%20wg%20warto%C5%9Bci%20aktyw%C3%B3w,%202017.svg)  
+![](https://i.imgur.com/tY9yReM.png)  
   
   
 Ze względu na wielkość posiadanych aktywów, banki w Stanach Zjednoczonych można podzielić na "małe" (banki komercyjne o aktywach od 500 mln do 2 mld USD) i "duże" (o wartości aktywów powyżej 10 mld USD).  
@@ -114,13 +108,13 @@ Ze względu na wielkość posiadanych aktywów, banki w Stanach Zjednoczonych mo
 Charakterystyki małych i dużych banków w Stanach Zjednoczonych, 2017[^22]  
   
 | wskaźnik \ rodzaj banku | "mały" bank        | "duży" bank       |  
-|:------------------------|:-------------------|:------------------|  
-| liczba banków           |                424 |                65 |  
+| :---------------------- | :----------------- | :---------------- |  
+| liczba banków           | 424                | 65                |  
 | średnia wartość aktywów | 0.949 miliarda USD | 121 miliardów USD |  
-| ROA                     |               0.96 |              0.98 |  
-| ROE                     |               9.07 |              8.68 |  
-| Kredyty (% aktywów)     |             69.67% |            64.08% |  
-| Depozyty (% aktywów)    |             83.66% |               76% |    
+| ROA                     | 0.96               | 0.98              |  
+| ROE                     | 9.07               | 8.68              |  
+| Kredyty (% aktywów)     | 69.67%             | 64.08%            |  
+| Depozyty (% aktywów)    | 83.66%             | 76%               |  
   
 ### Przedsiębiorstwa  
   
@@ -155,16 +149,16 @@ Dane zostały pobrane z Reuters Refinitiv, objęły banki działające na tereni
   
 ### Nakłady  
   
-Jako nakłady przyjęliśmy następujące wskaźniki:  
-- aktywa razem[^23]  
-- kwota przechowywanych depozytów[^23]  
-- kapitał własny[^24] [^25]  
-- liczba pracowników[^26][^23]  
+- Jako nakłady przyjęliśmy następujące wskaźniki:  
+	- aktywa razem[^23]  
+	- kwota przechowywanych depozytów[^23]  
+	- kapitał własny[^24] [^25]  
+	- liczba pracowników[^26] [^23]  
   
 ### Rezultaty  
   
-Za rezultaty przyjęliśmy wartość:  
-- kwota udzielonych kredytów i pożyczek[^27]     [^28]  
+- Za rezultaty przyjęliśmy wartość:  
+	- kwota udzielonych kredytów i pożyczek[^27]     [^28]  
   
 ### Statystyki opisowe  
   
@@ -193,55 +187,53 @@ Za rezultaty przyjęliśmy wartość:
 ---  
   
 ## Rezultaty obliczeń efektywności  
-#todo  
   
   
-- technical efficiency from CRS DEA  
-- the pure technical efficiency from VRS DEA  
+|                  | INPUT   | INPUT   | OUTPUT  | OUTPUT  | INPUT   | INPUT   | OUTPUT  | OUTPUT  |  
+| ---------------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |  
+| skala            | ccr y   | bcc y   | ccr y   | bcc y   | ccr y-1 | bcc y-1 | ccr y-1 | bcc y-1 |  
+| EAST WEST BANC/d | 96,63%  | 100,00% | 100,00% | 100,00% | 100,00% | 100,00% | 100,00% | 100,00% |  
+| WEBSTER FINL C/d | 90,84%  | 100,00% | 91,31%  | 100,00% | 91,34%  | 100,00% | 92,46%  | 100,00% |  
+| COMMERCE BANCS/d | 60,67%  | 97,64%  | 61,90%  | 100,00% | 69,20%  | 99,87%  | 70,66%  | 100,00% |  
+| CULLEN FROST/d   | 47,01%  | 69,62%  | 47,52%  | 50,55%  | 57,98%  | 77,32%  | 59,02%  | 61,00%  |  
+| SVB FINANCIAL/d  | 44,55%  | 45,25%  | 75,54%  | 100,00% | 53,67%  | 54,22%  | 84,95%  | 98,35%  |  
+| FIRST CITIZEN /d | 79,54%  | 83,97%  | 80,34%  | 82,90%  | 90,35%  | 92,12%  | 90,69%  | 91,25%  |  
+| COMERICA INC/d   | 74,27%  | 76,28%  | 75,31%  | 75,61%  | 82,33%  | 83,75%  | 84,21%  | 85,00%  |  
+| FRST HRZ CRP O/d | 90,67%  | 92,67%  | 91,77%  | 93,61%  | 97,39%  | 99,63%  | 99,19%  | 100,00% |  
+| M&T BANK CRP/d   | 84,64%  | 85,22%  | 85,53%  | 85,70%  | 94,10%  | 97,88%  | 94,47%  | 99,11%  |  
+| CITIZENS FINAN/d | 100,00% | 100,00% | 100,00% | 100,00% | 95,64%  | 100,00% | 97,41%  | 100,00% |  
+| KEYCORP NEW/d    | 82,82%  | 83,15%  | 84,22%  | 84,30%  | 86,15%  | 89,69%  | 88,99%  | 91,21%  |  
+| HUNTGTN BKSHR/d  | 93,47%  | 93,72%  | 93,95%  | 94,14%  | 93,55%  | 96,80%  | 96,12%  | 97,89%  |  
+| REGIONS FINANC/d | 76,83%  | 77,44%  | 77,74%  | 77,85%  | 79,94%  | 82,86%  | 80,24%  | 84,30%  |  
+| TRST FINANCL O/d | 79,70%  | 96,39%  | 81,69%  | 100,00% | 84,72%  | 100,00% | 88,10%  | 100,00% |  
+| PNC FINL SVC/d   | 74,73%  | 90,13%  | 75,65%  | 94,31%  | 72,92%  | 84,28%  | 75,37%  | 85,95%  |  
+| US BANCORP/d     | 81,81%  | 100,00% | 84,14%  | 100,00% | 78,40%  | 92,49%  | 82,22%  | 94,54%  |  
+| BANK OF AMERIC/d | 51,28%  | 91,78%  | 58,16%  | 100,00% | 51,95%  | 80,42%  | 58,92%  | 100,00% |  
+| WELLS FARGO & /d | 70,91%  | 100,00% | 74,31%  | 100,00% | 69,83%  | 100,00% | 75,63%  | 100,00% |  
+| JPMORGAN CHASE/d | 46,92%  | 100,00% | 52,71%  | 100,00% | 47,04%  | 100,00% | 53,91%  | 100,00% |  
   
-  
-  
-## Rekomendacje dla przedsiębiorstw  
-  
-  
-## Podsumowanie i wnioski  
   
 ### Wnioski  
   
   
-  
-- ccr output  
-	- efficiency scores of 0.83, 0.86, 0.89, 0.82, 0.76, 0.92, 0.71, 0.53, and 0.88, respectively, indicating that the National Bank of Kenya had to increase its variable return to scale by 0.17%, Cooperative Bank of Kenya by 0.14%, Barclays Bank of Kenya by 0.11%, Equatorial Bank of Kenya by 0.18%,  
-  
-- bcc output  
-	- scores of 0.82, 0.76, 0.92, 0.72, 0.53, 0.88, 0.83, 0.86, 0.89, and 0.86, respectively, showing that Barclays Bank of Kenya had to increase its variable return to scale by 0.18%, Development Bank of Kenya by 0.24%, Commercial Bank of Kenya by 0.8%, Diamond Trust Bank of Kenya by 0.28%, Fidelity Commercial Bank by 0.47%, Giro Commercial Bank by 0.12%, United Bank of Africa by 0.17%, Victoria Commercial Bank by 0.14%, CFC Bank of Kenya by 0.11%, and Credit Bank of Kenya by 0.14% to be considered efficient.  
-  
-  
-- Analysis of technical efficiency based on the CCR model.  
-- Analysis of technical efficiency based on the BCC model  
-  
-- efficient  
-	- were considered efficient, with efficiency scores of 1.00, implying that these five banks had produced variable returns to scale on the efficiency frontier.  
-  
-- scale efficient  
-	- ccr/bcc  
-  
-- CRS versus VRS  
-	- Analityk musi rozumieć ograniczenia analizowanego sektora.  
-	- Użycie VRS w praktyce oznacza, że analizowana firma jest porównana tylko z firmami o podobnej wielkości.  
-	- Efektywność VRS przedsiębiorstwa k będzie wyższa lub równa efektywności CRS dla tego przedsiębiorstwa.  
-- Input czy output?  
-	- Analityk musi rozumieć nad czym przedsiębiorstwa mają większą kontrolę (nakłady czy wyniki).   
-	- Input i output wyliczy tę samą granicę możliwości produkcyjnych (te same efektywne firmy).  
-	- Miary input i output to odwrotności w CRS. W VRS otrzymamy inne wartości efektywności dla firm nieefektywnych.  
-  
-  
-  
+- Do najbardziej efektywnych banków zalicza się: East west banc, Citizens Finan, Webster, HUNTGTN BKSHR, FRST HRZ CRP.  
+	- Efektywność banku Cullen Frost ociera się o granicę 60%, bez względu na rodzaj modelu; w związku z czym efektywność tego banku pozostawia wiele do życzenia. Ponadto, jego efektywność spadła po kryzysie wywołanym COVID-19.  
+	- Efektywność banku SVB jest na granicy 70%, wypada szczególnie źle w przypadku modelu zorientowanego na nakłady. Może to wynikać z faktu, iż bank ten nie prowadzi ekspansywnej akcji kredytowej, zatrudnia mało pracowników oraz ma duży poziom lokat. Model sugeruje obniżyć nakłady (np. w postaci lokat).  
+	- Bardzo dobra efektywność citizens finan, przekraczająca w każdym modelu 95%.  
+	- W przypadku największych banków (JP Morgan, Bank of America, Wells Fargo) model ccr wskazuje na niski poziom efektywności, na przekór modelowi bcc, który wskazuje na efektywność tych podmiotów. Bierze się to prawdopodobnie z faktu, iż model bcc lepiej sobie radzi z nieliniowymi efektami skali, które niewątpliwie w przypadku takich podmiotów występują.  
+	  
 ### Podsumowanie  
-- #todo  
+  
+Ogólnie wybrane banki notują niższy przeciętny poziom efektywności w roku 2021 w porównaniu z rokiem 2020. Może to potwierdzać badania, iż niepewność na rynku finansowym przekłada się pozytywnie na działalność banku.  
+  
+|           | 2021   | 2020   |  
+| --------- | ------ | ------ |  
+| mean     | 83,44% | 86,70% |  
+| st dev    | 6,81%  | 6,19%  |  
+| max - min | 16,40% | 15,37% |  
   
   
-# Bibliografia  
+## Bibliografia  
   
 [^1]: DeYoung, Robert, 'Banking in the United States', in Allen N. Berger, Philip Molyneux, and John O. S. Wilson (eds), The Oxford Handbook of Banking, 3rd edn, Oxford Handbooks (2019; online edn, Oxford Academic, 6 Nov. 2019), https://doi.org/10.1093/oxfordhb/9780198824633.013.31, accessed 21 Nov. 2022.   
 [^2]: [COVID-19 Impact on the banking sector - KPMG Global](https://home.kpmg/xx/en/home/insights/2020/07/covid-19-impact-on-banking-m-and-a-2020.html)  
