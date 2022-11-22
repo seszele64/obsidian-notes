@@ -167,7 +167,6 @@ Dane zostały pobrane z Reuters Refinitiv, objęły banki działające na tereni
   
 Jako nakłady przyjęliśmy następujące wskaźniki:  
 - aktywa razem[^31]  
-- wartości niematerialne i prawne[^32]  
 - kwota przechowywanych depozytów[^31]  
 - kapitał własny[^33] [^34]  
 - liczba pracowników[^35][^31]  
@@ -180,6 +179,25 @@ Za rezultaty przyjęliśmy wartość:
 ### Statystyki opisowe  
 #todo  
   
+  
+- wartości za 2021 rok  
+| 2021   | Aktyw {I}    | Fin {I}                   | Prac{I}            | Kred {O}        |  
+| ------ | ------------ | ------------------------- | ------------------ | --------------- |  
+|        | aktywa razem | depozyty + kapitał własny | liczba pracowników | kredyty         |  
+| min    | 3100,00      | 29813073000,00            | 34915599000,00     | 3437298000,00   |  
+| mean   | 54592,05     | 453338833315,79           | 633494114631,58    | 56961791684,21  |  
+| max    | 271025,00    | 2462303000000,00          | 3743567000000,00   | 294127000000,00 |  
+| st dev | 83980,24     | 702249817394,47           | 1060957018063,44   | 87744944771,82  |  
+  
+  
+- wartości za 2020 rok  
+| 2020   | Aktyw {I}    | Fin {I}                   | Prac{I}            | Kred {O}    |  
+| ------ | ------------ | ------------------------- | ------------------ | ----------- |  
+|        | aktywa razem | depozyty + kapitał własny | liczba pracowników | kredyty     |  
+| min    | 3200         | 26946745000               | 32590690000        | 3234625000  |  
+| mean   | 43227,16667  | 3,01231E+11               | 4,20385E+11        | 42675895222 |  
+| max    | 268531       | 1,79548E+12               | 2,81963E+12        | 2,72924E+11 |  
+| st dev | 72793,84367  | 4,79144E+11               | 7,27409E+11        | 70095452177 |  
   
   
 ## Rezultaty obliczeń efektywności  
