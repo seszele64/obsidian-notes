@@ -35,6 +35,6 @@ title: Projekt EDIF
   
 [^1]: https://amers2-apps.platform.refinitiv.com/web/Apps/news-monitor  
 [^2]: [Report - Cotton jumps about 3% on softer dollar, gains in wider markets - RTRS  News Wires](./images/News_%20RPT-India's%20cotton%20exports%20stall%20as%20farmers%20delay%20sales%20hoping%20for%20higher%20prices%20-%20RTRS%20_%20News%20Wires.pdf)  
-[^3]: [Report](Attachments/News_%20Cotton%20COT.md)  
+[^3]: [Report](Attachments/News_%20Cotton%20COT.md)   
 [^4]: [Report](./images/News_%20Cotton%20jumps%20about%203%25%20on%20softer%20dollar,%20gains%20in%20wider%20markets%20-%20RTRS%20_%20News%20Wires.pdf)  
 [^5]: [Report - Argentina's soybean crop severely delayed due to drought, says grains exchange](./images/Top%20News%20_%20Argentina's%20soybean%20crop%20severely%20delayed%20due%20to%20drought,%20says%20grains%20exchange.pdf)
