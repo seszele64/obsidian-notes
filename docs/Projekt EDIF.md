@@ -1,7 +1,6 @@
 ---  
 share: True  
 title: Projekt EDIF  
-  
 ---  
   
 [TOC]  
