@@ -2,6 +2,8 @@
 share: True  
 title: Projekt EDIF  
 attachment: true  
+embed:  
+  send: true  
 ---  
   
 [TOC]  
@@ -12,15 +14,36 @@ attachment: true
 - #todo   
 	- Argentinian soy exports  
   
-## Corn  
-- Corn planting is also facing delays, the exchange added. Until Wednesday, producers had planted 23.8% of the 7.3 million hectares expected for the 2022/23 crop, 6.2 percentage points behind this time last year[^1]  
-- Protests over Brazil's election result that blocked roads in Mato Grosso state earlier this week lifted truck freight prices, affecting the operations and margins of global grain traders at a time when farmers are selling their abundant second corn crop.  
+---  
   
-## Soy  
+## Tools  
+  
+  
+### R  
+- packages  
+  
+  
+---  
+  
+## Data  
+  
+  
+  
+  
+---  
+  
+## Markets  
+  
+### Corn  
+- Corn planting is also facing delays, the exchange added. Until Wednesday, producers had planted 23.8% of the 7.3 million hectares expected for the 2022/23 crop, 6.2 percentage points behind this time last year[^1]  
+- 24/11/2022 - ==Protests over Brazil's election result that blocked roads in Mato Grosso== state earlier this week lifted truck freight prices, affecting the operations and margins of global grain traders at a time when farmers are selling their abundant second corn crop.  
+	- Truck freight rose 20% or 50 reais ($9.40) per tonne in Mato Grosso, Abiove, an industry group representing global firms like Cargill, Bunge [BG.N](https://amers2-apps.platform.refinitiv.com/web/apps/quotewebapi?RIC=BG.N), Cofco and Louis Dreyfus Co., told Reuters on Thursday.  
+  
+### Soy  
 - Argentina is the world's top exporter of processed soy, but the delays could mean some producers will not manage to meet their planting forecasts  
 	- So far just ==19.4% of the area has been planted==, the exchange said in a weekly report, 19.9 percentage points behind this time last year.[^1]  
   
-## Cotton  
+### Cotton  
   
   
 - cotton  
@@ -42,9 +65,7 @@ attachment: true
 ## Footnotes  
   
 [^1]: [Report - Argentina's soybean crop severely delayed due to drought, says grains exchange](./images/Top%20News%20_%20Argentina's%20soybean%20crop%20severely%20delayed%20due%20to%20drought,%20says%20grains%20exchange.pdf)  
-[^2]: [Argentina's soybean crop severely delayed due to drought, says grains exchange  
-](https://cloud.harhara.bar/s/KCi4GYEHckFDWyy)  
+[^2]: Argentina's soybean crop severely delayed due to drought, says grains exchange - [external link](https://cloud.harhara.bar/s/KCi4GYEHckFDWyy)  
 [^3]: [Report - Cotton jumps about 3% on softer dollar, gains in wider markets - RTRS  News Wires](./images/News_%20RPT-India's%20cotton%20exports%20stall%20as%20farmers%20delay%20sales%20hoping%20for%20higher%20prices%20-%20RTRS%20_%20News%20Wires.pdf)  -   
 [^4]: [Report](Attachments/News_%20Cotton%20COT.md)   
-[^5]: [Report](./images/News_%20Cotton%20jumps%20about%203%25%20on%20softer%20dollar,%20gains%20in%20wider%20markets%20-%20RTRS%20_%20News%20Wires.pdf)  
-[external link](https://cloud.harhara.bar/s/SR7gLcDbiz9Yq24)  
+[^5]: [Report](./images/News_%20Cotton%20jumps%20about%203%25%20on%20softer%20dollar,%20gains%20in%20wider%20markets%20-%20RTRS%20_%20News%20Wires.pdf) - [external link](https://cloud.harhara.bar/s/SR7gLcDbiz9Yq24)  
