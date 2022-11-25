@@ -1,9 +1,6 @@
 ---  
 share: True  
 title: Projekt EDIF  
-attachment: True  
-embed:  
-  send: True  
 ---  
   
 [TOC]  
