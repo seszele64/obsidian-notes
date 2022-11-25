@@ -1,6 +1,6 @@
 ---  
-share: True  
 title: Projekt EDIF  
+share: true  
 ---  
   
 [TOC]  
