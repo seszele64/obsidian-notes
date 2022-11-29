@@ -152,6 +152,17 @@ hide:
 - PACF  
 	- Funkcja cząstkowej autokorelacji (PACF) uwzględnia tylko opóźnienie do- kładnie k-tego stopnia[^19]  
   
+- Interpretacja:  
+	- Jeśli funkcja powoli maleje w ACF → model AR → Odcięcie w PACF zapewni porządek p dla AR (p).  
+		- ![](https://i.imgur.com/vJp05RM.png)  
+  
+	- Jeśli funkcja powoli maleje w PACF → model MA → Odcięcie w ACF zapewni porządek p dla MA (q).  
+		- ![](https://i.imgur.com/KyA4fNC.png)  
+  
+	- Jeśli funkcja powoli maleje w ACF i PACF → model ARMA  
+		- ![](https://i.imgur.com/6pAJNbB.png)  
+  
+  
 - Kryteria informacyjne  
 	- Kryteria informacyjne pozwalają porównywać różne modele dla tej samej zmiennej zależnej. Najlepszym modelem jest model, dla którego ==wartość kryterium jest najniższa==.  
 	- Kryterium Akaike:  
@@ -274,8 +285,14 @@ hide:
 - Równanie $$y_t = \alpha_0 + \alpha_1*x_t + \epsilon_t$$ nazywane jest regresją lub relacją kointegrującą, a parametr $\alpha_1$ parametrem kointegrującym.[^15]  
   
 #### Testowanie koinegracji (wnioskowanie, hipotezy, procedura testowa); **Wektor kointegrujący**  
-- W przypadku rozszerzenia modelu regresji na m skointegrowanych zmiennych objaśniających, powstanie m-elementowy wektor kointegrujący.  
+  
 - Testowanie kointegracji ma sens wtedy, gdy zmienne występujące w równaniu są zintegrowane oraz może istnieć ich stacjonarna kombinacja liniowa.  
+  
+- Kointegracja występuje wtedy, gdy dwa lub więcej szeregów są niestacjonarne, ale ich kombinacja liniowa jest stacjonarna  
+	- Dwa szeregi czasowe Xt, Yt są skointegrowane rzędu d, b gdzie d >= b >= 0, co zapisujemy CI(d, b) jeżeli:  
+		- oba szeregi są zintegrowane tego samego rzędu d  
+		- istnieje kombinacja liniowa tych procesów która jest zintegrowana stopnia d-b  
+  
 - Procedura  
 	- Jeżeli zmienna $x_t$ oraz $y_t$ są zintegrowane w stopniu pierwszym to można przejść do kolejnego etapu.  
 	- oszacowanie modelu dla poziomów wybranych zmiennych, a następnie badanie stacjonarności składnika losowego ($e_t$):  
