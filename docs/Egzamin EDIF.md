@@ -311,7 +311,10 @@ hide:
 	3. obliczamy reszty $e_t = y_t - \hat{\gamma_t} - \hat{\gamma} x_t$ i testujemy czy są one stacjonarne, $e_t \sim I(0)$  
 	4. Jeśli reszty są stacjonarne (tzn. oszacowana relacja jest relacją kointegrującą), to reszty można interpretować jako odchylenia od relacji równowagi, co oznacza, że możemy oszacować pełen model ECM:  
 		- $$\Delta y_t = \alpha + \delta e_{t-1} + \sum^q_{i=1} \alpha_i \Delta y_{t--1} + \sum^p_{j=0} \beta_j \Delta x_{t-j} + \epsilon_t$$  
-	- Otrzymujemy w ten sposób parametr kontrolujący siłę mechanizmu (czyli $\delta$) oraz oszacowania odpowiednich parametrów części dynamicznej (czyli $\alpha_i$ oraz $\beta_j$)  
+	- Otrzymujemy w ten sposób parametr kontrolujący siłę mechanizmu (czyli $\delta$) oraz oszacowania odpowiednich parametrów części dynamicznej (czyli $\alpha_i$ oraz $\beta_j$)[^20]  
+  
+- interpretacja  
+	- Parametr $\delta$ identyfikuje tempo powrotu do równowagi długookresowej[^19]  
   
 ---  
   
