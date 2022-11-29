@@ -31,15 +31,15 @@ hide:
   
 - efekt skupiania (gromadzenia) zmienności  
 	- ![](https://i.imgur.com/GpNvUgi.png)  
-	- efektu skupiania (gromadzenia) zmienności (volatility clustering), co oznacza, że zarówno małe, jak i duże zmiany kursu następują seriami, a tym samym oznacza niestałość wariancji[^2] stóp zwrotu w czasie,  
+	- efektu skupiania (gromadzenia) zmienności (volatility clustering), co oznacza, że zarówno małe, jak i duże zmiany kursu następują seriami, a tym samym oznacza niestałość wariancji[^1] stóp zwrotu w czasie,  
 	- W szeregach czasowych stóp zwrotu można bowiem wyróżnić okresy większej i mniejszej aktywności inwesto- rów, czyli okresy z dużymi zmianami cen (tzw. skupiska zmienności, clusters) oraz okresy o mniejszych zmianach cen. Okresy te występują seriami. Małe zmiany cen (małe co do wartości bezwzględnej stopy zwrotu) następują po małych zmianach, a duże po dużych, lecz kierunek zmian (znak stopy zwrotu) jest nieprzewidywalny. Bardzo częstym efektem jest tworzenie się wokół dużego głównego skupiska zmienności, mniejszych okresów o większej niż zazwyczaj aktywności inwestorów.  
 - efekt leptokurtozy i grubych ogonów rozkładów stóp zwrotu  
 	 - ![](https://i.imgur.com/S3GOqnY.png)  
 	 - prawdopodobieństwo wystąpienia dużych, nietypowych zmian kursu (duże co do wartości bezwzględnej stopy zwrotu) jest większe niż gdyby stopy zwrotu pochodziły z rozkładu normalnego,  
-- efekt skośności rozkładów stóp zwrotu[^3]  
+- efekt skośności rozkładów stóp zwrotu[^2]  
 	 - efektu skośności rozkładów stóp zwrotu (najczęściej obserwuje się rozkłady prawostronnie skośne, lecz nie jest to regułą),  
 	 - Zaobserwowano, że w większości szeregów stóp zwrotu częściej występują stopy zwrotu większe niż modalna, co tłumaczy się ==odmiennym zachowaniem inwestorów w czasie hossy i bessy== lub dokładniej odmiennymi zachowaniami w przypadku napływania dobrych i złych informacji. Skutkuje to dodatnim współczynnikiem skośności wyznaczanym dla większości szeregów empirycznych. Nie jest to jednak regułą, gdyż współczynnik skośności dla np. szeregu stóp zwrotu z indeksu WIG (z okresu od rozpoczęcia notowań do maja 2002 roku) przyjmuje wartość ujemną, co świadczy o skośności lewostronnej rozkładu empirycznego. Podczas analizy dziennych stóp zwrotu z 35 instrumentów z rynku polskiego, w 22 przypadkach uzyskano dodatni współczynnik skośności, a w 13 przypadkach - ujemny (por. Jajuga (2000a)). Także w przypadku współczynnika skośności wynik badania zależy od wybranego okresu oraz analizowanego horyzontu stóp zwrotu (por. Konarzewska (1998), (2000)). Ogólnie założyć należy, iż rozkłady stóp zwrotu mogą charakteryzować się zarówno dodatnią, jak i ujemną skośnością. W niektórych przypadkach efekt ten jest na tyle znaczny, że przyjęcie założenia o braku skośności rozkładu może znacznie fałszować obraz rzeczywistości.  
-- efekt autokorelacji stóp zwrotu[^1]  
+- efekt autokorelacji stóp zwrotu[^3]  
 	 - ![](https://i.imgur.com/FnNaYKh.png)  
 	 - szczególnie w okresach o małej zmienności  
 	 - W niektórych analizowanych szeregach czasowych obserwuje się, iż kolejne stopy zwrotu są skorelowane. Po wzrostach występują częściej kolejne wzrosty, a po spadkach kolejne spadki. Najczęściej zasięg zależności korelacyjnej ograniczony jest do opóźnień o rzędzie mniejszym niż 5, ale może wynosić nawet kilkadziesiąt, bądź kilkaset, co nazywane jest wtedy „długą pamięcią procesu”.[^4]  
@@ -51,16 +51,16 @@ hide:
 #### Pojęcia podstawowe  
   
 ##### stopa zwrotu zwykła  
- - $R_t = \frac{P_t - P_{t-1}}{P_{t-1}}*100\%$[^9]  
+ - $R_t = \frac{P_t - P_{t-1}}{P_{t-1}}*100\%$[^5]  
  - prosta stopa zwrotu wykorzystuje koncepcje kapitalizacji okresowej  
- - rozkład - rozkład ceny, w przedziale $[-1; +\infty)$ lub $[-100\%;+\infty)$[^8]  
+ - rozkład - rozkład ceny, w przedziale $[-1; +\infty)$ lub $[-100\%;+\infty)$[^6]  
   
 ##### stopa zwrotu logarytmiczna  
- - $r_t = ln(P_t / P_{t-1}) * 100\%$[^9]  
+ - $r_t = ln(P_t / P_{t-1}) * 100\%$[^5]  
  - wykorzystuje koncepcję kapitalizacji ciągłej  
  - rozkład - logarytmiczne przekształcenie ceny  
  - ==addytywność==  
-	 - logarytmiczne stopy zwrotu są ==addytywne==, w danym okresie, dzięki temu można liczyć średnią stopę z okresu przy wykorzystaniu średniej arytmetycznej[^8]  
+	 - logarytmiczne stopy zwrotu są ==addytywne==, w danym okresie, dzięki temu można liczyć średnią stopę z okresu przy wykorzystaniu średniej arytmetycznej[^6]  
 	 - Z właściwości logarytmów wynika ważna (zwłaszcza w przypadku badań giełdowych) cecha logarytmicznych stóp zwrotu, a mianowicie ich addytywność. Suma poszczególnych logarytmicznych stóp zwrotu z danego okresu jest tożsama z logarytmiczną stopą zwrotu uwzględniającą tylko wartość końcową i początkową w danym okresie.  
   
 ##### ryzyko (odchylenie standardowe)  
@@ -80,34 +80,34 @@ hide:
 	- **Ryzyko kredytowe** jest ryzykiem związanym z możliwością niedotrzymania warunków kontraktu przez drugą stronę transakcji. Może ono dotyczyć sytuacji, gdy partner zaprzestaje spłaty zobowiązań, opóźnia się z terminami spłaty lub nie wywiązuje się w inny sposób ze zobowiązań finansowych w całości lub częściowo  
 	- **Ryzyko operacyjne** jest ryzykiem o charakterze systemowym (niezwiązanym z inwestowaniem), którego źródło tkwi w niewystarczającej kontroli, niesprawnych systemach, błędach człowieka, niewłaściwym zarządzaniu. Osobno wyróżnia się więc na przykład: ryzyko personelu, organizacyjne, (braku) kontroli, infrastruktury technicznej. Ryzyko to obejmuje w szczególności również ryzyko oszustwa, ryzyko regulacji, ryzyko katastrofowe (związane z siłami przyrody). Jednym z aspektów ryzyka operacyjnego jest ryzyko utraty reputacji.  
 	- **Ryzyko prawne** związane jest z możliwością poniesienia strat w wyniku prowadzenie przez podmiot działalności wykraczającej poza ramy odpowiednich przepisów prawnych lub regulacji i obejmujące niemożność wyegzekwowania warunków kontraktu. Ryzyko prawne wiąże się również z sytuacją, gdy następuje nieprzewidziana zmiana prawa, prowadząca do zmiany sytuacji podmiotu. Ryzyko to można definiować również w aspekcie neutralnym, w którym zmiany prawa mogą prowadzić do uzyskania korzyści. Ryzyko to bywa uznawane za składową ryzyka operacyjnego  
-	- **Ryzyko biznesu** związane z prowadzoną przez instytucję (przedsiębiorstwo) działalnością podstawową, rynkiem produktów i usług. Ryzyko to ma charakter długoterminowy i strukturalny, powstający na skutek decyzji inwestycyjnych dotyczących m.in. wyboru strategii rozwoju, strategii marketingowej, decyzji cenowych, decyzji co do poziomu przyszłej sprzedaży[^5]  
+	- **Ryzyko biznesu** związane z prowadzoną przez instytucję (przedsiębiorstwo) działalnością podstawową, rynkiem produktów i usług. Ryzyko to ma charakter długoterminowy i strukturalny, powstający na skutek decyzji inwestycyjnych dotyczących m.in. wyboru strategii rozwoju, strategii marketingowej, decyzji cenowych, decyzji co do poziomu przyszłej sprzedaży[^7]  
   
 #### Szereg czasowy    
   
 ##### proces stochastyczny  
  - rodzinę $X_t$ $t \in T$ zmiennych losowych określonych ==na tej samej przestrzeni probabilistycznej== nazywa się procesem stochastycznym  
 	 - zazwyczaj T jest podzbiorem przedziału $[0, +\infty)$ i interpretuje się go jako czas  
-	 - w ekonometrii finansowej realizację procesu stochastycznego nazywa się szeregiem czasowym i oznacza $x_t$[^10]   
+	 - w ekonometrii finansowej realizację procesu stochastycznego nazywa się szeregiem czasowym i oznacza $x_t$[^8]   
   
 ##### dekompozycja szeregu czasowego  
  - proces wyodrębniania poszczególnych składowych szeregu czasowego  
 	 - $X_t = m_t + s_t + Y_t$  
 		 - $X_t$ - dane pomiarowe  
 		 - $m_t$ - trend  
-			 - długotrwały wzrost lub spadek wartości zmiennej, bądź inna regularność - np. naprzemienne spadki oraz wzrosty wartości danych[^12]  
+			 - długotrwały wzrost lub spadek wartości zmiennej, bądź inna regularność - np. naprzemienne spadki oraz wzrosty wartości danych[^9]  
 		 - $s_t$ - sezonowość  
-			 - występuje, gdy na wartości danych w szeregu czasowym wpływają czynniki sezonowe (dzienne, miesięczne, kwartalne, roczne), wyróżnić można sezonowość addytywną i multiplikatywną[^12]  
-		 - $Y_t$ - szum (proces losowy, stacjonarny)[^6]  
+			 - występuje, gdy na wartości danych w szeregu czasowym wpływają czynniki sezonowe (dzienne, miesięczne, kwartalne, roczne), wyróżnić można sezonowość addytywną i multiplikatywną[^9]  
+		 - $Y_t$ - szum (proces losowy, stacjonarny)[^10]  
  - cel  
 	 - Celem dekompozycji szeregu czasowego jest oszacowanie i ekstrakcja deterministycznych części szeregu - trendu $m_t$ oraz sezonowości $s_t$ w nadziei, że pozostałe dane, czyli teoretycznie zmienna losowa $Y_t$ okaże się stacjonarnym procesem losowym  
-	 - W przypadku, kiedy okaże się to prawdą, tj. reszty $Y_t$ mogą być opisane stacjonarnym procesem losowym ${Y_t}$, możemy przystąpić do przewidywania przyszłego zachowania się szeregu, wykorzystując oczywiście wszystkie posiadane wiadomości: trend, okres oraz zidentyfikowany z pewną dokładnością proces losowy.[^6]  
+	 - W przypadku, kiedy okaże się to prawdą, tj. reszty $Y_t$ mogą być opisane stacjonarnym procesem losowym ${Y_t}$, możemy przystąpić do przewidywania przyszłego zachowania się szeregu, wykorzystując oczywiście wszystkie posiadane wiadomości: trend, okres oraz zidentyfikowany z pewną dokładnością proces losowy.[^10]  
   
 ---  
   
 ### Ekonometryczne modele wahań sezonowych    
   
 #### Periodogram i spektrum procesu  
-- Any time series can be expressed as a combination of cosine and sine waves with differing periods (how long it takes to complete a full cycle) and amplitudes (maximum/minimum value during the cycle). This fact can be utilized to examine the periodic (cyclical) behavior in a time series.[^13]  
+- Any time series can be expressed as a combination of cosine and sine waves with differing periods (how long it takes to complete a full cycle) and amplitudes (maximum/minimum value during the cycle). This fact can be utilized to examine the periodic (cyclical) behavior in a time series.[^11]  
 - Period  
 	- T  
 	- number of periods required to complete a single cycle  
@@ -119,11 +119,11 @@ hide:
 	- ![](https://online.stat.psu.edu/onlinecourses/sites/stat510/files/L06/graph_59.gif)  
 	- The periodogram shows a dominant spike at a ==low frequency==  
 	- The peak value of periodogram is the fifth value, and that corresponds to a frequency of ==0.0312500==  
-	- The period for this value = ==1/0.0312500 = 32==. That is, it takes 32 time periods for a complete cycle.[^13]  
+	- The period for this value = ==1/0.0312500 = 32==. That is, it takes 32 time periods for a complete cycle.[^11]  
   
 - Modele sezonowości ze zmiennymi zerojedynkowymi    
 	 - sezonowość periodyczna bez wyrazu wolnego  
-	 - sezonowość periodyczna z wyrazem wolnym[^7]   
+	 - sezonowość periodyczna z wyrazem wolnym[^12]   
 	 - sezonowości periodyczna z wyrazem wolnym i trendem  
   
 #### Metodologia Boxa i Jenkinsa (Identyfikacja procesów)  
@@ -133,7 +133,7 @@ hide:
 	2. Znalezienie parametrów wybranego modelu za pomocą wybranych metod (numerycznych) tak, aby dopasowanie danych do modelu było najlepsze. Najczęstszymi metodami wykorzystywanymi w praktyce są: maximum likelihood estimation lub (nieliniowa) metoda najmniejszych kwadratów.  
 	3. Sprawdzenie poprawności wyboru danego modelu. W szczególności należy sprawdzić czy proces jest stacjonarny - reszty muszą być od siebie niezależne, oraz ich średnia i wariancja musi być stała w czasie. Można  
 		- narysować wykres średniej, wariancji oraz reszt versus czas (indeks) i przeprowadzić na nich test Ljunga-Boxa,  
-		- narysować wykresy funkcji autokorelacji i częściowej autokorelacji reszt.[^14]  
+		- narysować wykresy funkcji autokorelacji i częściowej autokorelacji reszt.[^13]  
 #### Funkcja autokorelacji i autokorelacji cząstkowej  
 	  
 - ACF  
@@ -142,7 +142,7 @@ hide:
 		- The collection of the values of 𝛾k, k = 0, 1, 2,… is called the **autocovariance function**  
 	- The autocorrelation coefficient at lag k for a stationary time series is  
 		- $𝜌k = \frac{E[(yt − 𝜇)(yt+k − 𝜇)]}{√E[(yt − 𝜇)2]E[(yt+k − 𝜇)2]} = \frac{Cov(yt, yt+k)}{Var(yt)} = \frac{𝛾k}{𝛾0}$  
-		- The collection of the values of $\rho_k$, k = 0, 1, 2,… is called the autocorrelation function (ACF)[^15]  
+		- The collection of the values of $\rho_k$, k = 0, 1, 2,… is called the autocorrelation function (ACF)[^14]  
   
 - Funkcja autokorelacji (ACF) mierzy zależności statystycznej zmiennej z jej opóźnieniem k-tego rzędu.  
 	- ACF:  
@@ -150,7 +150,7 @@ hide:
   
   
 - PACF  
-	- Funkcja cząstkowej autokorelacji (PACF) uwzględnia tylko opóźnienie do- kładnie k-tego stopnia[^19]  
+	- Funkcja cząstkowej autokorelacji (PACF) uwzględnia tylko opóźnienie do- kładnie k-tego stopnia[^15]  
   
 - Interpretacja:  
 	- Jeśli funkcja powoli maleje w ACF → model AR → Odcięcie w PACF zapewni porządek p dla AR (p).  
@@ -160,7 +160,7 @@ hide:
 		- ![](https://i.imgur.com/KyA4fNC.png)  
   
 	- Jeśli funkcja powoli maleje w ACF i PACF → model ARMA  
-		- ![](https://i.imgur.com/6pAJNbB.png)[^21]  
+		- ![](https://i.imgur.com/6pAJNbB.png)[^16]  
   
 	- sezonowość  
 		- Seasonal AR process  
@@ -168,7 +168,7 @@ hide:
 		- Seasonal MA process  
 			- ![](https://i.imgur.com/qGmHtmA.png)  
 		- Seasonal ARMA process  
-			- ![](https://i.imgur.com/tkgqu3F.png)[^21]  
+			- ![](https://i.imgur.com/tkgqu3F.png)[^16]  
 		- ![podsumowane](https://miro.medium.com/max/4800/1*BFZhxMlJLw_UgFGUVzadRA.png)  
   
   
@@ -205,9 +205,9 @@ hide:
   
 #### **Stacjonarność procesu**  
 ##### warunki ścisłej stacjonarności  
-- If a time series has a finite mean and autocovariance function it is said to be second-order stationary (or weakly stationary of order 2). If, in addition, the joint probability distribution of the observations at all times is ==multivariate normal==, then that would be sufficient to result in a time series that is strictly stationary[^15]  
+- If a time series has a finite mean and autocovariance function it is said to be second-order stationary (or weakly stationary of order 2). If, in addition, the joint probability distribution of the observations at all times is ==multivariate normal==, then that would be sufficient to result in a time series that is strictly stationary[^14]  
   
-##### **warunki słabej stacjonarności**[^11]  
+##### **warunki słabej stacjonarności**[^18]  
 - wartość oczekiwana jest stała w czasie  
 	- $E(y_t) = \mu$  
 - wariancja jest stała w czasie i skończona  
@@ -277,11 +277,11 @@ hide:
 - trendostacjonarność  
 	- ![](https://i.imgur.com/ytF0vPx.png)  
 	- Szereg trendostacjonarny jest to taki proces, który staje się stacjonarny po usunięciu trendu deterministycznego, na przykład trendu liniowego postaci $y_t = \alpha_0 + \alpha_1*t +\epsilon_t$, gdzie składnik losowy $\epsilon_t$ jest stacjonarną zmienną losową.  
-	- Jeśli od obu stron równania odejmiemy trend, czyli wyrażenie $\alpha_0 + \alpha_1*t$, to otrzymany proces będzie stacjonarny, zgodnie z założeniami o składniku losowym.[^16]  
+	- Jeśli od obu stron równania odejmiemy trend, czyli wyrażenie $\alpha_0 + \alpha_1*t$, to otrzymany proces będzie stacjonarny, zgodnie z założeniami o składniku losowym.[^19]  
 - przyrostostacjonarność  
 	- ![](https://i.imgur.com/K4ophiU.png)  
 	- Szereg przyrostostacjonarny ma postać procesu błądzenia losowego ze stałą, czyli $$y_t = \mu + y_{t-1} + \epsilon_t$$  
-	- W tym przypadku praktyka wprowadzania zmiennej czasowej w celu usunięcia trendu jest niesłuszna, ponieważ trend kształtowania się zmiennej ulega zmianom w czasie. Taki trend nazywamy stochastycznym.[^16]  
+	- W tym przypadku praktyka wprowadzania zmiennej czasowej w celu usunięcia trendu jest niesłuszna, ponieważ trend kształtowania się zmiennej ulega zmianom w czasie. Taki trend nazywamy stochastycznym.[^19]  
   
 #### **Regresja pozorna – kiedy mamy podejrzenie o regresję pozorną**  
 - Wstępne wnioski na temat występowania regresji pozornej można wyciągnąć na podstawie porównania współczynnika determinacji i statystyki Durbina-Watsona modelu.  
@@ -292,7 +292,7 @@ hide:
 - Kointegracja szeregów czasowych występuje wtedy, gdy dwa lub więcej szeregi są niestacjonarne, ale ich liniowa kombinacja jest stacjonarna.  
 - Jeśli okaże się, że składnik losowy $\epsilon_t$ (czyli liniowa kombinacja $y_t$ i $x_t$) jest stacjonarny, to zmienne $y_t$ i $x_t$ są skointegrowane.  
 - jeśli {$z_t$} ~ I(d) oraz {$v_t$} ~ I(d), mogą one być skointegrowane (ale nie muszą).  
-- Równanie $$y_t = \alpha_0 + \alpha_1*x_t + \epsilon_t$$ nazywane jest regresją lub relacją kointegrującą, a parametr $\alpha_1$ parametrem kointegrującym.[^15]  
+- Równanie $$y_t = \alpha_0 + \alpha_1*x_t + \epsilon_t$$ nazywane jest regresją lub relacją kointegrującą, a parametr $\alpha_1$ parametrem kointegrującym.[^14]  
   
 #### Testowanie koinegracji (wnioskowanie, hipotezy, procedura testowa); **Wektor kointegrujący**  
   
@@ -341,8 +341,8 @@ hide:
 	- Otrzymujemy w ten sposób parametr kontrolujący siłę mechanizmu (czyli $\delta$) oraz oszacowania odpowiednich parametrów części dynamicznej (czyli $\alpha_i$ oraz $\beta_j$)[^20]  
   
 - interpretacja  
-	- Parametr $\delta$ identyfikuje tempo powrotu do równowagi długookresowej[^19]  
-		- Wielkość tę interpretujemy następująco: X% odchylenia jest korygowane po upływie jednego okresu[^22]  
+	- Parametr $\delta$ identyfikuje tempo powrotu do równowagi długookresowej[^15]  
+		- Wielkość tę interpretujemy następująco: X% odchylenia jest korygowane po upływie jednego okresu[^21]  
   
 ---  
   
@@ -387,34 +387,86 @@ Dwa równania:
 	- T – liczba obserwacji  
 	- $R^2$ – współczynnik determinacji dla równania pomocniczego  
 - Jeśli obliczona wartość statystyki przekracza wartość krytyczną, hipotezę zerową o braku efektu ARCH należy odrzucić.  
-- Jeśli empiryczny poziom istotności statystyki jest mniejszy niż np. 0,05, hipotezę zerową o braku efektu ARCH należy odrzucić.[^18]  
+- Jeśli empiryczny poziom istotności statystyki jest mniejszy niż np. 0,05, hipotezę zerową o braku efektu ARCH należy odrzucić.[^22]  
   
   
 ---  
   
 ### Hipoteza rynku efektywnego  
-- Założenia hipotezy rynku efektywnego; co oznacza, że rynek jest efektywny w sensie informacyjnym  
-	- Implikacje hipotezy rynku efektywnego  
-	- Rynek efektywny w sensie informacyjnym. Formy efektywności  
-		- słaba efektywność (warunki stosowalności, założenia)  
-		- średnia efektywność (warunki stosowalności, założenia)  
-		- silna efektywność (warunki stosowalności, założenia)  
-- Testowanie słabej efektywności rynku  
-	- testowanie autokorelacji stóp zwrotu  
-	- testowanie losowości stóp zwrotu  
-	- testowanie normalności rozkładu stóp zwrotu  
+  
+- Teza rozważana w finansach, zgodnie z którą w każdej chwili ceny papierów wartościowych w pełni odzwierciedlają wszystkie informacje dostępne na ich temat.  
+- Trzy podstawowe grupy informacji:  
+	- związane z emitentem instrumentów finansowych  
+	- sektorowe  
+	- makroekonomiczne  
+  
+#### Założenia hipotezy rynku efektywnego; co oznacza, że rynek jest efektywny w sensie informacyjnym  
+Założenia:  
+- Minimalna zmiana cen  
+- Skończona liczba dziennych transakcji  
+- Cena i wartość wyznacznikiem stopy zwrotu na rynku  
+- Wybór papieru wartościowego, który daje szansę większego zysk  
+- Mało prawdopodobne transakcje, gdy osiągnięcie zysku nie jest możliwe  
+- Inwestorzy potrafią racjonalnie przełożyć wartość na cenę  
+- W zawieranych transakcjach obowiązują ceny równowagi  
+- Zmiany cenowe są od siebie niezależne  
+	- ceny są dostosowane do aktualnie dostępnych informacji  
+	- podlegają błądzeniu losowemu  
+  
+Rynek efektywny w sensie informacyjnym:  
+- ogłoszona informacja odbiega od wartości oczekiwanej przez rynek, a wszystkie pozostałe informacje, które były znane lub oczekiwane przez rynek są już zdyskontowane w cenach  
+  
+#### Implikacje hipotezy rynku efektywnego  
+  
+##### Rynek efektywny a analiza techniczna  
+- Podstawowe założenia analizy technicznej są sprzeczne z hipotezą rynku efektywnego  
+- Jeśli rynek jest efektywny w formie słabej to ceny w pełni odzwierciedlają wszystkie informacje rynkowe  
+- Analiza techniczna oparta na historycznych danych rynkowych jest bezwartościowa  
+  
+##### Rynek efektywny a analiza fundamentalna  
+- Analiza fundamentalna zakłada, że w każdej chwili możliwe jest określenie wartości wewnętrznej papieru wartościowego, która jest zależna od wpływu szeregu czynników ekonomicznych  
+- Decyzje inwestycyjne należy podejmować na podstawie porównania ustalonej wartości wewnętrznej papieru wartościowego z jego bieżącą wartością rynkową  
+- Analiza fundamentalna wykorzystuje informacje, których dotyczy hipoteza rynku efektywnego w formie półsilnej  
+  
+##### Rynek efektywny a analiza makroekonomiczna  
+- Na rynku efektywnym analiza makroekonomiczna oparta wyłącznie o dane historyczne nie daje możliwości budowy strategii inwestycyjnej generującej ponadprzeciętne stopy zwrotu  
+- Badania empiryczne sugerują występowanie długookresowych trendów cen aktywów, lecz by móc je wykorzystać niezbędna jest zdolność prawidłowego prognozowania przyszłych wartości zmiennych będących źródłem ruchów cen  
+  
+##### Rynek efektywny a zarządzanie portfelem  
+- Liczne testy efektywności rynku w formie silnej wykazują, że większość zarządzających portfelami nie jest w stanie zagwarantować ponadprzeciętnych stóp zwrotu  
+  
+#### Rynek efektywny w sensie informacyjnym. Formy efektywności  
+  
+##### słaba efektywność(warunki stosowalności, założenia)  
+- Ceny walorów odzwierciedlają wszystkie istotne informacje zawarte w notowaniach historycznych  
+- Na podstawie samego ruchu cen w przeszłości, inwestor nie jest w stanie przewidywać przyszłych zmian notowań walorów, aby osiągnąć ponadprzeciętne zyski  
+- Nie jest możliwe uzyskanie ponadprzeciętnych zysków z tytułu wykorzystania informacji tkwiących w cenach  
+  
+##### średnia efektywność (warunki stosowalności, założenia)  
+- Ceny papierów wartościowych odzwierciedlają nie tylko wiadomości, które można odczytać z notowań historycznych, ale także wszystkie inne publiczne informacje   
+- Brak możliwości osiągania ponadprzeciętnych zysków wyłącznie na podstawie ogólnie dostępnych informacji   
+- Dostępne inwestorom informacje zostały już odzwierciedlone w cenach akcji przez działający mechanizm rynkowy  
+  
+##### silna efektywność (warunki stosowalności, założenia)  
+- Zarówno publicznie dostępne dane, jak i wiadomości poufne i prywatne znajdują szybkie odzwierciedlenie w cenach walorów.   
+- Nie tylko inwestorzy bazujący na analizach powszechnie dostępnych informacji, ale również gracze, którzy są w posiadaniu informacji poufnych nie są w stanie uzyskać ponadprzeciętnych zysków[^23]  
   
 ---  
   
 ### Anomalie rynku kapitałowego  
-- Podstawowe efekty kalendarzowe (warunki, założenia)  
-	- efekt miesiąca w roku (month-of-the year effect)  
-	- efekt tygodnia w miesiącu (week-of-the month effect)  
-	- efekt dnia w tygodniu (day-of-the week effect)  
-	- efekt godziny w ciągu dnia (hour-of-the day effect)  
-- Testowanie efektów kalendarzowych  
-	- test na równość dwóch średnich stóp zwrotu  
   
+#### Podstawowe efekty kalendarzowe (warunki, założenia)  
+- Związane są z możliwością osiągnięcia ponadprzeciętnej stopy zwrotu w danym okresie czasu. Mogą podważać lub zakłócać hipotezę efektywności – rynek staje nieefektywny w sensie informacyjnym.   
+  
+#### Przykłady efektów  
+  
+- efekt miesiąca w roku (month-of-the year effect)  
+	- Np. Stopy zwrotu w styczniu są przeciętnie znacznie wyższe niż w innych miesiącach roku  
+- efekt tygodnia w miesiącu (week-of-the month effect)  
+- efekt dnia w tygodniu (day-of-the week effect)  
+	- Np. poniedziałkowe stopy zwrotu są przeciętnie niższe niż w pozostałych dniach tygodnia   
+- efekt godziny w ciągu dnia (hour-of-the day effect)  
+	- Np. niższe stopy zwrotu w pierwszej godzinie trwania sesji w poniedziałek, wyższe zaś w pierwszej godzinie trwania sesji w pozostałych dniach[^23]  
   
 ---  
   
@@ -425,25 +477,26 @@ Dwa równania:
 4. Osińska M.: Ekonometria finansowa: Warszawa: PWE, 2006  
 5. Witkowska D., Matuszewska A., Kompa K.: Wprowadzenie do ekonometrii dynamicznej i finansowej, SGGW, Warszawa, 2008  
   
-[^1]: [Zastosowanie modeli klasy ARCH do opisu własności szeregu stóp zwrotu indeksu WIG](http://kpiontek.ue.wroc.pl/kp-fiapgarch.pdf)  
-[^2]: w ogólności wariancja może w ogóle nie istnieć  
-[^3]: Jajuga (2000), Jondeau i Rockinger (2000), Premaratne i Bera (2001)  
+[^1]: w ogólności wariancja może w ogóle nie istnieć  
+[^2]: Jajuga (2000), Jondeau i Rockinger (2000), Premaratne i Bera (2001)  
+[^3]: [Zastosowanie modeli klasy ARCH do opisu własności szeregu stóp zwrotu indeksu WIG](http://kpiontek.ue.wroc.pl/kp-fiapgarch.pdf)  
 [^4]: http://www.fire.ue.wroc.pl/pracownicy/KPiontek_doktorat.pdf  
-[^5]: http://www.fire.ue.wroc.pl/pracownicy/KPiontek_doktorat.pdf  
-[^6]: [Analiza Szeregów Czasowych/Dekompozycja szeregu czasowego](https://el.us.edu.pl/ekonofizyka/index.php/Analiza_Szereg%C3%B3w_Czasowych/Dekompozycja_szeregu_czasowego)  
-[^7]: [Analiza szeregów czasowych](https://www.cs.put.poznan.pl/jstefanowski/aed/TPtimeseries.pdf)  
-[^8]: Tarczyński, W., Witkowska, D., & Kompa, K. (2013). _Współczynnik beta. Teoria i praktyka_. Pielaszek Research.  
-[^9]: Fałdziński, M. (2014). _Teoria wartości ekstremalnych w ekonometrii finansowej_. Wydawnictwo Naukowe Uniwersytetu Mikołaja Kopernika.  
-[^10]: Doman, M., & Doman, R. (2009). _Modelowanie zmienności i ryzyka: metody ekonometrii finansowej_. Oficyna a Wolters Kluwer business.  
-[^11]: [Analiza Szeregów Czasowych/Procesy stochastyczne](https://el.us.edu.pl/ekonofizyka/index.php/Analiza_Szereg%C3%B3w_Czasowych/Procesy_stochastyczne#Stacjonarno.C5.9B.C4.87_procesu_stochastycznego)  
-[^12]: Prędki, A. (Ed.). (2017). _Narzędzia analityczne w naukach ekonomicznych: Wybrane zastosowania_. Fundacja Uniwersytetu Ekonomicznego w Krakowie.  
-[^13]: [6.1 The Periodogram  STAT 510](https://online.stat.psu.edu/stat510/lesson/6/6.1)  
-[^14]: [Analiza Szeregów Czasowych/Dekompozycja szeregu czasowego](https://el.us.edu.pl/ekonofizyka/index.php/Analiza_Szereg%C3%B3w_Czasowych/Dekompozycja_szeregu_czasowego#Metoda_Boxa-Jenkinsa)  
-[^15]: Montgomery, D. C., Jennings, C. L., & Kulahci, M. (2015). _Introduction to time series analysis and forecasting_. John Wiley & Sons.  
-[^16]: Gruszczyński, M., Kuszewski, T., & Podgórska, M. (Eds.). (2009). _Ekonometria i badania operacyjne: podręcznik dla studiów licencjackich_. Wydawnictwo Naukowe PWN.  
+[^5]: Fałdziński, M. (2014). _Teoria wartości ekstremalnych w ekonometrii finansowej_. Wydawnictwo Naukowe Uniwersytetu Mikołaja Kopernika.  
+[^6]: Tarczyński, W., Witkowska, D., & Kompa, K. (2013). _Współczynnik beta. Teoria i praktyka_. Pielaszek Research.  
+[^7]: http://www.fire.ue.wroc.pl/pracownicy/KPiontek_doktorat.pdf  
+[^8]: Doman, M., & Doman, R. (2009). _Modelowanie zmienności i ryzyka: metody ekonometrii finansowej_. Oficyna a Wolters Kluwer business.  
+[^9]: Prędki, A. (Ed.). (2017). _Narzędzia analityczne w naukach ekonomicznych: Wybrane zastosowania_. Fundacja Uniwersytetu Ekonomicznego w Krakowie.  
+[^10]: [Analiza Szeregów Czasowych/Dekompozycja szeregu czasowego](https://el.us.edu.pl/ekonofizyka/index.php/Analiza_Szereg%C3%B3w_Czasowych/Dekompozycja_szeregu_czasowego)  
+[^11]: [6.1 The Periodogram  STAT 510](https://online.stat.psu.edu/stat510/lesson/6/6.1)  
+[^12]: [Analiza szeregów czasowych](https://www.cs.put.poznan.pl/jstefanowski/aed/TPtimeseries.pdf)  
+[^13]: [Analiza Szeregów Czasowych/Dekompozycja szeregu czasowego](https://el.us.edu.pl/ekonofizyka/index.php/Analiza_Szereg%C3%B3w_Czasowych/Dekompozycja_szeregu_czasowego#Metoda_Boxa-Jenkinsa)  
+[^14]: Montgomery, D. C., Jennings, C. L., & Kulahci, M. (2015). _Introduction to time series analysis and forecasting_. John Wiley & Sons.  
+[^15]: https://web.sgh.waw.pl/~jmuck/Ekonometria/EkonometriaPrezentacja2018Z_5.pdf  
+[^16]: https://spureconomics.com/interpreting-acf-and-pacf-plots/  
 [^17]: Wykłady  
-[^18]: Notatki Michała  
-[^19]: https://web.sgh.waw.pl/~jmuck/Ekonometria/EkonometriaPrezentacja2018Z_5.pdf  
+[^18]: [Analiza Szeregów Czasowych/Procesy stochastyczne](https://el.us.edu.pl/ekonofizyka/index.php/Analiza_Szereg%C3%B3w_Czasowych/Procesy_stochastyczne#Stacjonarno.C5.9B.C4.87_procesu_stochastycznego)  
+[^19]: Gruszczyński, M., Kuszewski, T., & Podgórska, M. (Eds.). (2009). _Ekonometria i badania operacyjne: podręcznik dla studiów licencjackich_. Wydawnictwo Naukowe PWN.  
 [^20]: https://docplayer.pl/docview/92/109881171/#file=/storage/92/109881171/109881171.pdf  
-[^21]: https://spureconomics.com/interpreting-acf-and-pacf-plots/  
-[^22]: http://www.ekonometria.wne.uw.edu.pl/uploads/Main/GankoJanaczek.pdf
+[^21]: http://www.ekonometria.wne.uw.edu.pl/uploads/Main/GankoJanaczek.pdf  
+[^22]: Notatki Michała  
+[^23]: Notatki Michała  
