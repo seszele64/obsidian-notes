@@ -295,10 +295,41 @@ hide:
   
 ### Jednowymiarowe modele zmienności  
   
-- Modele z warunkową heteroskedastyczności – kiedy i dlaczego stosujemy, wady i zalety (ARCH, GARCH)  
-	- Model autoregresyjny z warunkową heteroskedastycznością (ARCH)    
-	- Uogólnienia modelu ARCH, m.in. GARCH (q, p),  
-- Test Engle’a efektu ARCH (wnioskowanie, hipotezy, procedura testowa)  
+#### Modele z warunkową heteroskedastyczności – kiedy i dlaczego stosujemy, wady i zalety (ARCH, GARCH)  
+  
+##### ARCH  
+###### Zalety:  
+- uwzględnianie nieliniowego charakteru kształtowania się danego zjawiska  
+- mogą odwzorowywać wiele złożonych zjawisk ekonomicznych, jednocześnie nie wymagają stosowania skomplikowanych metod estymacji  
+- możliwość odwzorowywania zjawiska „grupowania wariancji”  
+- szerokie zastosowanie głównie w teorii finansów  
+###### Problemy i ograniczenia:  
+- problem z doborem wartości q  
+- duże wartości q  
+- problem z założeniem o nieujemnej wartości wariancji warunkowej  
+  
+###### Model autoregresyjny z warunkową heteroskedastycznością (ARCH)   
+Dwa równania:  
+- równania opisującego warunkową średnią  
+- równania opisującego warunkową wariancję  
+  
+##### GARCH  
+###### Wady  
+- nie pozwala na uwzględnienie efektu długiej pamięci  
+- brak możliwości modelowania efektu dźwigni  
+###### Zalety  
+- wpływ nietypowych obserwacji na wariancję wygasa w tempie geometrycznym  
+- lepszy niż model ARCH do opisów o grubych ogonach  
+- stosowany, gdy liczba opóźnień w modelu ARCH jest duża  
+  
+###### Uogólnienia modelu ARCH, m.in. GARCH (q, p),  
+- W stosunku do ARCH został po prostu wprowadzony w htproces autoregresyjny. Jest to analogia uogólnienia modelu MA na ARMA. W tym podejściu zakłada się, że przy opisie kształtowania się logarytmów stóp zwrotu główne równanie procesu może być zapisane jako proces ARMA.  
+  
+##### Test Engle’a efektu ARCH (wnioskowanie, hipotezy, procedura testowa)  
+Potwierdzenie istnienia efektu ARCH, czyli czy zwroty z danego instrumentu mają własność grupowania wariancji opisane warunkową heteroskedastycznością  
+- H0: parametry są nieistotne (nie występuje efekt ARCH)  
+- H1: parametry są istotne (występuje efekt ARCH)  
+  
   
 ---  
   
