@@ -4,10 +4,7 @@ path: EDIF/Egzamin EDIF
 share: True  
 ---  
   
-- TOC  
-	```toc  
-	```  
-  
+[TOC]  
   
 - EGZAMIN W FORMIE TESTU (PYTANIA ZAMKNIĘTE I OTWARTE)  
 	- TERMIN EGZAMINU: 30.11.2022 R  
