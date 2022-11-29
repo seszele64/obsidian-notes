@@ -55,7 +55,7 @@ hide:
  - prosta stopa zwrotu wykorzystuje koncepcje kapitalizacji okresowej  
  - rozkład - rozkład ceny, w przedziale $[-1; +\infty)$ lub $[-100\%;+\infty)$[^8]  
   
- ##### stopa zwrotu logarytmiczna  
+##### stopa zwrotu logarytmiczna  
  - $r_t = ln(P_t / P_{t-1}) * 100\%$[^9]  
  - wykorzystuje koncepcję kapitalizacji ciągłej  
  - rozkład - logarytmiczne przekształcenie ceny  
@@ -63,7 +63,7 @@ hide:
 	 - logarytmiczne stopy zwrotu są ==addytywne==, w danym okresie, dzięki temu można liczyć średnią stopę z okresu przy wykorzystaniu średniej arytmetycznej[^8]  
 	 - Z właściwości logarytmów wynika ważna (zwłaszcza w przypadku badań giełdowych) cecha logarytmicznych stóp zwrotu, a mianowicie ich addytywność. Suma poszczególnych logarytmicznych stóp zwrotu z danego okresu jest tożsama z logarytmiczną stopą zwrotu uwzględniającą tylko wartość końcową i początkową w danym okresie.  
   
- ##### ryzyko (odchylenie standardowe)  
+##### ryzyko (odchylenie standardowe)  
  - W zakresie definiowania ryzyka wymienia się ogólnie cztery podstawowe nurty (por. Jackowicz (1996), Wojtasiak (2002)):  
 	 - decyzyjny, w którym ryzyko definiowane jest poprzez konsekwencję konieczności podejmowania decyzji w celu realizacji określonych celów w sytuacji niepełnej wiedzy o przyszłości,  
 	 - przyczynowy, w którym główny nacisk położony jest na przyczyny ryzyka zwane „źródłami ryzyka”,   
@@ -84,7 +84,7 @@ hide:
   
 #### Szereg czasowy    
   
- ##### proces stochastyczny  
+##### proces stochastyczny  
  - rodzinę $X_t$ $t \in T$ zmiennych losowych określonych ==na tej samej przestrzeni probabilistycznej== nazywa się procesem stochastycznym  
 	 - zazwyczaj T jest podzbiorem przedziału $[0, +\infty)$ i interpretuje się go jako czas  
 	 - w ekonometrii finansowej realizację procesu stochastycznego nazywa się szeregiem czasowym i oznacza $x_t$[^10]   
