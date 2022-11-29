@@ -2,6 +2,7 @@ site_name: obsidian-mkdocs template
 
 theme:
     name: 'material'
+    include_sidebar: false
     
     features:
     - navigation.top
