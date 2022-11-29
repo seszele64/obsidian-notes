@@ -24,7 +24,6 @@ share: True
 ## Pliki  
   
 ## Zagadnienia  
-- file: [Attachments/EDiF zakres materialu na Egzamin_30_11_2022.pdf](./images/EDiF%20zakres%20materialu%20na%20Egzamin_30_11_2022.pdf)  
   
 ### Co oznaczają pojęcia (oraz **przyczyny** występowania)?   
   
@@ -49,7 +48,7 @@ share: True
 ---  
   
 ### Finansowe szeregi czasowe  
-#todo  
+  
  - Pojęcia podstawowe  
   
 	 - stopa zwrotu (zwykła, logarytmiczna), własności stóp zwrotu    
@@ -284,8 +283,9 @@ share: True
   
 - **Jednorównaniowy model korekty błędem**; Dwustopniowa procedura Engle'a-Grangera (**interpretacja**, cel, budowa)  
 	- jednorównaniowy model korekty błędem  
-		-   
+		- #todo  
 	- dwustopniowa procedura Engle'a-Grangera  
+		- #todo  
 	- interpretacja  
 	- cel  
 	- budowa  
@@ -293,7 +293,7 @@ share: True
 ---  
   
 ### Jednowymiarowe modele zmienności  
-#todo  
+  
 - Modele z warunkową heteroskedastyczności – kiedy i dlaczego stosujemy, wady i zalety (ARCH, GARCH)  
 	- Model autoregresyjny z warunkową heteroskedastycznością (ARCH)    
 	- Uogólnienia modelu ARCH, m.in. GARCH (q, p),  
