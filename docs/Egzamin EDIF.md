@@ -134,8 +134,8 @@ hide:
 	3. Sprawdzenie poprawności wyboru danego modelu. W szczególności należy sprawdzić czy proces jest stacjonarny - reszty muszą być od siebie niezależne, oraz ich średnia i wariancja musi być stała w czasie. Można  
 		- narysować wykres średniej, wariancji oraz reszt versus czas (indeks) i przeprowadzić na nich test Ljunga-Boxa,  
 		- narysować wykresy funkcji autokorelacji i częściowej autokorelacji reszt.[^13]  
-#### Funkcja autokorelacji i autokorelacji cząstkowej  
-	  
+  
+#### Funkcja autokorelacji i autokorelacji cząstkowej	  
 - ACF  
 	- The covariance between $y_t$ and its value at another time period, say, $y_{t+k}$ is called the autocovariance at lag k  
 		- $𝛾k = Cov(yt , yt+k) = E[(yt − 𝜇)(yt+k − 𝜇)]$  
@@ -173,11 +173,14 @@ hide:
   
   
   
-  
-- Kryteria informacyjne  
-	- Kryteria informacyjne pozwalają porównywać różne modele dla tej samej zmiennej zależnej. Najlepszym modelem jest model, dla którego ==wartość kryterium jest najniższa==.  
-	- Kryterium Akaike:  
-		- AIC =   
+#### Kryteria informacyjne  
+- Kryteria informacyjne pozwalają porównywać różne modele dla tej samej zmiennej zależnej. Najlepszym modelem jest model, dla którego ==wartość kryterium jest najniższa==.  
+- Interpretacja jest tylko relatywna - ocenić możemy, że któryś model jest lepszy niż inne, ale nie możemy ocenić jak  dobry  
+- Kryterium Akaike:  
+	- $AIC = ln(\hat{\sigma}^2_u) + \frac{2K}{n}$  
+- Kryterium Schwartza  
+	- $SIC = ln(\hat{\sigma}^2_u) + \frac{K*ln(n)}{n}$  
+		- większa 'kara' za liczbę parametrów w modelu[^24]   
   
 ---  
   
@@ -207,13 +210,13 @@ hide:
 ##### warunki ścisłej stacjonarności  
 - If a time series has a finite mean and autocovariance function it is said to be second-order stationary (or weakly stationary of order 2). If, in addition, the joint probability distribution of the observations at all times is ==multivariate normal==, then that would be sufficient to result in a time series that is strictly stationary[^14]  
   
-##### **warunki słabej stacjonarności**[^18]  
+##### **warunki słabej stacjonarności**  
 - wartość oczekiwana jest stała w czasie  
 	- $E(y_t) = \mu$  
 - wariancja jest stała w czasie i skończona  
 	- $Var(y_t) = E(y_t - \mu)^2 = \sigma^2 < \infty$  
 - kowariancja między dwoma okresami zależy wyłącznie od odległości pomiędzy nimi, a nie od wyboru konkretnego momentu w czasie  
-	- $Cov(y_t, y_{t+k}) = E[(y_t - \mu)(y_{t+k}-\mu)]=\lambda_k$[^17]  
+	- $Cov(y_t, y_{t+k}) = E[(y_t - \mu)(y_{t+k}-\mu)]=\lambda_k$[^17][^18]  
   
 #### Testowanie rzędu zintegrowania  
 ##### **test pierwiastka jednostkowego Dickey’a Fullera** (oraz rozszerzony test Dickeya Fullera) – wnioskowanie, hipotezy, statystka empiryczna  
@@ -274,14 +277,16 @@ hide:
   
 ### Kointegracja procesów stochastycznych i równowaga długookresowa  
 #### **Przyrostostacjonarność, trendostacjonarność - definicja**  
-- trendostacjonarność  
-	- ![](https://i.imgur.com/ytF0vPx.png)  
-	- Szereg trendostacjonarny jest to taki proces, który staje się stacjonarny po usunięciu trendu deterministycznego, na przykład trendu liniowego postaci $y_t = \alpha_0 + \alpha_1*t +\epsilon_t$, gdzie składnik losowy $\epsilon_t$ jest stacjonarną zmienną losową.  
-	- Jeśli od obu stron równania odejmiemy trend, czyli wyrażenie $\alpha_0 + \alpha_1*t$, to otrzymany proces będzie stacjonarny, zgodnie z założeniami o składniku losowym.[^19]  
-- przyrostostacjonarność  
-	- ![](https://i.imgur.com/K4ophiU.png)  
-	- Szereg przyrostostacjonarny ma postać procesu błądzenia losowego ze stałą, czyli $$y_t = \mu + y_{t-1} + \epsilon_t$$  
-	- W tym przypadku praktyka wprowadzania zmiennej czasowej w celu usunięcia trendu jest niesłuszna, ponieważ trend kształtowania się zmiennej ulega zmianom w czasie. Taki trend nazywamy stochastycznym.[^19]  
+  
+##### trendostacjonarność  
+- ![](https://i.imgur.com/ytF0vPx.png)  
+- Szereg trendostacjonarny jest to taki proces, który staje się stacjonarny po usunięciu trendu deterministycznego, na przykład trendu liniowego postaci $y_t = \alpha_0 + \alpha_1*t +\epsilon_t$, gdzie składnik losowy $\epsilon_t$ jest stacjonarną zmienną losową.  
+- Jeśli od obu stron równania odejmiemy trend, czyli wyrażenie $\alpha_0 + \alpha_1*t$, to otrzymany proces będzie stacjonarny, zgodnie z założeniami o składniku losowym.[^19]  
+  
+##### przyrostostacjonarność  
+- ![](https://i.imgur.com/K4ophiU.png)  
+- Szereg przyrostostacjonarny ma postać procesu błądzenia losowego ze stałą, czyli $$y_t = \mu + y_{t-1} + \epsilon_t$$  
+- W tym przypadku praktyka wprowadzania zmiennej czasowej w celu usunięcia trendu jest niesłuszna, ponieważ trend kształtowania się zmiennej ulega zmianom w czasie. Taki trend nazywamy stochastycznym.[^19]  
   
 #### **Regresja pozorna – kiedy mamy podejrzenie o regresję pozorną**  
 - Wstępne wnioski na temat występowania regresji pozornej można wyciągnąć na podstawie porównania współczynnika determinacji i statystyki Durbina-Watsona modelu.  
@@ -299,27 +304,32 @@ hide:
 - Testowanie kointegracji ma sens wtedy, gdy zmienne występujące w równaniu są zintegrowane oraz może istnieć ich stacjonarna kombinacja liniowa.  
   
 - Kointegracja występuje wtedy, gdy dwa lub więcej szeregów są niestacjonarne, ale ich kombinacja liniowa jest stacjonarna  
-	- Dwa szeregi czasowe Xt, Yt są skointegrowane rzędu d, b gdzie d >= b >= 0, co zapisujemy CI(d, b) jeżeli:  
+	- Dwa szeregi czasowe $X_t$, $Y_t$ są skointegrowane rzędu d, b gdzie $d \geq b \geq 0$, co zapisujemy CI(d, b) jeżeli:  
 		- oba szeregi są zintegrowane tego samego rzędu d  
 		- istnieje kombinacja liniowa tych procesów która jest zintegrowana stopnia d-b  
   
-- Procedura  
-	- Jeżeli zmienna $x_t$ oraz $y_t$ są zintegrowane w stopniu pierwszym to można przejść do kolejnego etapu.  
-	- oszacowanie modelu dla poziomów wybranych zmiennych, a następnie badanie stacjonarności składnika losowego ($e_t$):  
-		- $$e_t = y_t − β_0 − β_1*x_t$$  
-- Hipotezy  
-	- $H_0: e_t ∼ I(1)$  
-		- $x_t$ i $y_t$ nie są skointegorwane  
-	- $H_1: e_t ∼ I(0)$  
-		- $x_t$ i $y_t$ są skointegorwane  
+##### Procedura  
+  
+- Jeżeli zmienna $x_t$ oraz $y_t$ są zintegrowane w stopniu pierwszym to można przejść do kolejnego etapu.  
+- oszacowanie modelu dla poziomów wybranych zmiennych, a następnie badanie stacjonarności składnika losowego ($e_t$):  
+	- $$e_t = y_t − β_0 − β_1*x_t$$  
+  
+##### Hipotezy  
+- $H_0: e_t ∼ I(1)$  
+	- $x_t$ i $y_t$ nie są skointegrowane  
+- $H_1: e_t ∼ I(0)$  
+	- $x_t$ i $y_t$ są skointegrowane  
+  
 - Statystyka testu  
 	- Statystyka testu jest jest analogiczna jak w przyapdku testu ADF, ale wykorzystuje się inne statystyki testowe.  
   
 #### **Jednorównaniowy model korekty błędem**; Dwustopniowa procedura Engle'a-Grangera (**interpretacja**, cel, budowa)  
-- jednorównaniowy model korekty błędem  
-	- Model ECM należy do klasy modeli dynamicznych. Opisuje sposób, w jaki dokonują się dostosowania zmiennej objaśnianej do relacji długookresowej. Możemy go stosować, jeżeli dwa szeregi czasowe $x_t$ i $y_t$ są niestacjonarne i skointegrowane  
-	- Niech $x_t ~ I(1)$ oraz $y_t ~ I(1)$ a $y_t - \gamma_0 - \gamma_1 x_t ~ I(0)$ jest relacją kointegrującą, definiującą długookresową zależność między zmiennymi  
-	- $\Delta y_t = \alpha + \delta[y_{t-1} - \gamma_0 - \gamma_1 x_{t-1} + \sum^q_{i=1} \alpha_i \Delta y_{t--1} + \sum^p_{j=0} \beta_j \Delta x_{t-j} + \epsilon_t$  
+  
+##### Model korekty błędem  
+  
+- Model ECM należy do klasy modeli dynamicznych. Opisuje sposób, w jaki dokonują się dostosowania zmiennej objaśnianej do relacji długookresowej. Możemy go stosować, jeżeli dwa szeregi czasowe $x_t$ i $y_t$ są niestacjonarne i skointegrowane  
+- Niech $x_t ~ I(1)$ oraz $y_t ~ I(1)$ a $y_t - \gamma_0 - \gamma_1 x_t ~ I(0)$ jest relacją kointegrującą, definiującą długookresową zależność między zmiennymi  
+- $\Delta y_t = \alpha + \delta[y_{t-1} - \gamma_0 - \gamma_1 x_{t-1} + \sum^q_{i=1} \alpha_i \Delta y_{t--1} + \sum^p_{j=0} \beta_j \Delta x_{t-j} + \epsilon_t$  
   
 - część równania związana z parametrem $\delta$ nazywamy mechanizmem korekty błędem (ECM) opisującym powrót systemu do długookresowej równowagi  
 - Część równania związana z opóźnieniami zmiennej objaśnianej i zmiennych objaśniających (część ADL) ma na celu odpowiednie odwzorowanie zmienności krótkookresowej badanego zjawiska  
@@ -332,17 +342,21 @@ hide:
 	- $$HL = \frac{ln0.5}{ln(1+\delta)}$$  
 - Najprostszą metodą estymacji układu ECM jest dwukrokowa metoda Engle’a - Granger’a[^20]  
   
-- dwustopniowa procedura Engle'a-Grangera  
-	1. sprawdzamy, czy $y_t \sim I(1)$ oraz $x_t \sim I(1)$  
-	2. szacujemy MNK parametry relacji kointegrującej $y_t = \gamma_1 x_t + \epsilon_t$  
-	3. obliczamy reszty $e_t = y_t - \hat{\gamma_t} - \hat{\gamma} x_t$ i testujemy czy są one stacjonarne, $e_t \sim I(0)$  
-	4. Jeśli reszty są stacjonarne (tzn. oszacowana relacja jest relacją kointegrującą), to reszty można interpretować jako odchylenia od relacji równowagi, co oznacza, że możemy oszacować pełen model ECM:  
-		- $$\Delta y_t = \alpha + \delta e_{t-1} + \sum^q_{i=1} \alpha_i \Delta y_{t--1} + \sum^p_{j=0} \beta_j \Delta x_{t-j} + \epsilon_t$$  
-	- Otrzymujemy w ten sposób parametr kontrolujący siłę mechanizmu (czyli $\delta$) oraz oszacowania odpowiednich parametrów części dynamicznej (czyli $\alpha_i$ oraz $\beta_j$)[^20]  
   
-- interpretacja  
-	- Parametr $\delta$ identyfikuje tempo powrotu do równowagi długookresowej[^15]  
-		- Wielkość tę interpretujemy następująco: X% odchylenia jest korygowane po upływie jednego okresu[^21]  
+  
+##### dwustopniowa procedura Engle'a-Grangera  
+  
+###### Procedura  
+1. sprawdzamy, czy $y_t \sim I(1)$ oraz $x_t \sim I(1)$  
+2. szacujemy MNK parametry relacji kointegrującej $y_t = \gamma_1 x_t + \epsilon_t$  
+3. obliczamy reszty $e_t = y_t - \hat{\gamma_t} - \hat{\gamma} x_t$ i testujemy czy są one stacjonarne, $e_t \sim I(0)$  
+4. Jeśli reszty są stacjonarne (tzn. oszacowana relacja jest relacją kointegrującą), to reszty można interpretować jako odchylenia od relacji równowagi, co oznacza, że możemy oszacować pełen model ECM:  
+	- $$\Delta y_t = \alpha + \delta e_{t-1} + \sum^q_{i=1} \alpha_i \Delta y_{t--1} + \sum^p_{j=0} \beta_j \Delta x_{t-j} + \epsilon_t$$  
+- Otrzymujemy w ten sposób parametr kontrolujący siłę mechanizmu (czyli $\delta$) oraz oszacowania odpowiednich parametrów części dynamicznej (czyli $\alpha_i$ oraz $\beta_j$)[^20]  
+  
+###### interpretacja  
+- Parametr $\delta$ identyfikuje tempo powrotu do równowagi długookresowej[^15]  
+	- Wielkość tę interpretujemy następująco: X% odchylenia jest korygowane po upływie jednego okresu[^21]  
   
 ---  
   
@@ -500,3 +514,4 @@ Rynek efektywny w sensie informacyjnym:
 [^21]: http://www.ekonometria.wne.uw.edu.pl/uploads/Main/GankoJanaczek.pdf  
 [^22]: Notatki Michała  
 [^23]: Notatki Michała  
+[^24]: Vogelvang, B. (2005). _Econometrics: theory and applications with Eviews_. Pearson Education.
