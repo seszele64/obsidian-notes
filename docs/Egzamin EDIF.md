@@ -160,7 +160,18 @@ hide:
 		- ![](https://i.imgur.com/KyA4fNC.png)  
   
 	- Jeśli funkcja powoli maleje w ACF i PACF → model ARMA  
-		- ![](https://i.imgur.com/6pAJNbB.png)  
+		- ![](https://i.imgur.com/6pAJNbB.png)[^21]  
+  
+	- sezonowość  
+		- Seasonal AR process  
+			- ![](https://i.imgur.com/eqEGNpR.png)  
+		- Seasonal MA process  
+			- ![](https://i.imgur.com/qGmHtmA.png)  
+		- Seasonal ARMA process  
+			- ![](https://i.imgur.com/tkgqu3F.png)[^21]  
+		- ![podsumowane](https://miro.medium.com/max/4800/1*BFZhxMlJLw_UgFGUVzadRA.png)  
+  
+  
   
   
 - Kryteria informacyjne  
@@ -433,4 +444,5 @@ Dwa równania:
 [^17]: Wykłady  
 [^18]: Notatki Michała  
 [^19]: https://web.sgh.waw.pl/~jmuck/Ekonometria/EkonometriaPrezentacja2018Z_5.pdf  
-[^20]: https://docplayer.pl/docview/92/109881171/#file=/storage/92/109881171/109881171.pdf
+[^20]: https://docplayer.pl/docview/92/109881171/#file=/storage/92/109881171/109881171.pdf  
+[^21]: https://spureconomics.com/interpreting-acf-and-pacf-plots/
