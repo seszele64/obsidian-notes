@@ -2,6 +2,8 @@
 title: Egzamin EDIF  
 path: EDIF/Egzamin EDIF  
 share: True  
+hide:  
+- navigation  
 ---  
   
 [TOC]  
