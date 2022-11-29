@@ -137,14 +137,20 @@ hide:
 #### Funkcja autokorelacji i autokorelacji cząstkowej  
 	  
 - ACF  
-	- The covariance between yt and its value at another time period, say, yt+k is called the autocovariance at lag k  
+	- The covariance between $y_t$ and its value at another time period, say, $y_{t+k}$ is called the autocovariance at lag k  
 		- $𝛾k = Cov(yt , yt+k) = E[(yt − 𝜇)(yt+k − 𝜇)]$  
 		- The collection of the values of 𝛾k, k = 0, 1, 2,… is called the **autocovariance function**  
 	- The autocorrelation coefficient at lag k for a stationary time series is  
 		- $𝜌k = \frac{E[(yt − 𝜇)(yt+k − 𝜇)]}{√E[(yt − 𝜇)2]E[(yt+k − 𝜇)2]} = \frac{Cov(yt, yt+k)}{Var(yt)} = \frac{𝛾k}{𝛾0}$  
 		- The collection of the values of $\rho_k$, k = 0, 1, 2,… is called the autocorrelation function (ACF)[^15]  
+  
+- Funkcja autokorelacji (ACF) mierzy zależności statystycznej zmiennej z jej opóźnieniem k-tego rzędu.  
+	- ACF:  
+		- $𝜌k = \frac{E[(yt − 𝜇)(yt+k − 𝜇)]}{√E[(yt − 𝜇)2]E[(yt+k − 𝜇)2]} = \frac{Cov(yt, yt+k)}{Var(yt)} = \frac{𝛾k}{𝛾0}$  
+  
+  
 - PACF  
-	- todo  
+	- Funkcja cząstkowej autokorelacji (PACF) uwzględnia tylko opóźnienie do- kładnie k-tego stopnia[^19]  
   
 - Kryteria informacyjne  
 	- Kryteria informacyjne pozwalają porównywać różne modele dla tej samej zmiennej zależnej. Najlepszym modelem jest model, dla którego ==wartość kryterium jest najniższa==.  
@@ -264,7 +270,7 @@ hide:
 #### **Procesy skointegrowane (definicja)**  
 - Kointegracja szeregów czasowych występuje wtedy, gdy dwa lub więcej szeregi są niestacjonarne, ale ich liniowa kombinacja jest stacjonarna.  
 - Jeśli okaże się, że składnik losowy $\epsilon_t$ (czyli liniowa kombinacja $y_t$ i $x_t$) jest stacjonarny, to zmienne $y_t$ i $x_t$ są skointegrowane.  
-- jeśli {$z_t$} ~I(d) oraz {$v_t$} ~I(d), mogą one być skointegrowane (ale nie muszą).  
+- jeśli {$z_t$} ~ I(d) oraz {$v_t$} ~ I(d), mogą one być skointegrowane (ale nie muszą).  
 - Równanie $$y_t = \alpha_0 + \alpha_1*x_t + \epsilon_t$$ nazywane jest regresją lub relacją kointegrującą, a parametr $\alpha_1$ parametrem kointegrującym.[^15]  
   
 #### Testowanie koinegracji (wnioskowanie, hipotezy, procedura testowa); **Wektor kointegrujący**  
@@ -284,12 +290,28 @@ hide:
   
 #### **Jednorównaniowy model korekty błędem**; Dwustopniowa procedura Engle'a-Grangera (**interpretacja**, cel, budowa)  
 - jednorównaniowy model korekty błędem  
-	- todo  
-- dwustopniowa procedura Engle'a-Grangera  
-	- todo  
+	- Model ECM należy do klasy modeli dynamicznych. Opisuje sposób, w jaki dokonują się dostosowania zmiennej objaśnianej do relacji długookresowej. Możemy go stosować, jeżeli dwa szeregi czasowe $x_t$ i $y_t$ są niestacjonarne i skointegrowane  
+	- Niech $x_t ~ I(1)$ oraz $y_t ~ I(1)$ a $y_t - \gamma_0 - \gamma_1 x_t ~ I(0)$ jest relacją kointegrującą, definiującą długookresową zależność między zmiennymi  
+	- $\Delta y_t = \alpha + \delta[y_{t-1} - \gamma_0 - \gamma_1 x_{t-1} + \sum^q_{i=1} \alpha_i \Delta y_{t--1} + \sum^p_{j=0} \beta_j \Delta x_{t-j} + \epsilon_t$  
+  
+- część równania związana z parametrem $\delta$ nazywamy mechanizmem korekty błędem (ECM) opisującym powrót systemu do długookresowej równowagi  
+- Część równania związana z opóźnieniami zmiennej objaśnianej i zmiennych objaśniających (część ADL) ma na celu odpowiednie odwzorowanie zmienności krótkookresowej badanego zjawiska  
 - interpretacja  
-- cel  
-- budowa  
+	- jeśli $y_{t-1} > \gamma_0 - \gamma_1 x_{t-1}$ oraz $\delta \in (-1;0)$ to $\Delta y_t$ jest ujemne, czyli $y_t$ maleje, dokładnie o fragment $\delta$ nierównowagi z poprzedniego okresu  
+  
+- Mechanizm ECM opisuje krótkookresowy powrót do stabilnej długookresowej równowagi, danej relacją kointegrującą  
+- jeśli $\delta = 0$ to mechanizm jest nieaktywny i równanie opisuje jedynie dynamikę krótkookresową (ADL)  
+- dla mechanizmu $ECM$ można wyznaczyć okres połowicznego wygaśnięcia  
+	- $$HL = \frac{ln0.5}{ln(1+\delta)}$$  
+- Najprostszą metodą estymacji układu ECM jest dwukrokowa metoda Engle’a - Granger’a[^20]  
+  
+- dwustopniowa procedura Engle'a-Grangera  
+	1. sprawdzamy, czy $y_t \sim I(1)$ oraz $x_t \sim I(1)$  
+	2. szacujemy MNK parametry relacji kointegrującej $y_t = \gamma_1 x_t + \epsilon_t$  
+	3. obliczamy reszty $e_t = y_t - \hat{\gamma_t} - \hat{\gamma} x_t$ i testujemy czy są one stacjonarne, $e_t \sim I(0)$  
+	4. Jeśli reszty są stacjonarne (tzn. oszacowana relacja jest relacją kointegrującą), to reszty można interpretować jako odchylenia od relacji równowagi, co oznacza, że możemy oszacować pełen model ECM:  
+		- $$\Delta y_t = \alpha + \delta e_{t-1} + \sum^q_{i=1} \alpha_i \Delta y_{t--1} + \sum^p_{j=0} \beta_j \Delta x_{t-j} + \epsilon_t$$  
+	- Otrzymujemy w ten sposób parametr kontrolujący siłę mechanizmu (czyli $\delta$) oraz oszacowania odpowiednich parametrów części dynamicznej (czyli $\alpha_i$ oraz $\beta_j$)  
   
 ---  
   
@@ -323,12 +345,18 @@ Dwa równania:
 - stosowany, gdy liczba opóźnień w modelu ARCH jest duża  
   
 ###### Uogólnienia modelu ARCH, m.in. GARCH (q, p),  
-- W stosunku do ARCH został po prostu wprowadzony w htproces autoregresyjny. Jest to analogia uogólnienia modelu MA na ARMA. W tym podejściu zakłada się, że przy opisie kształtowania się logarytmów stóp zwrotu główne równanie procesu może być zapisane jako proces ARMA.  
+- W stosunku do ARCH został po prostu wprowadzony w proces autoregresyjny. Jest to analogia uogólnienia modelu MA na ARMA. W tym podejściu zakłada się, że przy opisie kształtowania się logarytmów stóp zwrotu główne równanie procesu może być zapisane jako proces ARMA.  
   
 ##### Test Engle’a efektu ARCH (wnioskowanie, hipotezy, procedura testowa)  
-Potwierdzenie istnienia efektu ARCH, czyli czy zwroty z danego instrumentu mają własność grupowania wariancji opisane warunkową heteroskedastycznością  
-- H0: parametry są nieistotne (nie występuje efekt ARCH)  
-- H1: parametry są istotne (występuje efekt ARCH)  
+- Potwierdzenie istnienia efektu ARCH, czyli czy zwroty z danego instrumentu mają własność grupowania wariancji opisane warunkową heteroskedastycznością  
+	- H0: parametry są nieistotne (nie występuje efekt ARCH)  
+	- H1: parametry są istotne (występuje efekt ARCH)  
+- Statystyka Testu:  
+	- $LM = TR^2$  
+	- T – liczba obserwacji  
+	- $R^2$ – współczynnik determinacji dla równania pomocniczego  
+- Jeśli obliczona wartość statystyki przekracza wartość krytyczną, hipotezę zerową o braku efektu ARCH należy odrzucić.  
+- Jeśli empiryczny poziom istotności statystyki jest mniejszy niż np. 0,05, hipotezę zerową o braku efektu ARCH należy odrzucić.[^18]  
   
   
 ---  
@@ -382,4 +410,7 @@ Potwierdzenie istnienia efektu ARCH, czyli czy zwroty z danego instrumentu mają
 [^14]: [Analiza Szeregów Czasowych/Dekompozycja szeregu czasowego](https://el.us.edu.pl/ekonofizyka/index.php/Analiza_Szereg%C3%B3w_Czasowych/Dekompozycja_szeregu_czasowego#Metoda_Boxa-Jenkinsa)  
 [^15]: Montgomery, D. C., Jennings, C. L., & Kulahci, M. (2015). _Introduction to time series analysis and forecasting_. John Wiley & Sons.  
 [^16]: Gruszczyński, M., Kuszewski, T., & Podgórska, M. (Eds.). (2009). _Ekonometria i badania operacyjne: podręcznik dla studiów licencjackich_. Wydawnictwo Naukowe PWN.  
-[^17]: Wykłady
+[^17]: Wykłady  
+[^18]: Notatki Michała  
+[^19]: https://web.sgh.waw.pl/~jmuck/Ekonometria/EkonometriaPrezentacja2018Z_5.pdf  
+[^20]: https://docplayer.pl/docview/92/109881171/#file=/storage/92/109881171/109881171.pdf
