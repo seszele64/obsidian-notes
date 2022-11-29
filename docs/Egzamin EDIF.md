@@ -156,28 +156,31 @@ hide:
   
 ### Charakterystyki procesów ekonomicznych    
 #### **Błądzenie losowe i biały szum – czy są to procesy stacjonarne?**  
-- błądzenie losowe  
-	- Najprostszy ==niestacjonarny== szereg czasowy generowany jest przez model błądzenia losowego  
-	- Zakłócenie $e_t$ jest zmienną losową o stałych parametrach:   
-		- wartości oczekiwanej $\bar{e} = 0$  
-		- wariancji $\sigma^2$  
-		- zerowych autokowariancji  
-	- Szereg otrzymany przez obliczenie różnic jest stacjonarny.  
-- biały szum  
-	- proces ==stacjonarny==  
-	- $E(y_t) = 0$ - wartość oczekiwana 0  
-	- $var(y_t) = \sigma^2 < \infty$ - skończona wariancja  
-	- $cov(y_t, y_{t-k}) = 0$, k = 1,2....[^17]  
+  
+  
+##### błądzenie losowe  
+- Najprostszy ==niestacjonarny== szereg czasowy generowany jest przez model błądzenia losowego  
+- Zakłócenie $e_t$ jest zmienną losową o stałych parametrach:   
+	- wartości oczekiwanej $\bar{e} = 0$  
+	- wariancji $\sigma^2$  
+	- zerowych autokowariancji  
+- Szereg otrzymany przez obliczenie różnic jest stacjonarny.  
+  
+##### biały szum  
+- proces ==stacjonarny==  
+- $E(y_t) = 0$ - wartość oczekiwana 0  
+- $var(y_t) = \sigma^2 < \infty$ - skończona wariancja  
+- $cov(y_t, y_{t-k}) = 0$, k = 1,2....[^17]  
   
 - Przykłady procesów stacjonarnych i niestacjonarnych  
 	- procesy stacjonarne  
 	- procesy niestacjonarne  
   
 #### **Stacjonarność procesu**  
-- warunki ścisłej stacjonarności  
-	- If a time series has a finite mean and autocovariance function it is said to be second-order stationary (or weakly stationary of order 2). If, in addition, the joint probability distribution of the observations at all times is ==multivariate normal==, then that would be sufficient to result in a time series that is strictly stationary[^15]  
+##### warunki ścisłej stacjonarności  
+- If a time series has a finite mean and autocovariance function it is said to be second-order stationary (or weakly stationary of order 2). If, in addition, the joint probability distribution of the observations at all times is ==multivariate normal==, then that would be sufficient to result in a time series that is strictly stationary[^15]  
   
-#### **warunki słabej stacjonarności**[^11]  
+##### **warunki słabej stacjonarności**[^11]  
 - wartość oczekiwana jest stała w czasie  
 	- $E(y_t) = \mu$  
 - wariancja jest stała w czasie i skończona  
@@ -186,57 +189,57 @@ hide:
 	- $Cov(y_t, y_{t+k}) = E[(y_t - \mu)(y_{t+k}-\mu)]=\lambda_k$[^17]  
   
 #### Testowanie rzędu zintegrowania  
-- **test pierwiastka jednostkowego Dickey’a Fullera** (oraz rozszerzony test Dickeya Fullera) – wnioskowanie, hipotezy, statystka empiryczna  
-	- test DF  
-		- hipoteza  
-			- równanie szeregu autoregresyjnego: $Y_t = \beta_1 * Y_{t-1} + \xi_t$  
-			- $H_0: \beta_1 = 1$ - proces jest ==niestacjonarny==  
-				- proces jest błądzeniem losowym  
-			- $H_1: \beta_1 < 1$ - proces jest ==stacjonarny==  
-		- etapy  
-			1. Wybór postaci modelu (z wyrazem wolnym, bez wyrazu wolnego)  
-			2. Estymacja równania   
-				- $\Delta Y_t = \delta Y_{t-1} + \xi_t$ (bez wyrazu wolnego) lub   
-				- $\Delta Y_t = \delta Y_{t-1} + \xi_t + \mu$ (z wyrazem wolnym)  
-				- $\mu$ - wyraz wolny  
-				- $\delta = (\beta_1 - 1)$ - pierwiastek jednostkowy  
-				- skąd ten model?  
-					- odejmujemy od równania modelu autoregresyjnego $Y_{t-1}$ (poprzedni okres)  
-						- $Y_t = \beta_1 * Y_{t-1} + \xi_t$ / -$Y_{t-1}$  
-						- $Y_t - Y_{t-1} = \beta_1 * Y_{t-1} - Y_{t-1} + \xi_t$  
-						- $\Delta Y_t = (\beta_1 - 1)*Y_{t-1} + \xi_t$  
-			3. obczajamy autokorelację składnika losowego  
-				- brak autokorelacji składnika losowego -> test DF  
-				- autokorelacja składnika losowego -> test ADF  
-			4. Sformułowanie hipotez statystycznych:  
-				- $H0: \delta=0$  
-					- parametr stojący przy zmiennej $Y_{t-1}$ nieistotnie różni się od zera, zmienna $Y_t$ jest niestacjonarna (nie jest zintegrowana lub jest zintegrowana w stopniu większym niż zero).  
-				- $H1: \delta < 0$  
-					- parametr stojący przy zmiennej $Y_{t-1}$ jest ujemny, zmienna $Y_t$ jest ==stacjonarna== (zintegrowana w stopniu równym zeru).  
-			5. obliczenie wartości testu DF/ADF  
-			6. odczytanie wartości z tablic  
-				- oznaczenia  
-					- >Wartości testu DF są ujemne!  
-					- $DF_e$ - wynik z testu DF  
-					- $DF_d$ - dolna granica testu DF  
-					- $DF_g$ - górna granica testu DF  
-				- Wybór  
-					- jeżeli $DF_e > DF_g$ - nie ma podstaw do odrzucenia $H_0$, $Y_t$ jest ==niestacjonarna== -> robimy dalej  
-					- jeżeli $DF_e < DF_d$ - odrzucamy $H_0$, zmienna $Y_t$ jest ==stacjonarna==  
-					- $DF_d < DF_e < DF_g$ - obszar niekonkluzywności testu  
-			7. odejmujemy $Y_{t-1}$ od równania modelu  
-				- formułujemy hipotezy jak w pkt. 4  
-				- obliczamy wartości testu jak w pkt. 5  
-				- odczytujemy wartości jak w pkt. 6  
-					- hipotezy  
-						- $H_0: \delta = 0$  
-							- parametr stojący przy zmiennej $\Delta Y_{t-1}$ nieistotnie różni się od zera, pierwsze przyrosty $Y_t$ nie są stacjonarne, zmienna nie jest zintegrowana lub jest zintegrowana co najmniej w stopniu drugim.  
-						- $H_1: \delta < 0$  
-							- parametr stojący przy zmiennej $\Delta Y_{t-1}$ jest ujemny, pierwsze przyrosty zmiennej $Y_t$ są stacjonarne (==zintegrowana w stopniu pierwszym==).  
-					- wartość testu  
-						- Jeżeli $DF_e > DF_g$, nie ma podstaw do odrzucenia $H_0$, pierwsze przyrosty $Y_t$ nie są stacjonarne, zmienna nie jest zintegrowana lub jest zintegrowana co najmniej w stopniu drugim.  
-						- Jeżeli $DF_e < DF_d$, $H_0$ należy odrzucić na rzecz $H_1$, pierwsze przyrosty $Y_t$ są stacjonarne (zmienna $Y_t$ jest zintegrowana w stopniu pierwszym).  
-						- Jeżeli $DF_d < DF_e < DF_g$ to przy użyciu testu Dickeya-Fullera nie można podjąć żadnej decyzji (przedział nieokreśloności)  
+##### **test pierwiastka jednostkowego Dickey’a Fullera** (oraz rozszerzony test Dickeya Fullera) – wnioskowanie, hipotezy, statystka empiryczna  
+  
+###### hipoteza  
+- równanie szeregu autoregresyjnego: $Y_t = \beta_1 * Y_{t-1} + \xi_t$  
+- $H_0: \beta_1 = 1$ - proces jest ==niestacjonarny==  
+	- proces jest błądzeniem losowym  
+- $H_1: \beta_1 < 1$ - proces jest ==stacjonarny==  
+###### etapy  
+1. Wybór postaci modelu (z wyrazem wolnym, bez wyrazu wolnego)  
+2. Estymacja równania   
+	- $\Delta Y_t = \delta Y_{t-1} + \xi_t$ (bez wyrazu wolnego) lub   
+	- $\Delta Y_t = \delta Y_{t-1} + \xi_t + \mu$ (z wyrazem wolnym)  
+	- $\mu$ - wyraz wolny  
+	- $\delta = (\beta_1 - 1)$ - pierwiastek jednostkowy  
+	- skąd ten model?  
+		- odejmujemy od równania modelu autoregresyjnego $Y_{t-1}$ (poprzedni okres)  
+			- $Y_t = \beta_1 * Y_{t-1} + \xi_t$ / -$Y_{t-1}$  
+			- $Y_t - Y_{t-1} = \beta_1 * Y_{t-1} - Y_{t-1} + \xi_t$  
+			- $\Delta Y_t = (\beta_1 - 1)*Y_{t-1} + \xi_t$  
+3. obczajamy autokorelację składnika losowego  
+	- brak autokorelacji składnika losowego -> test DF  
+	- autokorelacja składnika losowego -> test ADF  
+4. Sformułowanie hipotez statystycznych:  
+	- $H0: \delta=0$  
+		- parametr stojący przy zmiennej $Y_{t-1}$ nieistotnie różni się od zera, zmienna $Y_t$ jest niestacjonarna (nie jest zintegrowana lub jest zintegrowana w stopniu większym niż zero).  
+	- $H1: \delta < 0$  
+		- parametr stojący przy zmiennej $Y_{t-1}$ jest ujemny, zmienna $Y_t$ jest ==stacjonarna== (zintegrowana w stopniu równym zeru).  
+5. obliczenie wartości testu DF/ADF  
+6. odczytanie wartości z tablic  
+	- oznaczenia  
+		- >Wartości testu DF są ujemne!  
+		- $DF_e$ - wynik z testu DF  
+		- $DF_d$ - dolna granica testu DF  
+		- $DF_g$ - górna granica testu DF  
+	- Wybór  
+		- jeżeli $DF_e > DF_g$ - nie ma podstaw do odrzucenia $H_0$, $Y_t$ jest ==niestacjonarna== -> robimy dalej  
+		- jeżeli $DF_e < DF_d$ - odrzucamy $H_0$, zmienna $Y_t$ jest ==stacjonarna==  
+		- $DF_d < DF_e < DF_g$ - obszar niekonkluzywności testu  
+7. odejmujemy $Y_{t-1}$ od równania modelu  
+	- formułujemy hipotezy jak w pkt. 4  
+	- obliczamy wartości testu jak w pkt. 5  
+	- odczytujemy wartości jak w pkt. 6  
+		- hipotezy  
+			- $H_0: \delta = 0$  
+				- parametr stojący przy zmiennej $\Delta Y_{t-1}$ nieistotnie różni się od zera, pierwsze przyrosty $Y_t$ nie są stacjonarne, zmienna nie jest zintegrowana lub jest zintegrowana co najmniej w stopniu drugim.  
+			- $H_1: \delta < 0$  
+				- parametr stojący przy zmiennej $\Delta Y_{t-1}$ jest ujemny, pierwsze przyrosty zmiennej $Y_t$ są stacjonarne (==zintegrowana w stopniu pierwszym==).  
+		- wartość testu  
+			- Jeżeli $DF_e > DF_g$, nie ma podstaw do odrzucenia $H_0$, pierwsze przyrosty $Y_t$ nie są stacjonarne, zmienna nie jest zintegrowana lub jest zintegrowana co najmniej w stopniu drugim.  
+			- Jeżeli $DF_e < DF_d$, $H_0$ należy odrzucić na rzecz $H_1$, pierwsze przyrosty $Y_t$ są stacjonarne (zmienna $Y_t$ jest zintegrowana w stopniu pierwszym).  
+			- Jeżeli $DF_d < DF_e < DF_g$ to przy użyciu testu Dickeya-Fullera nie można podjąć żadnej decyzji (przedział nieokreśloności)  
   
 - test Kwiatkowskiego, Phillipsa, Schmidta i Shina (KPSS) – wnioskowanie, hipotezy, statystka teoretyczna  
   
