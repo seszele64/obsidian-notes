@@ -48,7 +48,7 @@ hide:
   
 ### Finansowe szeregi czasowe  
   
- #### Pojęcia podstawowe  
+#### Pojęcia podstawowe  
   
 ##### stopa zwrotu zwykła  
  - $R_t = \frac{P_t - P_{t-1}}{P_{t-1}}*100\%$[^9]  
