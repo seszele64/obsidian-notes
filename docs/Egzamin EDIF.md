@@ -178,7 +178,6 @@ hide:
 	- Kryteria informacyjne pozwalają porównywać różne modele dla tej samej zmiennej zależnej. Najlepszym modelem jest model, dla którego ==wartość kryterium jest najniższa==.  
 	- Kryterium Akaike:  
 		- AIC =   
-	- BIC  
   
 ---  
   
@@ -343,6 +342,7 @@ hide:
   
 - interpretacja  
 	- Parametr $\delta$ identyfikuje tempo powrotu do równowagi długookresowej[^19]  
+		- Wielkość tę interpretujemy następująco: X% odchylenia jest korygowane po upływie jednego okresu[^22]  
   
 ---  
   
@@ -445,4 +445,5 @@ Dwa równania:
 [^18]: Notatki Michała  
 [^19]: https://web.sgh.waw.pl/~jmuck/Ekonometria/EkonometriaPrezentacja2018Z_5.pdf  
 [^20]: https://docplayer.pl/docview/92/109881171/#file=/storage/92/109881171/109881171.pdf  
-[^21]: https://spureconomics.com/interpreting-acf-and-pacf-plots/
+[^21]: https://spureconomics.com/interpreting-acf-and-pacf-plots/  
+[^22]: http://www.ekonometria.wne.uw.edu.pl/uploads/Main/GankoJanaczek.pdf
