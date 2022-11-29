@@ -143,7 +143,7 @@ share: True
 			- $𝜌k = \frac{E[(yt − 𝜇)(yt+k − 𝜇)]}{√E[(yt − 𝜇)2]E[(yt+k − 𝜇)2]} = \frac{Cov(yt, yt+k)}{Var(yt)} = \frac{𝛾k}{𝛾0}$  
 			- The collection of the values of $\rho_k$, k = 0, 1, 2,… is called the autocorrelation function (ACF)[^15]  
 	- PACF  
-		- #todo  
+		- todo  
   
 - Kryteria informacyjne  
 	- Kryteria informacyjne pozwalają porównywać różne modele dla tej samej zmiennej zależnej. Najlepszym modelem jest model, dla którego ==wartość kryterium jest najniższa==.  
@@ -280,9 +280,9 @@ share: True
   
 - **Jednorównaniowy model korekty błędem**; Dwustopniowa procedura Engle'a-Grangera (**interpretacja**, cel, budowa)  
 	- jednorównaniowy model korekty błędem  
-		- #todo  
+		- todo  
 	- dwustopniowa procedura Engle'a-Grangera  
-		- #todo  
+		- todo  
 	- interpretacja  
 	- cel  
 	- budowa  
