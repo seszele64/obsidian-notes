@@ -178,11 +178,11 @@ share: True
   
 - **warunki słabej stacjonarności**[^11]  
 	- wartość oczekiwana jest stała w czasie  
-		- $E(y_t) = \micro$  
+		- $E(y_t) = \mu$  
 	- wariancja jest stała w czasie i skończona  
-		- $Var(y_t) = E(y_t - \micro)^2 = \sigma^2 < \infty$  
+		- $Var(y_t) = E(y_t - \mu)^2 = \sigma^2 < \infty$  
 	- kowariancja między dwoma okresami zależy wyłącznie od odległości pomiędzy nimi, a nie od wyboru konkretnego momentu w czasie  
-		- $Cov(y_t, y_{t+k}) = E[(y_t - \micro)(y_{t+k}-\micro)]=\lambda_k$[^17]  
+		- $Cov(y_t, y_{t+k}) = E[(y_t - \mu)(y_{t+k}-\mu)]=\lambda_k$[^17]  
   
 - Testowanie rzędu zintegrowania  
 	- **test pierwiastka jednostkowego Dickey’a Fullera** (oraz rozszerzony test Dickeya Fullera) – wnioskowanie, hipotezy, statystka empiryczna  
@@ -196,8 +196,8 @@ share: True
 				1. Wybór postaci modelu (z wyrazem wolnym, bez wyrazu wolnego)  
 				2. Estymacja równania   
 					- $\Delta Y_t = \delta Y_{t-1} + \xi_t$ (bez wyrazu wolnego) lub   
-					- $\Delta Y_t = \delta Y_{t-1} + \xi_t + \micro$ (z wyrazem wolnym)  
-					- $\micro$ - wyraz wolny  
+					- $\Delta Y_t = \delta Y_{t-1} + \xi_t + \mu$ (z wyrazem wolnym)  
+					- $\mu$ - wyraz wolny  
 					- $\delta = (\beta_1 - 1)$ - pierwiastek jednostkowy  
 					- skąd ten model?  
 						- odejmujemy od równania modelu autoregresyjnego $Y_{t-1}$ (poprzedni okres)  
@@ -249,7 +249,7 @@ share: True
 		- Jeśli od obu stron równania odejmiemy trend, czyli wyrażenie $\alpha_0 + \alpha_1*t$, to otrzymany proces będzie stacjonarny, zgodnie z założeniami o składniku losowym.[^16]  
 	- przyrostostacjonarność  
 		- ![](https://i.imgur.com/K4ophiU.png)  
-		- Szereg przyrostostacjonarny ma postać procesu błądzenia losowego ze stałą, czyli $$y_t = \micro + y_{t-1} + \epsilon_t$$  
+		- Szereg przyrostostacjonarny ma postać procesu błądzenia losowego ze stałą, czyli $$y_t = \mu + y_{t-1} + \epsilon_t$$  
 		- W tym przypadku praktyka wprowadzania zmiennej czasowej w celu usunięcia trendu jest niesłuszna, ponieważ trend kształtowania się zmiennej ulega zmianom w czasie. Taki trend nazywamy stochastycznym.[^16]  
   
 - **Regresja pozorna – kiedy mamy podejrzenie o regresję pozorną**  
