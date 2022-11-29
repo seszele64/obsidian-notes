@@ -48,104 +48,103 @@ hide:
   
 ### Finansowe szeregi czasowe  
   
- - Pojęcia podstawowe  
+ #### Pojęcia podstawowe  
   
-	 - stopa zwrotu (zwykła, logarytmiczna), własności stóp zwrotu    
-		 - stopa zwrotu zwykła  
-			 - $R_t = \frac{P_t - P_{t-1}}{P_{t-1}}*100\%$[^9]  
-			 - prosta stopa zwrotu wykorzystuje koncepcje kapitalizacji okresowej  
-			 - rozkład - rozkład ceny, w przedziale $[-1; +\infty)$ lub $[-100\%;+\infty)$[^8]  
+##### stopa zwrotu zwykła  
+ - $R_t = \frac{P_t - P_{t-1}}{P_{t-1}}*100\%$[^9]  
+ - prosta stopa zwrotu wykorzystuje koncepcje kapitalizacji okresowej  
+ - rozkład - rozkład ceny, w przedziale $[-1; +\infty)$ lub $[-100\%;+\infty)$[^8]  
   
-		 - stopa zwrotu logarytmiczna  
-			 - $r_t = ln(P_t / P_{t-1}) * 100\%$[^9]  
-			 - wykorzystuje koncepcję kapitalizacji ciągłej  
-			 - rozkład - logarytmiczne przekształcenie ceny  
-			 - ==addytywność==  
-				 - logarytmiczne stopy zwrotu są ==addytywne==, w danym okresie, dzięki temu można liczyć średnią stopę z okresu przy wykorzystaniu średniej arytmetycznej[^8]  
-				 - Z właściwości logarytmów wynika ważna (zwłaszcza w przypadku badań giełdowych) cecha logarytmicznych stóp zwrotu, a mianowicie ich addytywność. Suma poszczególnych logarytmicznych stóp zwrotu z danego okresu jest tożsama z logarytmiczną stopą zwrotu uwzględniającą tylko wartość końcową i początkową w danym okresie.  
-		 - własności stóp zwrotu  
-			 - rozkład stopy zwrotu?  
+ ##### stopa zwrotu logarytmiczna  
+ - $r_t = ln(P_t / P_{t-1}) * 100\%$[^9]  
+ - wykorzystuje koncepcję kapitalizacji ciągłej  
+ - rozkład - logarytmiczne przekształcenie ceny  
+ - ==addytywność==  
+	 - logarytmiczne stopy zwrotu są ==addytywne==, w danym okresie, dzięki temu można liczyć średnią stopę z okresu przy wykorzystaniu średniej arytmetycznej[^8]  
+	 - Z właściwości logarytmów wynika ważna (zwłaszcza w przypadku badań giełdowych) cecha logarytmicznych stóp zwrotu, a mianowicie ich addytywność. Suma poszczególnych logarytmicznych stóp zwrotu z danego okresu jest tożsama z logarytmiczną stopą zwrotu uwzględniającą tylko wartość końcową i początkową w danym okresie.  
   
-	 - ryzyko (odchylenie standardowe)  
-		 - W zakresie definiowania ryzyka wymienia się ogólnie cztery podstawowe nurty (por. Jackowicz (1996), Wojtasiak (2002)):  
-			 - decyzyjny, w którym ryzyko definiowane jest poprzez konsekwencję konieczności podejmowania decyzji w celu realizacji określonych celów w sytuacji niepełnej wiedzy o przyszłości,  
-			 - przyczynowy, w którym główny nacisk położony jest na przyczyny ryzyka zwane „źródłami ryzyka”,   
-			 - dochodowy, w którym pojęcie ryzyka zawężone zostaje do niemożności określenia rezultatu działań, najczęściej wielkości przyszłego dochodu,  
-			 - ilościowy, w którym ryzyko definiowane jest poprzez odpowiednie miary (np. poprzez odchylenie standardowe, prawdopodobieństwo, wrażliwość).  
-		- Rodzaje ryzyk  
-			- **Ryzyko gospodarcze** (economic risk) - możliwość nieosiągnięcia spodziewanych efektów ekonomicznych działalności gospodarczej lub poniesienia strat, przekroczenia kosztów, zmniejszenia przychodów (por. Olzacka, Pałczyńska (1998)).  
-			- **Ryzyko finansowe**  
-				- wiąże się z możliwymi przepływami pieniężnymi, które płaci i otrzymuje podmiot. Ryzyko to wynika z powiązania tego podmiotu z otoczeniem, zwłaszcza z rynkiem finansowym (por. Jajuga (1999b)).  
-				- jest prawdopodobieństwem utraty przez organizację posiadanych zasobów finansowych oraz prawdopodobieństwem utraty środków finansowych, które są już w organizacji oraz nie osiągnięcia spodziewanych zysków (por. Bizon-Górecka (2000)).  
-				- można określić jako ryzyko, które wiąże się z możliwością poniesienia strat na rynkach finansowych (por. Jorion (2001)).  
-			- **Ryzyko rynkowe** jest ryzykiem wynikającym ze zmian cen na rynkach finansowych i towarowych. Ryzyko to dotyczy zarówno zmian cen instrumentów bazowych (stóp procentowych, cen akcji, indeksów, walut, towarów), jak i zmian cen instrumentów pochodnych (opcji, warrantów, kontraktów terminowych, swapów). Bardzo często ryzyko to łączy się również z ryzykiem płynności instrumentów finansowych.  
-			- **Ryzyko płynności** występuje w sytuacji, gdy ze względu na niedopasowanie wielkości podaży i popytu, bądź ze względu na przeciwstawne oczekiwania stron rynku, niemożliwe lub utrudnione jest kupowanie bądź sprzedawanie danego instrumentu finansowego lub towaru bez ponoszenia dodatkowych kosztów natychmiastowego otwarcia lub zamknięcia pozycji. Podejście to jest zgodne z traktowaniem ryzyka płynności w kontekście ryzyka płynności aktywów .  
-			- **Ryzyko kredytowe** jest ryzykiem związanym z możliwością niedotrzymania warunków kontraktu przez drugą stronę transakcji. Może ono dotyczyć sytuacji, gdy partner zaprzestaje spłaty zobowiązań, opóźnia się z terminami spłaty lub nie wywiązuje się w inny sposób ze zobowiązań finansowych w całości lub częściowo  
-			- **Ryzyko operacyjne** jest ryzykiem o charakterze systemowym (niezwiązanym z inwestowaniem), którego źródło tkwi w niewystarczającej kontroli, niesprawnych systemach, błędach człowieka, niewłaściwym zarządzaniu. Osobno wyróżnia się więc na przykład: ryzyko personelu, organizacyjne, (braku) kontroli, infrastruktury technicznej. Ryzyko to obejmuje w szczególności również ryzyko oszustwa, ryzyko regulacji, ryzyko katastrofowe (związane z siłami przyrody). Jednym z aspektów ryzyka operacyjnego jest ryzyko utraty reputacji.  
-			- **Ryzyko prawne** związane jest z możliwością poniesienia strat w wyniku prowadzenie przez podmiot działalności wykraczającej poza ramy odpowiednich przepisów prawnych lub regulacji i obejmujące niemożność wyegzekwowania warunków kontraktu. Ryzyko prawne wiąże się również z sytuacją, gdy następuje nieprzewidziana zmiana prawa, prowadząca do zmiany sytuacji podmiotu. Ryzyko to można definiować również w aspekcie neutralnym, w którym zmiany prawa mogą prowadzić do uzyskania korzyści. Ryzyko to bywa uznawane za składową ryzyka operacyjnego  
-			- **Ryzyko biznesu** związane z prowadzoną przez instytucję (przedsiębiorstwo) działalnością podstawową, rynkiem produktów i usług. Ryzyko to ma charakter długoterminowy i strukturalny, powstający na skutek decyzji inwestycyjnych dotyczących m.in. wyboru strategii rozwoju, strategii marketingowej, decyzji cenowych, decyzji co do poziomu przyszłej sprzedaży[^5]  
+ ##### ryzyko (odchylenie standardowe)  
+ - W zakresie definiowania ryzyka wymienia się ogólnie cztery podstawowe nurty (por. Jackowicz (1996), Wojtasiak (2002)):  
+	 - decyzyjny, w którym ryzyko definiowane jest poprzez konsekwencję konieczności podejmowania decyzji w celu realizacji określonych celów w sytuacji niepełnej wiedzy o przyszłości,  
+	 - przyczynowy, w którym główny nacisk położony jest na przyczyny ryzyka zwane „źródłami ryzyka”,   
+	 - dochodowy, w którym pojęcie ryzyka zawężone zostaje do niemożności określenia rezultatu działań, najczęściej wielkości przyszłego dochodu,  
+	 - ilościowy, w którym ryzyko definiowane jest poprzez odpowiednie miary (np. poprzez odchylenie standardowe, prawdopodobieństwo, wrażliwość).  
+- Rodzaje ryzyk  
+	- **Ryzyko gospodarcze** (economic risk) - możliwość nieosiągnięcia spodziewanych efektów ekonomicznych działalności gospodarczej lub poniesienia strat, przekroczenia kosztów, zmniejszenia przychodów (por. Olzacka, Pałczyńska (1998)).  
+	- **Ryzyko finansowe**  
+		- wiąże się z możliwymi przepływami pieniężnymi, które płaci i otrzymuje podmiot. Ryzyko to wynika z powiązania tego podmiotu z otoczeniem, zwłaszcza z rynkiem finansowym (por. Jajuga (1999b)).  
+		- jest prawdopodobieństwem utraty przez organizację posiadanych zasobów finansowych oraz prawdopodobieństwem utraty środków finansowych, które są już w organizacji oraz nie osiągnięcia spodziewanych zysków (por. Bizon-Górecka (2000)).  
+		- można określić jako ryzyko, które wiąże się z możliwością poniesienia strat na rynkach finansowych (por. Jorion (2001)).  
+	- **Ryzyko rynkowe** jest ryzykiem wynikającym ze zmian cen na rynkach finansowych i towarowych. Ryzyko to dotyczy zarówno zmian cen instrumentów bazowych (stóp procentowych, cen akcji, indeksów, walut, towarów), jak i zmian cen instrumentów pochodnych (opcji, warrantów, kontraktów terminowych, swapów). Bardzo często ryzyko to łączy się również z ryzykiem płynności instrumentów finansowych.  
+	- **Ryzyko płynności** występuje w sytuacji, gdy ze względu na niedopasowanie wielkości podaży i popytu, bądź ze względu na przeciwstawne oczekiwania stron rynku, niemożliwe lub utrudnione jest kupowanie bądź sprzedawanie danego instrumentu finansowego lub towaru bez ponoszenia dodatkowych kosztów natychmiastowego otwarcia lub zamknięcia pozycji. Podejście to jest zgodne z traktowaniem ryzyka płynności w kontekście ryzyka płynności aktywów .  
+	- **Ryzyko kredytowe** jest ryzykiem związanym z możliwością niedotrzymania warunków kontraktu przez drugą stronę transakcji. Może ono dotyczyć sytuacji, gdy partner zaprzestaje spłaty zobowiązań, opóźnia się z terminami spłaty lub nie wywiązuje się w inny sposób ze zobowiązań finansowych w całości lub częściowo  
+	- **Ryzyko operacyjne** jest ryzykiem o charakterze systemowym (niezwiązanym z inwestowaniem), którego źródło tkwi w niewystarczającej kontroli, niesprawnych systemach, błędach człowieka, niewłaściwym zarządzaniu. Osobno wyróżnia się więc na przykład: ryzyko personelu, organizacyjne, (braku) kontroli, infrastruktury technicznej. Ryzyko to obejmuje w szczególności również ryzyko oszustwa, ryzyko regulacji, ryzyko katastrofowe (związane z siłami przyrody). Jednym z aspektów ryzyka operacyjnego jest ryzyko utraty reputacji.  
+	- **Ryzyko prawne** związane jest z możliwością poniesienia strat w wyniku prowadzenie przez podmiot działalności wykraczającej poza ramy odpowiednich przepisów prawnych lub regulacji i obejmujące niemożność wyegzekwowania warunków kontraktu. Ryzyko prawne wiąże się również z sytuacją, gdy następuje nieprzewidziana zmiana prawa, prowadząca do zmiany sytuacji podmiotu. Ryzyko to można definiować również w aspekcie neutralnym, w którym zmiany prawa mogą prowadzić do uzyskania korzyści. Ryzyko to bywa uznawane za składową ryzyka operacyjnego  
+	- **Ryzyko biznesu** związane z prowadzoną przez instytucję (przedsiębiorstwo) działalnością podstawową, rynkiem produktów i usług. Ryzyko to ma charakter długoterminowy i strukturalny, powstający na skutek decyzji inwestycyjnych dotyczących m.in. wyboru strategii rozwoju, strategii marketingowej, decyzji cenowych, decyzji co do poziomu przyszłej sprzedaży[^5]  
   
-- Szereg czasowy    
-	 - proces stochastyczny  
-		 	 - rodzinę $X_t$ $t \in T$ zmiennych losowych określonych ==na tej samej przestrzeni probabilistycznej== nazywa się procesem stochastycznym  
-		 	 	 - zazwyczaj T jest podzbiorem przedziału $[0, +\infty)$ i interpretuje się go jako czas  
-		 	 	 - w ekonometrii finansowej realizację procesu stochastycznego nazywa się szeregiem czasowym i oznacza $x_t$[^10]   
-	 - dekompozycja szeregu czasowego  
-	 	 - proces wyodrębniania poszczególnych składowych szeregu czasowego  
-	 	 	 - $X_t = m_t + s_t + Y_t$  
-	 	 	 	 - $X_t$ - dane pomiarowe  
-	 	 	 	 - $m_t$ - trend  
-	 	 	 	 	 - długotrwały wzrost lub spadek wartości zmiennej, bądź inna regularność - np. naprzemienne spadki oraz wzrosty wartości danych[^12]  
-	 	 	 	 - $s_t$ - sezonowość  
-	 	 	 	 	 - występuje, gdy na wartości danych w szeregu czasowym wpływają czynniki sezonowe (dzienne, miesięczne, kwartalne, roczne), wyróżnić można sezonowość addytywną i multiplikatywną[^12]  
-	 	 	 	 - $Y_t$ - szum (proces losowy, stacjonarny)[^6]  
-	 	 - cel  
-	 	 	 - Celem dekompozycji szeregu czasowego jest oszacowanie i ekstrakcja deterministycznych części szeregu - trendu $m_t$ oraz sezonowości $s_t$ w nadziei, że pozostałe dane, czyli teoretycznie zmienna losowa $Y_t$ okaże się stacjonarnym procesem losowym  
-	 	 	 - W przypadku, kiedy okaże się to prawdą, tj. reszty $Y_t$ mogą być opisane stacjonarnym procesem losowym ${Y_t}$, możemy przystąpić do przewidywania przyszłego zachowania się szeregu, wykorzystując oczywiście wszystkie posiadane wiadomości: trend, okres oraz zidentyfikowany z pewną dokładnością proces losowy.[^6]  
+#### Szereg czasowy    
+  
+ ##### proces stochastyczny  
+ - rodzinę $X_t$ $t \in T$ zmiennych losowych określonych ==na tej samej przestrzeni probabilistycznej== nazywa się procesem stochastycznym  
+	 - zazwyczaj T jest podzbiorem przedziału $[0, +\infty)$ i interpretuje się go jako czas  
+	 - w ekonometrii finansowej realizację procesu stochastycznego nazywa się szeregiem czasowym i oznacza $x_t$[^10]   
+  
+##### dekompozycja szeregu czasowego  
+ - proces wyodrębniania poszczególnych składowych szeregu czasowego  
+	 - $X_t = m_t + s_t + Y_t$  
+		 - $X_t$ - dane pomiarowe  
+		 - $m_t$ - trend  
+			 - długotrwały wzrost lub spadek wartości zmiennej, bądź inna regularność - np. naprzemienne spadki oraz wzrosty wartości danych[^12]  
+		 - $s_t$ - sezonowość  
+			 - występuje, gdy na wartości danych w szeregu czasowym wpływają czynniki sezonowe (dzienne, miesięczne, kwartalne, roczne), wyróżnić można sezonowość addytywną i multiplikatywną[^12]  
+		 - $Y_t$ - szum (proces losowy, stacjonarny)[^6]  
+ - cel  
+	 - Celem dekompozycji szeregu czasowego jest oszacowanie i ekstrakcja deterministycznych części szeregu - trendu $m_t$ oraz sezonowości $s_t$ w nadziei, że pozostałe dane, czyli teoretycznie zmienna losowa $Y_t$ okaże się stacjonarnym procesem losowym  
+	 - W przypadku, kiedy okaże się to prawdą, tj. reszty $Y_t$ mogą być opisane stacjonarnym procesem losowym ${Y_t}$, możemy przystąpić do przewidywania przyszłego zachowania się szeregu, wykorzystując oczywiście wszystkie posiadane wiadomości: trend, okres oraz zidentyfikowany z pewną dokładnością proces losowy.[^6]  
   
 ---  
   
 ### Ekonometryczne modele wahań sezonowych    
   
-- Periodogram i spektrum procesu  
-	- Any time series can be expressed as a combination of cosine and sine waves with differing periods (how long it takes to complete a full cycle) and amplitudes (maximum/minimum value during the cycle). This fact can be utilized to examine the periodic (cyclical) behavior in a time series.[^13]  
-	- Period  
-		- T  
-		- number of periods required to complete a single cycle  
-	- Frequency  
-		- $\omega = 1/T$  
-		- the fraction of the complete cycle that's completed in a single time period  
+#### Periodogram i spektrum procesu  
+- Any time series can be expressed as a combination of cosine and sine waves with differing periods (how long it takes to complete a full cycle) and amplitudes (maximum/minimum value during the cycle). This fact can be utilized to examine the periodic (cyclical) behavior in a time series.[^13]  
+- Period  
+	- T  
+	- number of periods required to complete a single cycle  
+- Frequency  
+	- $\omega = 1/T$  
+	- the fraction of the complete cycle that's completed in a single time period  
   
-	- example  
-		- ![](https://online.stat.psu.edu/onlinecourses/sites/stat510/files/L06/graph_59.gif)  
-		- The periodogram shows a dominant spike at a ==low frequency==  
-		- The peak value of periodogram is the fifth value, and that corresponds to a frequency of ==0.0312500==  
-		- The period for this value = ==1/0.0312500 = 32==. That is, it takes 32 time periods for a complete cycle.[^13]  
+- example  
+	- ![](https://online.stat.psu.edu/onlinecourses/sites/stat510/files/L06/graph_59.gif)  
+	- The periodogram shows a dominant spike at a ==low frequency==  
+	- The peak value of periodogram is the fifth value, and that corresponds to a frequency of ==0.0312500==  
+	- The period for this value = ==1/0.0312500 = 32==. That is, it takes 32 time periods for a complete cycle.[^13]  
   
 - Modele sezonowości ze zmiennymi zerojedynkowymi    
 	 - sezonowość periodyczna bez wyrazu wolnego  
 	 - sezonowość periodyczna z wyrazem wolnym[^7]   
 	 - sezonowości periodyczna z wyrazem wolnym i trendem  
   
-- Metodologia Boxa i Jenkinsa (Identyfikacja procesów)  
-	- Inną, alternatywną metodą do opisanej wyżej, jest metoda która dopasowywuje modele ARMA i ARIMA do istniejących danych. Metoda ta została nazwana po nazwiskach dwóch statystyków Georgea Boxa oraz Gwilyma Jenkinsa, którzy rozwinęli tą metodę w latach 70-tych.  
-	- Algorytm Boxa-Jenkinsa składa się z trzech kroków:  
-		1. Identyfikacja oraz wybór modelu: pierwszym krokiem jest upewnienie się, że analizujemy dane stacjonarne; następnie identyfikujemy sezonowość i usuwamy ją z danych aby w końcu wykorzystując wykresy funkcji autokorelacji oraz częściowej autokorelacji zdecydować jakie komponenty AR (autoregresji), I (scałkowane) lub MA (średniej ruchomej) wykorzystać do budowy modelu.  
-		2. Znalezienie parametrów wybranego modelu za pomocą wybranych metod (numerycznych) tak, aby dopasowanie danych do modelu było najlepsze. Najczęstszymi metodami wykorzystywanymi w praktyce są: maximum likelihood estimation lub (nieliniowa) metoda najmniejszych kwadratów.  
-		3. Sprawdzenie poprawności wyboru danego modelu. W szczególności należy sprawdzić czy proces jest stacjonarny - reszty muszą być od siebie niezależne, oraz ich średnia i wariancja musi być stała w czasie. Można  
-			- narysować wykres średniej, wariancji oraz reszt versus czas (indeks) i przeprowadzić na nich test Ljunga-Boxa,  
-			- narysować wykresy funkcji autokorelacji i częściowej autokorelacji reszt.[^14]  
-- Funkcja autokorelacji i autokorelacji cząstkowej  
+#### Metodologia Boxa i Jenkinsa (Identyfikacja procesów)  
+- Inną, alternatywną metodą do opisanej wyżej, jest metoda która dopasowywuje modele ARMA i ARIMA do istniejących danych. Metoda ta została nazwana po nazwiskach dwóch statystyków Georgea Boxa oraz Gwilyma Jenkinsa, którzy rozwinęli tą metodę w latach 70-tych.  
+- Algorytm Boxa-Jenkinsa składa się z trzech kroków:  
+	1. Identyfikacja oraz wybór modelu: pierwszym krokiem jest upewnienie się, że analizujemy dane stacjonarne; następnie identyfikujemy sezonowość i usuwamy ją z danych aby w końcu wykorzystując wykresy funkcji autokorelacji oraz częściowej autokorelacji zdecydować jakie komponenty AR (autoregresji), I (scałkowane) lub MA (średniej ruchomej) wykorzystać do budowy modelu.  
+	2. Znalezienie parametrów wybranego modelu za pomocą wybranych metod (numerycznych) tak, aby dopasowanie danych do modelu było najlepsze. Najczęstszymi metodami wykorzystywanymi w praktyce są: maximum likelihood estimation lub (nieliniowa) metoda najmniejszych kwadratów.  
+	3. Sprawdzenie poprawności wyboru danego modelu. W szczególności należy sprawdzić czy proces jest stacjonarny - reszty muszą być od siebie niezależne, oraz ich średnia i wariancja musi być stała w czasie. Można  
+		- narysować wykres średniej, wariancji oraz reszt versus czas (indeks) i przeprowadzić na nich test Ljunga-Boxa,  
+		- narysować wykresy funkcji autokorelacji i częściowej autokorelacji reszt.[^14]  
+#### Funkcja autokorelacji i autokorelacji cząstkowej  
 	  
-	- ACF  
-		- The covariance between yt and its value at another time period, say, yt+k is called the autocovariance at lag k  
-			- $𝛾k = Cov(yt , yt+k) = E[(yt − 𝜇)(yt+k − 𝜇)]$  
-			- The collection of the values of 𝛾k, k = 0, 1, 2,… is called the **autocovariance function**  
-		- The autocorrelation coefficient at lag k for a stationary time series is  
-			- $𝜌k = \frac{E[(yt − 𝜇)(yt+k − 𝜇)]}{√E[(yt − 𝜇)2]E[(yt+k − 𝜇)2]} = \frac{Cov(yt, yt+k)}{Var(yt)} = \frac{𝛾k}{𝛾0}$  
-			- The collection of the values of $\rho_k$, k = 0, 1, 2,… is called the autocorrelation function (ACF)[^15]  
-	- PACF  
-		- todo  
+- ACF  
+	- The covariance between yt and its value at another time period, say, yt+k is called the autocovariance at lag k  
+		- $𝛾k = Cov(yt , yt+k) = E[(yt − 𝜇)(yt+k − 𝜇)]$  
+		- The collection of the values of 𝛾k, k = 0, 1, 2,… is called the **autocovariance function**  
+	- The autocorrelation coefficient at lag k for a stationary time series is  
+		- $𝜌k = \frac{E[(yt − 𝜇)(yt+k − 𝜇)]}{√E[(yt − 𝜇)2]E[(yt+k − 𝜇)2]} = \frac{Cov(yt, yt+k)}{Var(yt)} = \frac{𝛾k}{𝛾0}$  
+		- The collection of the values of $\rho_k$, k = 0, 1, 2,… is called the autocorrelation function (ACF)[^15]  
+- PACF  
+	- todo  
   
 - Kryteria informacyjne  
 	- Kryteria informacyjne pozwalają porównywać różne modele dla tej samej zmiennej zależnej. Najlepszym modelem jest model, dla którego ==wartość kryterium jest najniższa==.  
@@ -156,138 +155,138 @@ hide:
 ---  
   
 ### Charakterystyki procesów ekonomicznych    
-- **Błądzenie losowe i biały szum – czy są to procesy stacjonarne?**  
-	- błądzenie losowe  
-		- Najprostszy ==niestacjonarny== szereg czasowy generowany jest przez model błądzenia losowego  
-		- Zakłócenie $e_t$ jest zmienną losową o stałych parametrach:   
-			- wartości oczekiwanej $\bar{e} = 0$  
-			- wariancji $\sigma^2$  
-			- zerowych autokowariancji  
-		- Szereg otrzymany przez obliczenie różnic jest stacjonarny.  
-	- biały szum  
-		- proces ==stacjonarny==  
-		- $E(y_t) = 0$ - wartość oczekiwana 0  
-		- $var(y_t) = \sigma^2 < \infty$ - skończona wariancja  
-		- $cov(y_t, y_{t-k}) = 0$, k = 1,2....[^17]  
+#### **Błądzenie losowe i biały szum – czy są to procesy stacjonarne?**  
+- błądzenie losowe  
+	- Najprostszy ==niestacjonarny== szereg czasowy generowany jest przez model błądzenia losowego  
+	- Zakłócenie $e_t$ jest zmienną losową o stałych parametrach:   
+		- wartości oczekiwanej $\bar{e} = 0$  
+		- wariancji $\sigma^2$  
+		- zerowych autokowariancji  
+	- Szereg otrzymany przez obliczenie różnic jest stacjonarny.  
+- biały szum  
+	- proces ==stacjonarny==  
+	- $E(y_t) = 0$ - wartość oczekiwana 0  
+	- $var(y_t) = \sigma^2 < \infty$ - skończona wariancja  
+	- $cov(y_t, y_{t-k}) = 0$, k = 1,2....[^17]  
   
 - Przykłady procesów stacjonarnych i niestacjonarnych  
 	- procesy stacjonarne  
 	- procesy niestacjonarne  
   
-- **Stacjonarność procesu**  
-	- warunki ścisłej stacjonarności  
-		- If a time series has a finite mean and autocovariance function it is said to be second-order stationary (or weakly stationary of order 2). If, in addition, the joint probability distribution of the observations at all times is ==multivariate normal==, then that would be sufficient to result in a time series that is strictly stationary[^15]  
+#### **Stacjonarność procesu**  
+- warunki ścisłej stacjonarności  
+	- If a time series has a finite mean and autocovariance function it is said to be second-order stationary (or weakly stationary of order 2). If, in addition, the joint probability distribution of the observations at all times is ==multivariate normal==, then that would be sufficient to result in a time series that is strictly stationary[^15]  
   
-- **warunki słabej stacjonarności**[^11]  
-	- wartość oczekiwana jest stała w czasie  
-		- $E(y_t) = \mu$  
-	- wariancja jest stała w czasie i skończona  
-		- $Var(y_t) = E(y_t - \mu)^2 = \sigma^2 < \infty$  
-	- kowariancja między dwoma okresami zależy wyłącznie od odległości pomiędzy nimi, a nie od wyboru konkretnego momentu w czasie  
-		- $Cov(y_t, y_{t+k}) = E[(y_t - \mu)(y_{t+k}-\mu)]=\lambda_k$[^17]  
+#### **warunki słabej stacjonarności**[^11]  
+- wartość oczekiwana jest stała w czasie  
+	- $E(y_t) = \mu$  
+- wariancja jest stała w czasie i skończona  
+	- $Var(y_t) = E(y_t - \mu)^2 = \sigma^2 < \infty$  
+- kowariancja między dwoma okresami zależy wyłącznie od odległości pomiędzy nimi, a nie od wyboru konkretnego momentu w czasie  
+	- $Cov(y_t, y_{t+k}) = E[(y_t - \mu)(y_{t+k}-\mu)]=\lambda_k$[^17]  
   
-- Testowanie rzędu zintegrowania  
-	- **test pierwiastka jednostkowego Dickey’a Fullera** (oraz rozszerzony test Dickeya Fullera) – wnioskowanie, hipotezy, statystka empiryczna  
-		- test DF  
-			- hipoteza  
-				- równanie szeregu autoregresyjnego: $Y_t = \beta_1 * Y_{t-1} + \xi_t$  
-				- $H_0: \beta_1 = 1$ - proces jest ==niestacjonarny==  
-					- proces jest błądzeniem losowym  
-				- $H_1: \beta_1 < 1$ - proces jest ==stacjonarny==  
-			- etapy  
-				1. Wybór postaci modelu (z wyrazem wolnym, bez wyrazu wolnego)  
-				2. Estymacja równania   
-					- $\Delta Y_t = \delta Y_{t-1} + \xi_t$ (bez wyrazu wolnego) lub   
-					- $\Delta Y_t = \delta Y_{t-1} + \xi_t + \mu$ (z wyrazem wolnym)  
-					- $\mu$ - wyraz wolny  
-					- $\delta = (\beta_1 - 1)$ - pierwiastek jednostkowy  
-					- skąd ten model?  
-						- odejmujemy od równania modelu autoregresyjnego $Y_{t-1}$ (poprzedni okres)  
-							- $Y_t = \beta_1 * Y_{t-1} + \xi_t$ / -$Y_{t-1}$  
-							- $Y_t - Y_{t-1} = \beta_1 * Y_{t-1} - Y_{t-1} + \xi_t$  
-							- $\Delta Y_t = (\beta_1 - 1)*Y_{t-1} + \xi_t$  
-				3. obczajamy autokorelację składnika losowego  
-					- brak autokorelacji składnika losowego -> test DF  
-					- autokorelacja składnika losowego -> test ADF  
-				4. Sformułowanie hipotez statystycznych:  
-					- $H0: \delta=0$  
-						- parametr stojący przy zmiennej $Y_{t-1}$ nieistotnie różni się od zera, zmienna $Y_t$ jest niestacjonarna (nie jest zintegrowana lub jest zintegrowana w stopniu większym niż zero).  
-					- $H1: \delta < 0$  
-						- parametr stojący przy zmiennej $Y_{t-1}$ jest ujemny, zmienna $Y_t$ jest ==stacjonarna== (zintegrowana w stopniu równym zeru).  
-				5. obliczenie wartości testu DF/ADF  
-				6. odczytanie wartości z tablic  
-					- oznaczenia  
-						- >Wartości testu DF są ujemne!  
-						- $DF_e$ - wynik z testu DF  
-						- $DF_d$ - dolna granica testu DF  
-						- $DF_g$ - górna granica testu DF  
-					- Wybór  
-						- jeżeli $DF_e > DF_g$ - nie ma podstaw do odrzucenia $H_0$, $Y_t$ jest ==niestacjonarna== -> robimy dalej  
-						- jeżeli $DF_e < DF_d$ - odrzucamy $H_0$, zmienna $Y_t$ jest ==stacjonarna==  
-						- $DF_d < DF_e < DF_g$ - obszar niekonkluzywności testu  
-				7. odejmujemy $Y_{t-1}$ od równania modelu  
-					- formułujemy hipotezy jak w pkt. 4  
-					- obliczamy wartości testu jak w pkt. 5  
-					- odczytujemy wartości jak w pkt. 6  
-						- hipotezy  
-							- $H_0: \delta = 0$  
-								- parametr stojący przy zmiennej $\Delta Y_{t-1}$ nieistotnie różni się od zera, pierwsze przyrosty $Y_t$ nie są stacjonarne, zmienna nie jest zintegrowana lub jest zintegrowana co najmniej w stopniu drugim.  
-							- $H_1: \delta < 0$  
-								- parametr stojący przy zmiennej $\Delta Y_{t-1}$ jest ujemny, pierwsze przyrosty zmiennej $Y_t$ są stacjonarne (==zintegrowana w stopniu pierwszym==).  
-						- wartość testu  
-							- Jeżeli $DF_e > DF_g$, nie ma podstaw do odrzucenia $H_0$, pierwsze przyrosty $Y_t$ nie są stacjonarne, zmienna nie jest zintegrowana lub jest zintegrowana co najmniej w stopniu drugim.  
-							- Jeżeli $DF_e < DF_d$, $H_0$ należy odrzucić na rzecz $H_1$, pierwsze przyrosty $Y_t$ są stacjonarne (zmienna $Y_t$ jest zintegrowana w stopniu pierwszym).  
-							- Jeżeli $DF_d < DF_e < DF_g$ to przy użyciu testu Dickeya-Fullera nie można podjąć żadnej decyzji (przedział nieokreśloności)  
+#### Testowanie rzędu zintegrowania  
+- **test pierwiastka jednostkowego Dickey’a Fullera** (oraz rozszerzony test Dickeya Fullera) – wnioskowanie, hipotezy, statystka empiryczna  
+	- test DF  
+		- hipoteza  
+			- równanie szeregu autoregresyjnego: $Y_t = \beta_1 * Y_{t-1} + \xi_t$  
+			- $H_0: \beta_1 = 1$ - proces jest ==niestacjonarny==  
+				- proces jest błądzeniem losowym  
+			- $H_1: \beta_1 < 1$ - proces jest ==stacjonarny==  
+		- etapy  
+			1. Wybór postaci modelu (z wyrazem wolnym, bez wyrazu wolnego)  
+			2. Estymacja równania   
+				- $\Delta Y_t = \delta Y_{t-1} + \xi_t$ (bez wyrazu wolnego) lub   
+				- $\Delta Y_t = \delta Y_{t-1} + \xi_t + \mu$ (z wyrazem wolnym)  
+				- $\mu$ - wyraz wolny  
+				- $\delta = (\beta_1 - 1)$ - pierwiastek jednostkowy  
+				- skąd ten model?  
+					- odejmujemy od równania modelu autoregresyjnego $Y_{t-1}$ (poprzedni okres)  
+						- $Y_t = \beta_1 * Y_{t-1} + \xi_t$ / -$Y_{t-1}$  
+						- $Y_t - Y_{t-1} = \beta_1 * Y_{t-1} - Y_{t-1} + \xi_t$  
+						- $\Delta Y_t = (\beta_1 - 1)*Y_{t-1} + \xi_t$  
+			3. obczajamy autokorelację składnika losowego  
+				- brak autokorelacji składnika losowego -> test DF  
+				- autokorelacja składnika losowego -> test ADF  
+			4. Sformułowanie hipotez statystycznych:  
+				- $H0: \delta=0$  
+					- parametr stojący przy zmiennej $Y_{t-1}$ nieistotnie różni się od zera, zmienna $Y_t$ jest niestacjonarna (nie jest zintegrowana lub jest zintegrowana w stopniu większym niż zero).  
+				- $H1: \delta < 0$  
+					- parametr stojący przy zmiennej $Y_{t-1}$ jest ujemny, zmienna $Y_t$ jest ==stacjonarna== (zintegrowana w stopniu równym zeru).  
+			5. obliczenie wartości testu DF/ADF  
+			6. odczytanie wartości z tablic  
+				- oznaczenia  
+					- >Wartości testu DF są ujemne!  
+					- $DF_e$ - wynik z testu DF  
+					- $DF_d$ - dolna granica testu DF  
+					- $DF_g$ - górna granica testu DF  
+				- Wybór  
+					- jeżeli $DF_e > DF_g$ - nie ma podstaw do odrzucenia $H_0$, $Y_t$ jest ==niestacjonarna== -> robimy dalej  
+					- jeżeli $DF_e < DF_d$ - odrzucamy $H_0$, zmienna $Y_t$ jest ==stacjonarna==  
+					- $DF_d < DF_e < DF_g$ - obszar niekonkluzywności testu  
+			7. odejmujemy $Y_{t-1}$ od równania modelu  
+				- formułujemy hipotezy jak w pkt. 4  
+				- obliczamy wartości testu jak w pkt. 5  
+				- odczytujemy wartości jak w pkt. 6  
+					- hipotezy  
+						- $H_0: \delta = 0$  
+							- parametr stojący przy zmiennej $\Delta Y_{t-1}$ nieistotnie różni się od zera, pierwsze przyrosty $Y_t$ nie są stacjonarne, zmienna nie jest zintegrowana lub jest zintegrowana co najmniej w stopniu drugim.  
+						- $H_1: \delta < 0$  
+							- parametr stojący przy zmiennej $\Delta Y_{t-1}$ jest ujemny, pierwsze przyrosty zmiennej $Y_t$ są stacjonarne (==zintegrowana w stopniu pierwszym==).  
+					- wartość testu  
+						- Jeżeli $DF_e > DF_g$, nie ma podstaw do odrzucenia $H_0$, pierwsze przyrosty $Y_t$ nie są stacjonarne, zmienna nie jest zintegrowana lub jest zintegrowana co najmniej w stopniu drugim.  
+						- Jeżeli $DF_e < DF_d$, $H_0$ należy odrzucić na rzecz $H_1$, pierwsze przyrosty $Y_t$ są stacjonarne (zmienna $Y_t$ jest zintegrowana w stopniu pierwszym).  
+						- Jeżeli $DF_d < DF_e < DF_g$ to przy użyciu testu Dickeya-Fullera nie można podjąć żadnej decyzji (przedział nieokreśloności)  
   
-	- test Kwiatkowskiego, Phillipsa, Schmidta i Shina (KPSS) – wnioskowanie, hipotezy, statystka teoretyczna  
+- test Kwiatkowskiego, Phillipsa, Schmidta i Shina (KPSS) – wnioskowanie, hipotezy, statystka teoretyczna  
   
 ---  
   
 ### Kointegracja procesów stochastycznych i równowaga długookresowa  
-- **Przyrostostacjonarność, trendostacjonarność - definicja**  
-	- trendostacjonarność  
-		- ![](https://i.imgur.com/ytF0vPx.png)  
-		- Szereg trendostacjonarny jest to taki proces, który staje się stacjonarny po usunięciu trendu deterministycznego, na przykład trendu liniowego postaci $y_t = \alpha_0 + \alpha_1*t +\epsilon_t$, gdzie składnik losowy $\epsilon_t$ jest stacjonarną zmienną losową.  
-		- Jeśli od obu stron równania odejmiemy trend, czyli wyrażenie $\alpha_0 + \alpha_1*t$, to otrzymany proces będzie stacjonarny, zgodnie z założeniami o składniku losowym.[^16]  
-	- przyrostostacjonarność  
-		- ![](https://i.imgur.com/K4ophiU.png)  
-		- Szereg przyrostostacjonarny ma postać procesu błądzenia losowego ze stałą, czyli $$y_t = \mu + y_{t-1} + \epsilon_t$$  
-		- W tym przypadku praktyka wprowadzania zmiennej czasowej w celu usunięcia trendu jest niesłuszna, ponieważ trend kształtowania się zmiennej ulega zmianom w czasie. Taki trend nazywamy stochastycznym.[^16]  
+#### **Przyrostostacjonarność, trendostacjonarność - definicja**  
+- trendostacjonarność  
+	- ![](https://i.imgur.com/ytF0vPx.png)  
+	- Szereg trendostacjonarny jest to taki proces, który staje się stacjonarny po usunięciu trendu deterministycznego, na przykład trendu liniowego postaci $y_t = \alpha_0 + \alpha_1*t +\epsilon_t$, gdzie składnik losowy $\epsilon_t$ jest stacjonarną zmienną losową.  
+	- Jeśli od obu stron równania odejmiemy trend, czyli wyrażenie $\alpha_0 + \alpha_1*t$, to otrzymany proces będzie stacjonarny, zgodnie z założeniami o składniku losowym.[^16]  
+- przyrostostacjonarność  
+	- ![](https://i.imgur.com/K4ophiU.png)  
+	- Szereg przyrostostacjonarny ma postać procesu błądzenia losowego ze stałą, czyli $$y_t = \mu + y_{t-1} + \epsilon_t$$  
+	- W tym przypadku praktyka wprowadzania zmiennej czasowej w celu usunięcia trendu jest niesłuszna, ponieważ trend kształtowania się zmiennej ulega zmianom w czasie. Taki trend nazywamy stochastycznym.[^16]  
   
-- **Regresja pozorna – kiedy mamy podejrzenie o regresję pozorną**  
-	- Wstępne wnioski na temat występowania regresji pozornej można wyciągnąć na podstawie porównania współczynnika determinacji i statystyki Durbina-Watsona modelu.  
-	- Jeśli $R^2>DW$, to mamy podstawy spodziewać się efektu regresji pozornej  
-	- W przypadku regresji pozornej, reszty z modelu liniowego są niestacjonarne i wykazują autokorelację (Statystyka LM)  
+#### **Regresja pozorna – kiedy mamy podejrzenie o regresję pozorną**  
+- Wstępne wnioski na temat występowania regresji pozornej można wyciągnąć na podstawie porównania współczynnika determinacji i statystyki Durbina-Watsona modelu.  
+- Jeśli $R^2>DW$, to mamy podstawy spodziewać się efektu regresji pozornej  
+- W przypadku regresji pozornej, reszty z modelu liniowego są niestacjonarne i wykazują autokorelację (Statystyka LM)  
   
-- **Procesy skointegrowane (definicja)**  
-	- Kointegracja szeregów czasowych występuje wtedy, gdy dwa lub więcej szeregi są niestacjonarne, ale ich liniowa kombinacja jest stacjonarna.  
-	- Jeśli okaże się, że składnik losowy $\epsilon_t$ (czyli liniowa kombinacja $y_t$ i $x_t$) jest stacjonarny, to zmienne $y_t$ i $x_t$ są skointegrowane.  
-	- jeśli {$z_t$} ~I(d) oraz {$v_t$} ~I(d), mogą one być skointegrowane (ale nie muszą).  
-	- Równanie $$y_t = \alpha_0 + \alpha_1*x_t + \epsilon_t$$ nazywane jest regresją lub relacją kointegrującą, a parametr $\alpha_1$ parametrem kointegrującym.[^15]  
+#### **Procesy skointegrowane (definicja)**  
+- Kointegracja szeregów czasowych występuje wtedy, gdy dwa lub więcej szeregi są niestacjonarne, ale ich liniowa kombinacja jest stacjonarna.  
+- Jeśli okaże się, że składnik losowy $\epsilon_t$ (czyli liniowa kombinacja $y_t$ i $x_t$) jest stacjonarny, to zmienne $y_t$ i $x_t$ są skointegrowane.  
+- jeśli {$z_t$} ~I(d) oraz {$v_t$} ~I(d), mogą one być skointegrowane (ale nie muszą).  
+- Równanie $$y_t = \alpha_0 + \alpha_1*x_t + \epsilon_t$$ nazywane jest regresją lub relacją kointegrującą, a parametr $\alpha_1$ parametrem kointegrującym.[^15]  
   
-- Testowanie koinegracji (wnioskowanie, hipotezy, procedura testowa); **Wektor kointegrujący**  
-	- W przypadku rozszerzenia modelu regresji na m skointegrowanych zmiennych objaśniających, powstanie m-elementowy wektor kointegrujący.  
-	- Testowanie kointegracji ma sens wtedy, gdy zmienne występujące w równaniu są zintegrowane oraz może istnieć ich stacjonarna kombinacja liniowa.  
-	- Procedura  
-		- Jeżeli zmienna $x_t$ oraz $y_t$ są zintegrowane w stopniu pierwszym to można przejść do kolejnego etapu.  
-		- oszacowanie modelu dla poziomów wybranych zmiennych, a następnie badanie stacjonarności składnika losowego ($e_t$):  
-			- $$e_t = y_t − β_0 − β_1*x_t$$  
-	- Hipotezy  
-		- $H_0: e_t ∼ I(1)$  
-			- $x_t$ i $y_t$ nie są skointegorwane  
-		- $H_1: e_t ∼ I(0)$  
-			- $x_t$ i $y_t$ są skointegorwane  
-	- Statystyka testu  
-		- Statystyka testu jest jest analogiczna jak w przyapdku testu ADF, ale wykorzystuje się inne statystyki testowe.  
+#### Testowanie koinegracji (wnioskowanie, hipotezy, procedura testowa); **Wektor kointegrujący**  
+- W przypadku rozszerzenia modelu regresji na m skointegrowanych zmiennych objaśniających, powstanie m-elementowy wektor kointegrujący.  
+- Testowanie kointegracji ma sens wtedy, gdy zmienne występujące w równaniu są zintegrowane oraz może istnieć ich stacjonarna kombinacja liniowa.  
+- Procedura  
+	- Jeżeli zmienna $x_t$ oraz $y_t$ są zintegrowane w stopniu pierwszym to można przejść do kolejnego etapu.  
+	- oszacowanie modelu dla poziomów wybranych zmiennych, a następnie badanie stacjonarności składnika losowego ($e_t$):  
+		- $$e_t = y_t − β_0 − β_1*x_t$$  
+- Hipotezy  
+	- $H_0: e_t ∼ I(1)$  
+		- $x_t$ i $y_t$ nie są skointegorwane  
+	- $H_1: e_t ∼ I(0)$  
+		- $x_t$ i $y_t$ są skointegorwane  
+- Statystyka testu  
+	- Statystyka testu jest jest analogiczna jak w przyapdku testu ADF, ale wykorzystuje się inne statystyki testowe.  
   
-- **Jednorównaniowy model korekty błędem**; Dwustopniowa procedura Engle'a-Grangera (**interpretacja**, cel, budowa)  
-	- jednorównaniowy model korekty błędem  
-		- todo  
-	- dwustopniowa procedura Engle'a-Grangera  
-		- todo  
-	- interpretacja  
-	- cel  
-	- budowa  
+#### **Jednorównaniowy model korekty błędem**; Dwustopniowa procedura Engle'a-Grangera (**interpretacja**, cel, budowa)  
+- jednorównaniowy model korekty błędem  
+	- todo  
+- dwustopniowa procedura Engle'a-Grangera  
+	- todo  
+- interpretacja  
+- cel  
+- budowa  
   
 ---  
   
