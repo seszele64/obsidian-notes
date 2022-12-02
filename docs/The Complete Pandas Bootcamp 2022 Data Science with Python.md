@@ -9,13 +9,14 @@ link:
 - https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#content  
 share: True  
 date created: Wednesday, November 30th 2022, 3:14:16 am  
-date modified: Friday, December 2nd 2022, 9:33:17 pm  
+date modified: Friday, December 2nd 2022, 9:34:40 pm  
 ---  
   
 link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#content>  
   
+# The Complete Pandas Bootcamp 2022 Data Science with Python  
   
-# Introduction  
+## Introduction  
 - in reality you need skills in pandas, since most of the time you spend manipulating data  
 - practice  
 	- >150 exercises  
@@ -29,7 +30,7 @@ link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#c
 	- pandas is seriously automated  
 	- you need to have full picture of pandas  
   
-# Tips: How to Get the Most Out of This Course  
+## Tips: How to Get the Most Out of This Course  
 - read Q&A  
   
 ## Did You Know that...?  
@@ -59,11 +60,11 @@ link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#c
 	- `sudo apt install python3-pip python3-dev`  
 	- `sudo -H pip3 install --upgrade pip`  
   
-### Anaconda  
+## Anaconda  
 - update anaconda  
 	- `conda update --all --yes`  
   
-### Start  
+## Start  
 - Start Jupyter Notebook  
 	-  `jupyter notebook`[^1]  
   
