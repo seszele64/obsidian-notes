@@ -9,7 +9,7 @@ link:
 - https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#content  
 share: True  
 date created: Wednesday, November 30th 2022, 3:14:16 am  
-date modified: Friday, December 2nd 2022, 9:28:27 pm  
+date modified: Friday, December 2nd 2022, 9:33:17 pm  
 ---  
   
 link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#content>  
@@ -32,16 +32,16 @@ link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#c
 # Tips: How to Get the Most Out of This Course  
 - read Q&A  
   
-# Did You Know that...?  
+## Did You Know that...?  
 - correlation curves with all the elements displayed  
 	- logistic regression  
 	- `seaborn` library as sns -> `sns.lmplot`  
 - code is not complicated  
   
-# 5. Anaconda  
+## Anaconda  
 - install  
   
-# 9. Tabular Data  
+## Tabular Data  
 - pandas dataframe  
 - R-C rule  
 	- row-column  
@@ -51,8 +51,6 @@ link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#c
 		- so we have one data type for column  
 			- easier to work on, more optimal  
 			- better functionality  
-  
-# 10. Download: Part 1 Course Materials  
   
   
 ## Jupyter  
