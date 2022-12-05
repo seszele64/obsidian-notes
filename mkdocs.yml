@@ -15,6 +15,7 @@ theme:
     # - navigation.instant # some features may not work properly with XHR
     - navigation.tracking # the URL changes with the active anchor
     - navigation.tabs # first top-level folders are shown as tabs
+    - navigation.indexes
     
     
     font:
@@ -79,3 +80,5 @@ extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
+  - javascripts/extra.js
+  - javascripts/view-bigimg.js
