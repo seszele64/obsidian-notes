@@ -3,10 +3,18 @@ site_url: notes.harhara.bar/
 
 theme:
     name: 'material'
-    include_sidebar: false
+    
+    custom_dir: overrides
+    
+    #include_sidebar: false
     
     features:
     - navigation.top
+    
+    
+    font:
+      text: Noto Serif
+      code: Roboto Mono
     
     palette:
 
@@ -27,6 +35,14 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+        
+        
+  features:
+    # Navigation
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
+    # - navigation.instant # some features may not work properly with XHR
+    - navigation.tracking # the URL changes with the active anchor
+    - navigation.tabs # first top-level folders are shown as tabs
 
 # Extensions
 markdown_extensions:
@@ -46,6 +62,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.progressbar
+  - pymdownx.highlight
 
   - toc:
       permalink: true
@@ -55,6 +73,7 @@ plugins:
   - roamlinks 
   - mermaid2
   - tags
+
 
 extra_javascript:
   - javascripts/mathjax.js
