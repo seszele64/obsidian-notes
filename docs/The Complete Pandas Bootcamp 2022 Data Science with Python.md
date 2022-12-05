@@ -11,10 +11,11 @@ link:
 - https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#content  
 share: True  
 date created: Wednesday, November 30th 2022, 3:14:16 am  
-date modified: Monday, December 5th 2022, 12:18:44 am  
+date modified: Monday, December 5th 2022, 9:35:32 pm  
 ---  
   
-link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#content>  
+- link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#content>  
+- toolz: <https://udemy.toolzbuy.com/course/the-pandas-bootcamp/learn/lecture/12579754#overview>  
   
 # The Complete Pandas Bootcamp 2022 Data Science with Python  
   
@@ -92,6 +93,14 @@ link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#c
   
 ### Create Pd Series  
   
+#### From Scratch  
+- `pd.Series(values_list, index_values_list)`  
+	- example  
+		- `pd.Series([20, 25, 10, 0, 2, 16], index=['Mon', 'Tue', 'Wed', 'Thu', 'Fri'])`  
+		- **values_list** = `[20, 25, 10, 0, 2, 16]`  
+		- **index_values_list** = `['Mon', 'Tue', 'Wed', 'Thu', 'Fri']`  
+  
+#### From Dictionary  
 - from dictionary -> Key/Value Objects as Pandas Series  
 	- keys of the dictionary become the labels  
 	- To select only some of the items in the dictionary, use the `index` argument and specify only the items you want to include in the Series.  
@@ -101,17 +110,21 @@ calories = {"day1": 420, "day2": 380, "day3": 390}
 myvar = pd.Series(calories)  
 ```  
   
-  
-- from list[^3]  
+#### From List  
 ```python  
 a = [1, 7, 2]  
 myvar = pd.Series(a)  
 ```  
+- source[^3]  
   
-### Convert to Dataframe  
-- `df.to_frame()`  
-	- `df` - dataframe name  
+#### From Numpy Array  
+- `pd.Series(numpy_array)`  
   
+### Convert Pandas Series to Dataframe  
+- `series.to_frame()`  
+	- `series` - series name  
+  
+---  
   
 ## Choose Column and Row  
   
@@ -168,8 +181,6 @@ myvar = pd.Series(a)
 		- select the rows where Area value is ‘Ireland’.  
   
   
-  
-  
 ---  
   
 ### Conditions  
@@ -219,15 +230,37 @@ myvar = pd.Series(a)
 - `.round(x)`  
 	- `x` - `int`, how many digits to round to, 0 = whole numbers  
   
-### Get Unique Values of 'cylinders' Column  
+### Get Unique Values  
 - `mpg.unique()`  
+  
+### Get Not Unique Values  
+- `mpg.nunique()`  
   
 ### Check if Cars Has Duplicate Values  
 - `cars.duplicated()`  
 	- check if `cars` DataFrame has duplicate values  
   
-### Index  
+### Smallest Values in Dataframe  
   
+### Largest/Highest/Biggest And Smallest Values in Dataframe  
+- `age.nlargest(n)`  
+	- n = 5 (default), choosing how many of the largest values return  
+  
+- smallest  
+	- `age.nsmallest(n)`  
+		- n = 5 (default), choosing how many of the smallest values to return  
+	- `series.idxmax()`  
+		- returns the row **index** label of the maximum value  
+  
+- `series.idxmin()`  
+	- returns the row **index** label of the minimum value  
+  
+>Protip!  
+>- combine with `.loc` notation  
+>	- example: `titanic.loc[titanic.age.idxmin()]`  
+>	- returns row with lowest age value  
+  
+### Index  
 - `cars.index`  
 	- `cars` - name of DataFrame  
   
@@ -283,6 +316,15 @@ myvar = pd.Series(a)
 	- `X = int`  
   
 ---  
+  
+### Importing Data  
+  
+- importing from csv  
+	- `pd.read_csv("name.csv", usecols = ['column_name'])`  
+		- `usecols` - select only those columns  
+  
+  
+  
   
   
   
