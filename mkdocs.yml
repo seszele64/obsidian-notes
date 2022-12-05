@@ -70,7 +70,10 @@ plugins:
   - search
   - roamlinks 
   - mermaid2
-  - tags
+  - tags:
+      enabled: !ENV [CI, false]
+      tags_file: tags.md
+
 
 
 extra_javascript:
