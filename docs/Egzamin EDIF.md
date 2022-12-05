@@ -1,12 +1,14 @@
 ---  
 tags:  
+- data  
+- edif  
 project:  
 title: Egzamin EDIF  
 share: True  
 hide:  
 - navigation  
 date created: Tuesday, November 29th 2022, 9:32:00 pm  
-date modified: Monday, December 5th 2022, 7:05:19 pm  
+date modified: Monday, December 5th 2022, 7:59:53 pm  
 ---  
   
   
