@@ -68,7 +68,7 @@ markdown_extensions:
 
 plugins:
   - search
-  - roamlinks 
+  #- roamlinks 
   - mermaid2
   - tags
 
