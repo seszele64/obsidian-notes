@@ -11,7 +11,6 @@ date modified: Monday, December 5th 2022, 11:31:55 pm
   
 ## How to  
   
-<https://datadirector.weblink.com.au/knowledge-base/metastock-15-16-17-installation-on-a-new-computer/>  
 - free refinitiv access for a month (free trial)  
   
 - prerequisites  
@@ -33,4 +32,5 @@ date modified: Monday, December 5th 2022, 11:31:55 pm
 - getting started video  
 	- <https://www.youtube.com/watch?v=JOD2UwkVMaw>  
 - official refinitiv tutorials  
-	- <https://training.refinitiv.com/>
+	- <https://training.refinitiv.com/>  
+- <https://datadirector.weblink.com.au/knowledge-base/metastock-15-16-17-installation-on-a-new-computer/>
