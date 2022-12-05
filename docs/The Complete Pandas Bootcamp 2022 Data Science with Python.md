@@ -3,18 +3,29 @@ tags:
 - python  
 - data-science  
 - course  
+- pandas  
+- skills  
 project:  
 - learn python  
 link:  
 - https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#content  
 share: True  
 date created: Wednesday, November 30th 2022, 3:14:16 am  
-date modified: Friday, December 2nd 2022, 9:34:40 pm  
+date modified: Monday, December 5th 2022, 12:18:44 am  
 ---  
   
 link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#content>  
   
 # The Complete Pandas Bootcamp 2022 Data Science with Python  
+  
+- [ ] `df.info()`  
+- [ ] `df.describe()`  
+- [ ] `df.max_rows = `  
+- [ ] pandas cheatsheet  
+  
+  
+## Values/Rules  
+- >always inspect the data first, before coding on it!  
   
 ## Introduction  
 - in reality you need skills in pandas, since most of the time you spend manipulating data  
@@ -30,19 +41,19 @@ link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#c
 	- pandas is seriously automated  
 	- you need to have full picture of pandas  
   
-## Tips: How to Get the Most Out of This Course  
+### Tips: How to Get the Most Out of This Course  
 - read Q&A  
   
-## Did You Know that...?  
+### Did You Know that...?  
 - correlation curves with all the elements displayed  
 	- logistic regression  
 	- `seaborn` library as sns -> `sns.lmplot`  
 - code is not complicated  
   
-## Anaconda  
+### Anaconda  
 - install  
   
-## Tabular Data  
+### Tabular Data  
 - pandas dataframe  
 - R-C rule  
 	- row-column  
@@ -54,36 +65,57 @@ link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#c
 			- better functionality  
   
   
-## Jupyter  
+### Jupyter  
   
 - install jupyter  
 	- `sudo apt install python3-pip python3-dev`  
 	- `sudo -H pip3 install --upgrade pip`  
   
-## Anaconda  
+### Anaconda  
 - update anaconda  
 	- `conda update --all --yes`  
   
-## Start  
+### Start  
 - Start Jupyter Notebook  
 	-  `jupyter notebook`[^1]  
   
 - the token needed to connect to jupyter notebook via vscode is printed in the terminal  
-	-  
-  
-- new  
-	- `info()`  
-	- `describe()`  
-	- max_rows = value  
-  
-## Preview  
   
   
+## Pandas Cheatsheet  
+- [pydata.org cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)  
+- <https://www.dataquest.io/blog/pandas-cheat-sheet/>  
+  
+## Pandas Series  
+- It is a one-dimensional array holding data of any type.[^2]  
+- ![Pandas Series](https://media.geeksforgeeks.org/wp-content/uploads/dataSER-1.png)  
+  
+### Create Pd Series  
+  
+- from dictionary -> Key/Value Objects as Pandas Series  
+	- keys of the dictionary become the labels  
+	- To select only some of the items in the dictionary, use the `index` argument and specify only the items you want to include in the Series.  
+  
+```python  
+calories = {"day1": 420, "day2": 380, "day3": 390}    
+myvar = pd.Series(calories)  
+```  
+  
+  
+- from list[^3]  
+```python  
+a = [1, 7, 2]  
+myvar = pd.Series(a)  
+```  
+  
+### Convert to Dataframe  
+- `df.to_frame()`  
+	- `df` - dataframe name  
   
   
 ## Choose Column and Row  
   
-### Column by `name`, Row by Index  
+### Select Column by `name`, Row by Index  
 - single iloc  
 	- choose the `['name']` of column and `.iloc[index]` of row  
 		cars['name'].iloc[393]  
@@ -104,6 +136,42 @@ link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#c
 - `cars.iloc[-1:X, :]`  
 	- from `-1` column to `-x`th column  
   
+#### Columns  
+  
+##### Rename Columns  
+- rename the Column Labels 'horsepower' and 'origin' to 'hp' and 'country'  
+	- `cars.rename(columns = {"horsepower":"hp", "origin":"country"}, inplace = True)`  
+  
+- Rename by mapping old names to new names using a dictionary, with form `{“old_column_name”: “new_column_name”, …}`  
+	- `data = data.rename(columns={"Area": "place_name"})`  
+	- `data.rename(columns={"Area": "place_name"}, inplace=True)`  
+  
+- Rename by providing a function to change the column names with. Functions are applied to every column name.  
+	- `data.rename(columns=str.lower)`  
+  
+  
+##### Choose Columns  
+- using a dot notation, e.g. `data.column_name`  
+- using square braces and the name of the column as a string, `e.g. data['column_name']`  
+- using numeric indexing and the iloc selector -> `data.iloc[:, <column_number>]`[^4]  
+  
+#### Rows  
+  
+- numeric row selection using the iloc selector,  
+	- `data.iloc[0:10, :]` - select the first 10 rows.  
+  
+- label-based row selection using the loc selector (this is only applicably if you have set an “index” on your dataframe  
+	- `data.loc[44, :]`  
+  
+- logical-based row selection using evaluated statements,  
+	- `data[data["Area"] == "Ireland"]`  
+		- select the rows where Area value is ‘Ireland’.  
+  
+  
+  
+  
+---  
+  
 ### Conditions  
   
 - one condition  
@@ -120,6 +188,11 @@ link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#c
 		- `europe_le = cars.loc[(cars['origin'] == 'europe') & (cars['mpg'] < 20)]`  
 	- mpg between 10 and 15, inclusive  
 		- `mpg_10_15 = cars.loc[(cars['mpg'] >= 10) & (cars['mpg'] <= 15)]`  
+  
+---  
+  
+  
+---  
   
 ### Create a Copy of DataFrame Fragment  
 - `mpg = cars.loc[:, 'mpg'].copy()`  
@@ -173,16 +246,13 @@ link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#c
 	- `inplace = True`  
 		- change original value  
   
-### Columns  
-  
-#### Rename the Column Labels 'horsepower' and 'origin' to 'hp' and 'country'  
-- `cars.rename(columns = {"horsepower":"hp", "origin":"country"}, inplace = True)`  
-  
----  
-  
 ## General DataFrame Info  
   
 ### Summary, Describe  
+  
+- [ ] `df.info()`  
+- [ ] `df.describe()`  
+- [ ] `df.max_rows = `  
   
 #### First X Rows  
 - `df.tail(X = 5)`  
@@ -199,9 +269,11 @@ link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#c
 - `origin.describe()`  
   
 ### Frequencies  
+- number of occurrences, sorted from most frequent to least frequent  
+	- how many X values appear in the series  
   
-#### Relative Frequencies in the Mpg Series:  
-- `mpg.value_counts(normalize=True)`  
+- `df.value_counts(sort = True, dropna = True, ascending = False, normalize = False)`  
+	- `normalize` -> use relative frequencies (% of all items), sums up to 1  
   
 #### Frequency of Unique Values  
 - `mpg.value_counts()`  
@@ -215,15 +287,12 @@ link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#c
   
   
 ## TODO  
-- pandas cheatsheet  
-  
-  
-## Values/rules  
-- >always inspect the data first, before coding on it!  
-  
+- [ ] pandas cheatsheet  
   
   
   
 ## Footnotes  
   
-[^1]: <https://mas-dse.github.io/startup/anaconda-ubuntu-install/>
+[^1]: <https://mas-dse.github.io/startup/anaconda-ubuntu-install/>  
+[^2]: [Python Pandas DataFrame load, edit, view data](https://www.shanelynn.ie/using-pandas-dataframe-creating-editing-viewing-data-in-python/)  
+[^3]: [Pandas Series - w3](https://www.w3schools.com/python/pandas/pandas_series.asp)
