@@ -5,10 +5,11 @@ tags:
 project:  
 share: True  
 date created: Monday, December 5th 2022, 4:49:31 pm  
-date modified: Monday, December 5th 2022, 4:50:47 pm  
+date modified: Monday, December 5th 2022, 4:53:05 pm  
 ---  
 # Free Refinitiv Access  
   
+## How to  
   
 <https://datadirector.weblink.com.au/knowledge-base/metastock-15-16-17-installation-on-a-new-computer/>  
 - free refinitiv access for a month (free trial)  
