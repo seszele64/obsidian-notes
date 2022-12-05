@@ -1,4 +1,5 @@
-site_name: obsidian-mkdocs template
+site_name: My Obsidian Notes
+site_url: notes.harhara.bar/
 
 theme:
     name: 'material'
