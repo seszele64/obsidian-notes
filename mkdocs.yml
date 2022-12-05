@@ -15,7 +15,7 @@ theme:
     # - navigation.instant # some features may not work properly with XHR
     - navigation.tracking # the URL changes with the active anchor
     - navigation.tabs # first top-level folders are shown as tabs
-    - navigation.indexes
+    #- navigation.indexes
     
     
     font:
@@ -68,7 +68,7 @@ markdown_extensions:
 
 plugins:
   - search
-  #- roamlinks 
+  - roamlinks 
   - mermaid2
   - tags
 
