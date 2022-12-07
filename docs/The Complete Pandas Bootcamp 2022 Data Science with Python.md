@@ -11,7 +11,7 @@ link:
 - https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#content  
 share: True  
 date created: Wednesday, November 30th 2022, 3:14:16 am  
-date modified: Monday, December 5th 2022, 9:35:32 pm  
+date modified: Wednesday, December 7th 2022, 2:14:31 pm  
 ---  
   
 - link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#content>  
@@ -25,7 +25,7 @@ date modified: Monday, December 5th 2022, 9:35:32 pm
 - [ ] pandas cheatsheet  
   
   
-## Values/Rules  
+## Rules  
 - >always inspect the data first, before coding on it!  
   
 ## Introduction  
@@ -207,6 +207,7 @@ myvar = pd.Series(a)
   
 ### Create a Copy of DataFrame Fragment  
 - `mpg = cars.loc[:, 'mpg'].copy()`  
+	- mpg - pandas series  
 - `origin = cars.loc[:, 'origin'].copy()`  
   
 ## Sort  
@@ -226,39 +227,55 @@ myvar = pd.Series(a)
   
 ## Values  
   
+### Change Single Value in Pandas Series  
+- change by providing **index label** name - `series['index_label']`  
+	- `sales["Sun"] = 0`  
+		- sales - pandas series  
+		  Sun - index label  
+  
+- change with `series.iloc` method  
+	- `sales.iloc[3]`  
+		- change value of **third row** in **sales** pandas series  
+  
 ### Round Values  
 - `.round(x)`  
 	- `x` - `int`, how many digits to round to, 0 = whole numbers  
   
 ### Get Unique Values  
-- `mpg.unique()`  
+- return the unique values  
+- `series.unique()`  
   
-### Get Not Unique Values  
-- `mpg.nunique()`  
+### Get Number of Unique Values  
+- Return the **number of unique values** for series  
+	- number of different values  
+	- overlapping values are all counted as one  
+- `series.nunique()`  
   
-### Check if Cars Has Duplicate Values  
-- `cars.duplicated()`  
-	- check if `cars` DataFrame has duplicate values  
   
-### Smallest Values in Dataframe  
+### Check if Pandas Series Has Duplicate Values  
+- check if `series` pandas series has duplicate values  
+- `series.duplicated()`  
   
 ### Largest/Highest/Biggest And Smallest Values in Dataframe  
-- `age.nlargest(n)`  
-	- n = 5 (default), choosing how many of the largest values return  
-  
-- smallest  
-	- `age.nsmallest(n)`  
-		- n = 5 (default), choosing how many of the smallest values to return  
-	- `series.idxmax()`  
-		- returns the row **index** label of the maximum value  
-  
-- `series.idxmin()`  
-	- returns the row **index** label of the minimum value  
   
 >Protip!  
 >- combine with `.loc` notation  
 >	- example: `titanic.loc[titanic.age.idxmin()]`  
 >	- returns row with lowest age value  
+  
+#### Largest Values  
+- `age.nlargest(n)`  
+	- n = 5 (default), choosing how many of the largest values return  
+- `series.idxmax()`  
+	- returns the row **index** label of the maximum value  
+  
+#### Smallest Values  
+- `age.nsmallest(n)`  
+	- n = 5 (default), choosing how many of the smallest values to return  
+- `series.idxmin()`  
+	- returns the row **index** label of the minimum value  
+		- used to get id for the minimum value, handy since index column is unique  
+  
   
 ### Index  
 - `cars.index`  
