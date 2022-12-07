@@ -11,7 +11,7 @@ link:
 - https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#content  
 share: True  
 date created: Wednesday, November 30th 2022, 3:14:16 am  
-date modified: Wednesday, December 7th 2022, 2:14:31 pm  
+date modified: Wednesday, December 7th 2022, 3:25:31 pm  
 ---  
   
 - link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#content>  
@@ -295,6 +295,41 @@ myvar = pd.Series(a)
 - `cars.reset_index(inplace=True)`  
 	- `inplace = True`  
 		- change original value  
+  
+  
+## Index Object  
+- [pandas docs](https://pandas.pydata.org/docs/reference/indexing.html)  
+- specific, have their own methods and attributes  
+  
+- `.axes`  
+	- range of the index (how many rows)  
+	- names of the index label (names of the columns)  
+  
+- `.columns`  
+	- `index.columns`  
+	- slice columns  
+		- slice the three first columns  
+			- `index.columns[:3]`  
+  
+- `series.index.is_unique`  
+	- does index have only unique values?  
+		- `True` / `False`  
+  
+### Creating Index Object  
+- `pd.Index()`  
+  
+- examples  
+	- index values from 1 to 4  
+		- `pd.Index(range(1,4))`  
+	- index as weekdays  
+		- pd.Index(["Mo", "Tue", "Wed", "Thu", "Fri"], name = "days")  
+  
+### Reset Index  
+- `df.reset_index()`  
+	- reset index of series/dataframe  
+- `df.reset_index(drop = True)`  
+	- remove the index column altogether from dataframe/series  
+  
   
 ## General DataFrame Info  
   
