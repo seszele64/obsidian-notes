@@ -11,7 +11,7 @@ link:
 - https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#content  
 share: True  
 date created: Wednesday, November 30th 2022, 3:14:16 am  
-date modified: Wednesday, December 7th 2022, 3:25:31 pm  
+date modified: Wednesday, December 7th 2022, 3:38:48 pm  
 ---  
   
 - link: <https://www.udemy.com/course/the-pandas-bootcamp/learn/lecture/13652280#content>  
@@ -300,6 +300,7 @@ myvar = pd.Series(a)
 ## Index Object  
 - [pandas docs](https://pandas.pydata.org/docs/reference/indexing.html)  
 - specific, have their own methods and attributes  
+- ==immutable==  
   
 - `.axes`  
 	- range of the index (how many rows)  
@@ -330,6 +331,27 @@ myvar = pd.Series(a)
 - `df.reset_index(drop = True)`  
 	- remove the index column altogether from dataframe/series  
   
+### Set Index  
+- `df.set_index("Column_name")`  
+  
+- `df.set_index("Column_name", drop = boolean (True), inplace = boolean (True))`  
+  
+### Check Index Size  
+- `df.index.size`  
+  
+### Change Index Name  
+- `df.index.name`  
+  
+### Rename Index, Column Labels  
+  
+#### Mapper  
+- `df.rename(mapper = dict, axis = "index")`  
+  
+#### Index  
+- `df.rename(index = dict)`  
+  
+#### Rename Column Names  
+- `df.rename(columns = {"Previous_col_name1":"Desired_col_name1"})`  
   
 ## General DataFrame Info  
   
