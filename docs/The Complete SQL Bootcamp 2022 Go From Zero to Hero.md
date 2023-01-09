@@ -9,7 +9,7 @@ project:
 share: True  
 total-runtime: 9 hours  
 date created: Wednesday, December 7th 2022, 5:59:25 pm  
-date modified: Wednesday, December 21st 2022, 4:08:45 pm  
+date modified: Monday, January 9th 2023, 7:52:42 pm  
 link: https://udemy.toolzbuy.com/course/the-complete-sql-bootcamp/learn/lecture/19242668?courseId=762616#overview  
 finished: Section 2, Video 16   
 title: The Complete SQL Bootcamp 2022 Go From Zero to Hero  
@@ -688,6 +688,7 @@ LIMIT 10
   
 ### Challenge  
   
+#### No 1  
 - platinum service for our most loyal customers, assign platinum status to customers that have had 40+ transaction payments  
   
 - output  
@@ -704,3 +705,482 @@ ORDER BY COUNT(payment_id) DESC
 ```  
   
   
+#### No 2  
+- customer ids who spent more than $100 in payment transactions with staff id 2  
+  
+- output  
+```  
+"customer_id"	"sum"	"staff_id"  
+522	102.80	2  
+187	110.81	2  
+211	108.77	2  
+526	101.78	2  
+148	110.78	2  
+```  
+  
+- code  
+```sql  
+SELECT customer_id, SUM(amount), staff_id FROM payment  
+WHERE (staff_id = 2)  
+GROUP BY customer_id, staff_id  
+HAVING SUM(amount) > 100  
+```  
+  
+  
+## Assesment  
+  
+- 3 quick questions  
+- provided with answers to test again  
+- solutions provided in the lecture after test  
+  
+- 1. Return the customer IDs of customers who have spent at least $110 with the staff member who has an ID of 2.  
+  
+- output  
+	- 187, 148  
+  
+- code  
+```sql  
+SELECT customer_id FROM payment  
+WHERE (staff_id = 2)  
+GROUP BY customer_id  
+HAVING SUM(amount) > 110  
+```  
+  
+  
+- 2. How many films begin with the letter J?  
+	- 20  
+  
+- code  
+  
+```sql  
+SELECT COUNT(*) FROM film  
+WHERE title ILIKE 'j%'  
+```  
+  
+- 3. What customer has the highest customer ID number whose name starts **with** an 'E' **and** has an address ID lower than 500?  
+	- 434, Eddie Tomlin  
+  
+- code  
+```sql  
+SELECT customer_id FROM customer  
+WHERE (first_name ILIKE 'e%') AND (address_id < 500)  
+ORDER BY customer_id DESC  
+LIMIT 1  
+```  
+  
+  
+## JOINS  
+sources[^1]  
+  
+- generally: join serves purpose to combine info from different tables  
+- combine tables together  
+- different types  
+![assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230104164143830.png](./images/image-20230104164143830.png)  
+  
+### AS  
+- `AS` keyword  
+- alias for column name  
+- `SELECT column_name AS new_name`  
+- `AS` gets **executed** at **the very end of a query**, meaning that we cannot use it inside `WHERE` or `HAVING` operator  
+  
+```sql  
+SELECT customer_id, SUM(amount) AS total_spent  
+FROM payment  
+GROUP BY customer_id  
+HAVING SUM(amount)>100  
+```  
+  
+  
+### Inner Join  
+- **records** that are **in both tables**  
+- table order does not matter in `INNER JOIN`  
+- **Inner join** produces only the set of records that match in both Table A and Table B.  
+- ![inner join](https://blog.codinghorror.com/content/images/uploads/2007/10/6a0120a85dcdae970b012877702708970c-pi.png)  
+  
+#### Syntax  
+```sql  
+SELECT * FROM TableA  
+INNER JOIN TableB  
+ON TableA.name = TableB.name  
+```  
+  
+  
+```sql  
+SELECT * FROM TableA # select all columns from table A  
+INNER JOIN TableB # type of join, what to join  
+ON TableA.col_match = TableB.col_match # what are we matching on  
+```  
+- TableA - TableA name  
+  
+- TableB - TableB name  
+  
+- example  
+```sql  
+SELECT * FROM Registrations  
+INNER JOIN Logins  
+ON Registrations.name = Logins.name  
+```  
+  
+- result  
+![assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230104164735840.png](./images/image-20230104164735840.png)  
+  
+- example -> skip duplicate column in the output  
+```sql  
+SELECT reg_id, Logins.name, log_id  
+FROM Registrations  
+INNER JOIN Logins  
+ON Registrations.name = Logins.name  
+```  
+  
+- result -> no duplicate column, only name column from Logins table  
+![assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230104165000172.png](./images/image-20230104165000172.png)  
+  
+- duplicate column name, when selecting **after join** i should specify what table im referring to in regards to the name column  
+  
+  
+### Outer JOINs  
+- there are few types of outer join  
+- they allow us to specify with the values **only present in one** of the **table**s being joined  
+- more complex type of joins  
+  
+#### FULL OUTER JOIN  
+- **Full outer join** produces the set of all records in Table A and Table B, with matching records from both sides where available. If there is no match, the missing side will contain null.  
+- ![outer join](https://blog.codinghorror.com/content/images/uploads/2007/10/6a0120a85dcdae970b012877702725970c-pi.png)  
+  
+```sql  
+SELECT * FROM TableA  
+FULL OUTER JOIN TableB  
+ON TableA.name = TableB.name  
+```  
+  
+  
+  
+- table order does not matter  
+- grabs **everything**, matches on columns  
+- rest gets filled with null  
+  
+  
+#### FULL OUTER JOIN with WHERE  
+![assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230104170907751.png](./images/image-20230104170907751.png)  
+- exact opposite of INNER JOIN  
+- get rows unique to either table  
+  
+```sql  
+SELECT * FROM TableA  
+FULL OUTER JOIN TableB  
+ON TableA.col_match = TableB.col_match  
+WHERE TableA.id IS null OR TableB.id IS null  
+```  
+  
+- key clause `WHERE`  
+```sql  
+WHERE TableA.column IS null OR TableB.column IS null  
+```  
+  
+- previously -> rows present in both tables exist in output  
+![assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230104171316268.png](./images/image-20230104171316268.png)  
+  
+- after `WHERE` clause  
+![assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230104171335612.png](./images/image-20230104171335612.png)  
+  
+#### LEFT OUTER JOIN  
+![assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230107135011220.png](./images/image-20230107135011220.png)  
+  
+- otherwise known as **left join**  
+- **order matters**  
+	- trips up beginners  
+	- most complicated join  
+  
+- results that are in the left table, if there is no match in the right table, the results are null  
+	- if something is only in TableB (right table [see->](The%20Complete%20SQL%20Bootcamp%202022%20Go%20from%20Zero%20to%20Hero#LEFT%20OUTER%20JOIN#syntax.md)), it is not going to be returned by the query  
+  
+##### Syntax  
+```sql  
+SELECT * FROM TableA  
+LEFT OUTER JOIN TableB  
+ON TableA.col_match = TableB.col_match  
+```  
+  
+##### Left Outer Join with WHERE  
+![assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230107135640941.png](./images/image-20230107135640941.png)  
+- get rows unique to left table  
+	- only in left table  
+- example uses  
+	- we have information about movie, but don't have it for rental  
+  
+- syntax  
+```sql  
+SELECT * FROM TableA  
+LEFT OUTER JOIN TableB  
+ON TableA.col_match = TableB.col_match  
+WHERE TableB.id IS null  
+```  
+  
+- example  
+```sql  
+SELECT film.film_id, film.title, inventory.inventory_id FROM film  
+LEFT JOIN inventory  
+ON film.film_id = inventory.film_id   
+WHERE inventory.film_id IS null  
+```  
+  
+#### RIGHT OUTER JOIN  
+![assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230107140835209.png](./images/image-20230107140835209.png)  
+  
+- the **same thing as LEFT JOIN**, but with **different order** of tables  
+  
+  
+### Full Joins  
+  
+### Unions  
+- combine the result-set of two or more select statements  
+- concatenate two results together  
+  
+- syntax  
+```sql  
+SELECT column_name FROM table1  
+UNION  
+SELECT column_name FROM table2  
+```  
+  
+- will be later explored, with different database  
+  
+  
+### Challenge  
+  
+#### no1  
+- sales tax law has changed, we want to alert the customers who live in california  
+- emails for customers living in CA  
+  
+mails -> customer.email, id-> address_id  
+state -> address.dictrict, id -> address_id  
+  
+  
+- answer  
+```sql  
+SELECT email FROM customer  
+JOIN address  
+ON customer.address_id = address.address_id  
+WHERE address.district = 'California'  
+```  
+  
+#### no2  
+- fan of `Nick Wahlberg`  
+- wants to see list of movies with `Nick Wahlberg`  
+  
+actor -> actor_id = 1  
+```sql  
+SELECT actor_id FROM actor  
+WHERE first_name = 'Nick' AND last_name = 'Wahlberg'  
+```  
+  
+film -> film_id, title  
+  
+film_actor -> actor_id, film_id  
+  
+- nested query  
+```sql  
+SELECT * FROM film_actor  
+WHERE actor_id = (  
+	SELECT actor_id FROM actor  
+	WHERE first_name = 'Nick' AND last_name = 'Wahlberg')  
+```  
+  
+- nested query + join  
+```sql  
+SELECT * FROM film_actor  
+JOIN film  
+ON film_actor.film_id = film.film_id  
+WHERE actor_id = (  
+	SELECT actor_id FROM actor  
+	WHERE first_name = 'Nick' AND last_name = 'Wahlberg')  
+```  
+  
+  
+- 2 joins  
+```sql  
+SELECT actor.first_name, actor.last_name, film.title FROM film_actor  
+JOIN film  
+ON film_actor.film_id = film.film_id  
+JOIN actor  
+ON actor.actor_id = film_actor.actor_id  
+WHERE actor.first_name = 'Nick' AND actor.last_name = 'Wahlberg'  
+```  
+  
+  
+  
+## Advanced Sql Commands  
+  
+### Timestamps and Extract  
+- displaying current time info  
+  
+- more useful when creating tables and databases, which will be covered later in the course  
+  
+  
+- `TIME` - contains time  
+- `DATE` - only date  
+- `TIMESTAMP` - date and time  
+- `TIMESTAMPTZ` - date, time and timezone  
+	- >⚠️you can always remove historical information, but you cannot add it!⚠️  
+  
+- functions and operations  
+	- `TIMEZONE()`  
+	- `NOW()`  
+		- `SELECT NOW()`  
+	- `TIMEOFDAY()`  
+		- returns as text string  
+	- `CURRENT_TIME`  
+	- `CURRENT_DATE`  
+		- `YYYY-MM-DD`  
+  
+- `SHOW ALL`  
+	- show value of runtime parameters  
+  
+#todo  
+  
+### Mathemetical Functions  
+- url: <https://www.postgresql.org/docs/9.1/functions-math.html>  
+  
+- example  
+```sql  
+SELECT ROUND(rental_rate/replacement_cost, 4)*100 FROM film  
+```  
+  
+  
+### Subquery  
+- query on top of query  
+  
+#### Examples  
+- list of students who performed better than the average grade  
+  
+```sql  
+SELECT student, grade  
+FROM test_scores  
+WHERE grade > (  
+SELECT AVG(grade) FROM test_scores  
+)  
+```  
+1. get average  
+2. run outside query -> list of students with grades above average  
+  
+- subquery is performed first  
+- `IN`  
+	- conjunction of subqueries  
+  
+```sql  
+SELECT student, grade  
+FROM test_scores  
+WHERE student IN  
+(  
+SELECT student  
+FROM honor_roll_table #list of values  
+)  
+```  
+  
+- `EXISTS` operator  
+```sql  
+SELECT colummn_name  
+FROM table_name  
+WHERE EXISTS  
+(SELECT column_name  
+FROM table_name  
+WHERE condition)  
+```  
+  
+  
+  
+- film table  
+	- rental_rate > AVG(rental_rate)  
+  
+```sql  
+SELECT * FROM film  
+WHERE rental_rate >  
+(SELECT AVG(rental_rate)  
+ FROM film)  
+```  
+  
+  
+- combine two subqueries  
+```sql  
+SELECT * FROM film  
+WHERE  
+rental_rate > (SELECT AVG(rental_rate) FROM film) AND  
+rental_rate < (SELECT 2*AVG(rental_rate) FROM film)  
+```  
+  
+  
+- continue: <https://udemy.toolzbuy.com/course/the-complete-sql-bootcamp/learn/lecture/18573946#overview>  
+  
+  
+## Assessment Test 2  
+  
+- two schemas  
+	- public and cd schema  
+  
+- tables exist in cd schema  
+	- we need to specify the queries for the `FROM` tables `cd.` in front of them  
+		- `SELECT * FROM cd.bookings`  
+		- `SELECT * FROM cd.facilities`  
+  
+- in postgres  
+	- right-click Databases > create database > give whatever name you like  
+		- right-click the database you created > restore > select .tar file  
+			- >⚠️show all files!⚠️  
+			- data/objects > select pre-data, data, post-data  
+  
+- query different db  
+	- right click db > query tool  
+  
+- init query  
+	- `SELECT * FROM cd.facilities`  
+  
+### Data Structure  
+- `cd.facilities`  
+	- actual facilities  
+- `cd.bookings`  
+	- bookings  
+- `cd.members`  
+	- members (who booked?)  
+  
+### Questions  
+  
+1. How can you retrieve all the information from the cd.facilities table?  
+	- `SELECT * FROM cd.facilities`  
+  
+2. You want to print out a list of all of the facilities and their cost to members. How would you retrieve a list of only facility names and costs?  
+```sql  
+SELECT name, membercost FROM cd.facilities  
+WHERE membercost != 0  
+```  
+  
+3. How can you produce a list of facilities that charge a fee to members?  
+```sql  
+SELECT * FROM cd.facilities  
+WHERE membercost != 0  
+```  
+  
+4. How can you produce a list of facilities that charge a fee to members, and that fee is less than 1/50th of the monthly maintenance cost?  
+```sql  
+SELECT * FROM cd.facilities  
+WHERE membercost != 0 AND membercost < monthlymaintenance/50  
+```  
+  
+5. How can you produce a list of all facilities with the word 'Tennis' in their name?  
+```sql  
+SELECT * FROM cd.facilities  
+WHERE name ILIKE '%tennis%'  
+```  
+  
+6. How can you retrieve the details of facilities with ID 1 and 5? Try to do it without using the OR operator  
+  
+- id = 1  
+- id = 5  
+  
+```sql  
+SELECT * FROM cd.facilities  
+WHERE facid IN (1,5)  
+```  
+  
+  
+  
+[^1]: <https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/>
