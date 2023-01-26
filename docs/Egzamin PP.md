@@ -2,7 +2,7 @@
 tags:  
 - PP  
 date created: Thursday, January 26th 2023, 1:33:35 pm  
-date modified: Thursday, January 26th 2023, 11:31:48 pm  
+date modified: Thursday, January 26th 2023, 11:36:19 pm  
 share: TRUE  
 title: Egzamin PP  
 ---  
@@ -47,13 +47,13 @@ title: Egzamin PP
 ## Pytania  
   
   
-### Bank Centralny  
+## Bank Centralny  
 - “Rozdział 2. Bank centralny, jego cechy, funkcje i zadania” ([Rutkowski, p. 5](zotero://select/library/items/EM2GHCHR)) ([pdf](zotero://open-pdf/library/items/VGU6Q22F?page=5&annotation=9LB9ZJ5H))  
   
 >polityka monetarna i fiskalna muszą być skoordynowane  
   
   
-#### Funkcje  
+### Funkcje  
 • bank banków  
 • bank państwa  
 • kredytodawca ostatniej instancji  
@@ -62,7 +62,7 @@ title: Egzamin PP
 • utrzymanie centralnych rezerw walutowych kraju oraz regulowanie kursu waluty krajowej na rynku walutowym  
 • nadzór nad bankami komercyjnymi  
   
-#### Prawo O NBP  
+### Prawo O NBP  
 - ustawa o narodowym banku polskim  
 	- najważniejsza ustawa  
 	- ustawa ==nie określa== funkcji banku centralnego  
@@ -77,14 +77,14 @@ title: Egzamin PP
 - konstytucja  
 	- art. 227 ust. 1  
 		- NBP odpowiada za wartość polskiego pieniądza  
-#### Organy NBP  
+### Organy NBP  
 - prezes nbp  
-##### Rpp  
+#### Rpp  
 - 9 członków - po 3 sejm, senat, prezydent  
 	- obecnie 7 członków  
 - kadencja - 6 lat  
 - obecnie 5 kadencja  
-###### Zadania  
+##### Zadania  
 - ustala stopy  
 - ustala poziom rezerwy obowiązkowej  
 	- obniżona z 3.5% do 0.5% - finansowanie obligacji rządowych przez banki  
@@ -104,7 +104,7 @@ title: Egzamin PP
 	- Sprawozdaniu z wykonania założeń polityki pieniężnej.  
   
   
-#### Cele  
+### Cele  
 - cel nadrzędny banków centralnych  
 	- niska i stabilna inflacja  
   
@@ -125,31 +125,31 @@ title: Egzamin PP
 - cele operacyjne  
 	- W 2023 r. celem operacyjnym polityki pieniężnej NBP będzie **kształtowanie stawki POLONIA w pobliżu stopy referencyjnej** NBP.  
   
-##### Płynność Sektora Bankowego  
+#### Płynność Sektora Bankowego  
 - zdolność do terminowego regulowania zobowiązań,  
 - **Nadmierna płynność** sektora bankowego to nadwyżka podaży rezerw płynnych banków ponad poziom rezerwy obowiązkowej wymaganej przez NBP  
   
   
-#### Funkcje Banku Centralnego  
+### Funkcje Banku Centralnego  
 - kierowanie polityką pieniężną  
 - rezerwy walutowe  
 - emisja pieniądza gotówkowego  
   
   
-#### Działania  
+### Działania  
 - ekspansywna pp NBP  
 - operacje zasilające sektor bankowy w płynność poprzez transakcje repo oraz operacje zakupu obligacji skarbowych na rynku wtórnym w ramach strukturalnych operacji otwartego rynku  
 - znacząco spadła rentowność emitowanych obligacji, a w związku z tym obniżył się koszt obsługi zadłużenia publicznego, powiększając tym samym przestrzeń dla niezbędnej stymulacji fiskalnej  
   
-##### Rodzaje  
+#### Rodzaje  
 - akomodacyjna polityka pieniężna - wspierająca aktywność gospodarczą  
   
-#### Sprawozdania  
+### Sprawozdania  
 - Dokumenty RPP. Sprawozdania z wykonania założeń polityki pieniężnej  
 	- <https://www.nbp.pl/home.aspx?f=/polityka_pieniezna/dokumenty/sprawozdanie_z_wykonania.html>  
   
   
-### Cele Polityki Pieniężnej  
+## Cele Polityki Pieniężnej  
 - strategiczne  
 	- długookresowe - BCI  
 - pośrednie  
@@ -158,40 +158,40 @@ title: Egzamin PP
 	- POLONIA  
 		- stop. ref.  
   
-### Płynność Sektora Bankowego  
+## Płynność Sektora Bankowego  
 - czynniki  
 - rodzaje  
 	- jak mierzą  
 - ryzyko płynności bankowej  
 - rola banku centralnego w ogarnianiu płynności  
   
-### Pieniądz  
+## Pieniądz  
 - funkcje  
   
-#### Podaż Pieniądza  
+### Podaż Pieniądza  
 - Podaż pieniądza: ilość pieniądza w obiegu (M)  
   
-##### Kreacja Pieniądza  
+#### Kreacja Pieniądza  
 - pierwotna  
 	- wprowadzanie gotówki przez bank centralny do systemu  
 	- kredyty udzielane bankom komercyjnym przez bank centralny  
 - wtórna  
 	- **udzielanie kredytów przez banki komercyjne** swoim klientom  
   
-##### Wpływanie Na Podaż  
+#### Wpływanie Na Podaż  
   
-###### W Celu Zwiększenia Podaży  
+##### W Celu Zwiększenia Podaży  
 - obniżenie stopy BC w celu zwiększenia pożyczek dla banków komercyjnych  
 - zakup rządowych papierów wartościowych na otwartym rynku,  
 - obniżenie poziomu stopy rezerwy obowiązkowej;  
   
-###### W Celu Zmniejszenia Podaży  
+##### W Celu Zmniejszenia Podaży  
 - podwyższenie stopy BC w celu zmniejszenia pożyczek dla banków komercyjnych,  
 - sprzedaż posiadanych rządowych papierów wartościowych,  
 - podwyższenie poziomu stopy rezerwy obowiązkowej  
   
   
-##### Agregaty Pieniężne  
+#### Agregaty Pieniężne  
 - mnożnik kreacji  
   
 - tabela, wykres  
@@ -222,9 +222,9 @@ title: Egzamin PP
 	6. dłużne papiery wartościowe z terminem pierwotnym do 2 lat włącznie  
 	7. Jednostki uczestnictwa w funduszach rynku pieniężnego  
   
-### Instrumenty Rynku Pieniężnego  
+## Instrumenty Rynku Pieniężnego  
   
-#### Bon Skarbowy  
+### Bon Skarbowy  
 - Instrument o podstawie dyskontowej  
 - Emitent – Skarb Państwa  
 - Termin wykupu od 1 dnia do 52 tygodni  
@@ -232,7 +232,7 @@ title: Egzamin PP
 - Stopy zwrotu obliczane na podstawie roku 365-dniowego  
 - Podstawa prawna: Ustawa budżetowa, Ustawa o finansach publicznych, Rozporządzenia MF  
   
-#### Bon Pieniężny NBP  
+### Bon Pieniężny NBP  
 - Emitent – Narodowy Bank Polski  
 - Cel – prowadzenie polityki pieniężnej poprzez operacje na rynku pieniężnym (operacje otwartego rynku)  
 - Sprzedaż bonów przez NBP – zmniejszanie ilości pieniądza na rynku  
@@ -242,9 +242,9 @@ title: Egzamin PP
 - Brak ryzyka  
 - Duża płynność  
   
-### Instrumenty Polityki Pieniężnej  
+## Instrumenty Polityki Pieniężnej  
   
-#### Stopy Procentowe  
+### Stopy Procentowe  
   
 - stopa lombardowa  
 	- określa **górny poziom** wzrostu stóp procentowych na rynku **overnight**  
@@ -270,7 +270,7 @@ title: Egzamin PP
 	- określa **cenę**, po jakiej bank centralny udziela **kredytu redyskontowego** bankom komercyjnym (kupuje weksle (handlowe zdyskontowane) od banków komercyjnych).  
   
   
-#### Stopa Rezerwy Obowiązkowej  
+### Stopa Rezerwy Obowiązkowej  
 - funkcje  
 	- Funkcje tradycyjne  
 		- Zabezpieczenie wkładów deponentów  
@@ -290,7 +290,7 @@ title: Egzamin PP
 	3. Odprowadzanie rezerwy  
 	4. Utrzymywanie rezerwy  
   
-##### Zwolnienia Z Rezerwy Obowiązkowej  
+#### Zwolnienia Z Rezerwy Obowiązkowej  
   
 - 2020  
 	- odnotowano 4 przypadki nieutrzymania przez banki rezerwy obowiązkowej na wymaganym poziomie.  
@@ -299,7 +299,7 @@ title: Egzamin PP
   
   
   
-#### Stopy Na Rynku Międzybankowym  
+### Stopy Na Rynku Międzybankowym  
   
 - rynek polski  
 	- WIBOR (Warsaw Interbank Offered Rate) - przeciętna stopa oprocentowania kredytów  
@@ -311,16 +311,16 @@ title: Egzamin PP
 	- EURIBOR (Euro Interbank Offered Rate) – przeciętna stopa oprocentowania kredytów na rynku międzybankowym w europejskiej Unii Gospodarczej i Walutowej  
   
   
-#### Operacje Depozytowo-kredytowe  
+### Operacje Depozytowo-kredytowe  
 - rodzaje  
 	- kredyt redyskontowy, kredyt lombardowy, kredyt w ciągu dnia, …  
   
-##### Kredyt Refinansowy  
+#### Kredyt Refinansowy  
   
 - sufit zmienności rynkowych stóp procentowych  
 	- stopy procentowe nie powinny jej przekroczyć  
   
-###### Funkcje  
+##### Funkcje  
 - refinansowanie operacji aktywnych banków komercyjnych  
 - pomoc w odzyskiwaniu płynności banku komercyjnego w sytuacjach nagłego jej zachwiania  
 - wpływ na rynkową stopę procentową, a także sygnalizowanie zmian w restrykcyjności polityki pieniężnej  
@@ -339,12 +339,12 @@ title: Egzamin PP
 	- stopa procentowa  
 		- znacząco wyższa od rynkowej - Oprocentowanie kredytu refinansowego, niewymienionego w § 2 (Uchwała RPP j.w.), jest **wyższe o 1 punkt procentowy niż oprocentowanie kredytu lombardowego** i wynosi **8,25%**  
   
-###### Stopy Refinansowe NBP  
+##### Stopy Refinansowe NBP  
 - kredyt redyskontowy: 6,80%  
 - kredyt wekslowy (dyskontowy): 6,85%  
 - kredyt lombardowy: 7,25%  
   
-##### Kredyt W Ciągu Dnia (techniczny)  
+#### Kredyt W Ciągu Dnia (techniczny)  
 - kredyt **nieoprocentowany**, zabezpieczany skarbowymi papierami wartościowymi, zaciągany i spłacany w tym samym dniu operacyjnym.  
 - instrument ułatwiający bankom zarządzanie płynnością w ciągu dnia operacyjnego  
 - zapewnia jednocześnie płynność rozrachunku międzybankowego NBP  
@@ -360,27 +360,27 @@ title: Egzamin PP
 - stopy  
 	-  
   
-#### Operacje Otwartego Rynku  
-##### Cele  
+### Operacje Otwartego Rynku  
+#### Cele  
 - Kształtowanie płynności sektora bankowego i przez to jego zdolności do kreacji pieniądza  
 - Pośrednie lub bezpośrednie wpływanie na poziom stóp procentowych,  
 - Zwiększanie efektywności działania rynku pieniężnego.  
   
-##### Podział  
+#### Podział  
   
-###### Wpływ Na Płynność Sektora Bankowego  
-- Operacje Zasilające  
-	- Transakcje, w których **BC kupuje** papiery wartościowe -> BC daje sianko na rynek -> powodują **zwiększenie płynności** sektora bankowego  
-	- Mechanizm  
-		- BC chce obniżyć wysokość stóp % na rynku -> daje tańszy kredyt o niższym oprocentowaniu (kredyt ten jest w formie skupu papierów wartościowych posiadanych przez banki, ale wychodzi na to samo, tylko wyższy poziom komplikacji)  
+##### Wpływ Na Płynność Sektora Bankowego  
   
-- Operacje Absorbujące  
-	- Transakcje, w których BC sprzedaje lub emituje własne papiery wartościowe -> BC zabiera sianko w zamian za papierek -> powoduje to **zmniejszenie płynności** sektora bankowego  
-	- Mechanizm  
-		- BC chce podnieść wysokość stóp % na rynku -> Sprzedaje papiery wartościowe taniej niż na rynku -> wyższa stopa % dla banku -> **Wielkość płynnych środków** w obiegu **zmniejsza się** (zmniejsza się przez to możliwość kreacji pieniądza wkładowego przez banki) -> Rynkowe **stopy procentowe** lokat (i w konsekwencji kredytów) **ulegają podwyższeniu** z uwagi na konkurencyjność przeprowadzonych przez BC operacji sprzedaży i mniejszą dostępność pieniądza na rynku (bo bank centralny licytuje więcej niż Kowalski)  
+###### Operacje Zasilające  
+- Transakcje, w których **BC kupuje** papiery wartościowe -> BC daje sianko na rynek -> powodują **zwiększenie płynności** sektora bankowego  
+- Mechanizm  
+	- BC chce obniżyć wysokość stóp % na rynku -> daje tańszy kredyt o niższym oprocentowaniu (kredyt ten jest w formie skupu papierów wartościowych posiadanych przez banki, ale wychodzi na to samo, tylko wyższy poziom komplikacji)  
   
+###### Operacje Absorbujące  
+- Transakcje, w których BC sprzedaje lub emituje własne papiery wartościowe -> BC zabiera sianko w zamian za papierek -> powoduje to **zmniejszenie płynności** sektora bankowego  
+- Mechanizm  
+	- BC chce podnieść wysokość stóp % na rynku -> Sprzedaje papiery wartościowe taniej niż na rynku -> wyższa stopa % dla banku -> **Wielkość płynnych środków** w obiegu **zmniejsza się** (zmniejsza się przez to możliwość kreacji pieniądza wkładowego przez banki) -> Rynkowe **stopy procentowe** lokat (i w konsekwencji kredytów) **ulegają podwyższeniu** z uwagi na konkurencyjność przeprowadzonych przez BC operacji sprzedaży i mniejszą dostępność pieniądza na rynku (bo bank centralny licytuje więcej niż Kowalski)  
   
-###### Warunkowość  
+##### Warunkowość  
 - bezwarunkowe  
 	- natychmiastowe transakcje kupna / sprzedaży pap. wartościowych przez BC od instytucji kredytowych  
 - warunkowe  
@@ -394,14 +394,14 @@ title: Egzamin PP
   
   
   
-##### Operacje Podstawowe (RRCO)  
+#### Operacje Podstawowe (RRCO)  
 - Regularność  
 	- standardowo przeprowadzane w sposób regularny raz w tygodniu, z reguły z 7-dniowym terminem zapadalności.  
 - Rentowność  
 	- na przetargach obowiązuje stała rentowność na poziomie stopy referencyjnej NBP.  
 - Charakter operacji:  
 	- Z uwagi na oczekiwane utrzymywanie się nadpłynności w sektorze bankowym operacje te polegają na emisji bonów pieniężnych NBP.  
-##### Operacje Dostrajające  
+#### Operacje Dostrajające  
 - Operacje dostrajające mogą zostać podjęte w celu ograniczenia zmienności krótkoterminowych rynkowych stóp procentowych.  
 - operacje absorbujące:  
 	- emisja bonów pieniężnych NBP,  
@@ -409,13 +409,13 @@ title: Egzamin PP
 - operacje zasilające:  
 	- przedterminowy wykup bonów pieniężnych NBP,  
 	- transakcje repo.  
-##### Stawka POLONIA  
+#### Stawka POLONIA  
 - Polish Overnight Index Average  
 - wprowadzona w 2005  
 - średnia stawka overnight ważona wielkością transakcji na rynku depozytów międzybankowych,  
 - poziom stawki odzwierciedla rzeczywiste oprocentowanie krótkoterminowych lokat międzybankowych.  
   
-##### Operacje Strukturalne  
+#### Operacje Strukturalne  
 - po co  
 	- przeprowadzone w celu długoterminowej zmiany struktury płynności w sektorze bankowym  
 - jak  
@@ -427,14 +427,12 @@ title: Egzamin PP
 	- W 2021 r. operacje strukturalne przeprowadzane były w okresie styczeń – listopad. Dokonywano ich w trybie regularnym, zgodnie z terminami ogłaszanymi przez NBP z wyprzedzeniem. W październiku i listopadzie ograniczono skalę, a w grudniu zakończono operacje strukturalne skupu obligacji na rynku wtórnym.  
   
   
-  
 - absorbujące  
 	-  
 - zasilające  
   
 - mechanizm oddzialywania  
 	- ze wzgledu na rodzaj w klasyfikacji  
-  
   
   
   
