@@ -2,7 +2,7 @@
 tags:  
 - PP  
 date created: Thursday, January 26th 2023, 1:33:35 pm  
-date modified: Thursday, January 26th 2023, 10:33:22 pm  
+date modified: Thursday, January 26th 2023, 10:36:00 pm  
 share: TRUE  
 title: Egzamin PP  
 ---  
@@ -263,6 +263,7 @@ title: Egzamin PP
 	- określa **dolny pułap** rynkowych stóp **overnight**  
 	- wyznacza **przychód depozytu** składanego na koniec dnia **w NBP**  
 	- symetryczna ze stopą lombardową wobec stopy referencyjnej na rynku stóp overnight[^1]  
+		- W XI. 2021 przywrócono symetrię szerokości korytarza stóp procentowych NBP (+50/-50 pb względem stopy Katedra Bankowości  
   
 ---  
   
@@ -359,10 +360,6 @@ title: Egzamin PP
   
   
   
-  
-  
-- kredyt techniczny  
-	-  
 - kredyt lombardowy  
 - kredyt redyskontowy  
 		-  
