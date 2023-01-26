@@ -2,11 +2,11 @@
 tags:  
 - PP  
 date created: Thursday, January 26th 2023, 1:33:35 pm  
-date modified: Thursday, January 26th 2023, 10:36:00 pm  
+date modified: Thursday, January 26th 2023, 11:31:48 pm  
 share: TRUE  
 title: Egzamin PP  
 ---  
-- [Polityka pieniężna - I wykład - 2022-10-07](./Polityka%20pieni%C4%99%C5%BCna%20-%20I%20wyk%C5%82ad.md)  
+- [Polityka pieniężna - I wykład](./Polityka%20pieni%C4%99%C5%BCna%20-%20I%20wyk%C5%82ad.md)  
   
   
 ## Cele NBP  
@@ -70,7 +70,7 @@ title: Egzamin PP
 		- wspieranie polityki gospodarczej rządu  
 - zadania NBP  
 	- regulowanie płynności banków oraz ich refinansowanie  
-		- za pomocą [#Operacje Otwartego Rynku](#Operacje%20Otwartego%20Rynku.md)  
+		- za pomocą [Operacje Otwartego Rynku](Egzamin%20PP.md#Operacje%20Otwartego%20Rynku)  
 	- stabilność systemu finansowego  
 	- odpieranie ryzyk systemowych  
   
@@ -195,7 +195,7 @@ title: Egzamin PP
 - mnożnik kreacji  
   
 - tabela, wykres  
-![assets/Egzamin PP/image-20230126211844199.png](./images/image-20230126211844199.png)  
+![image-20230126211844199](./images/image-20230126211844199.png)  
   
 - baza monetarna **M0** = R+C  
 	- R – pieniądz bezgotówkowy banków komercyjnych na rachunkach w banku centralnym  
@@ -221,10 +221,6 @@ title: Egzamin PP
 	5. Operacje z przyrzeczeniem odkupu  
 	6. dłużne papiery wartościowe z terminem pierwotnym do 2 lat włącznie  
 	7. Jednostki uczestnictwa w funduszach rynku pieniężnego  
-  
-  
-  
-  
   
 ### Instrumenty Rynku Pieniężnego  
   
@@ -319,11 +315,6 @@ title: Egzamin PP
 - rodzaje  
 	- kredyt redyskontowy, kredyt lombardowy, kredyt w ciągu dnia, …  
   
-- funkcje  
-  
-  
-  
-- kredyty wekslowe?  
 ##### Kredyt Refinansowy  
   
 - sufit zmienności rynkowych stóp procentowych  
@@ -369,19 +360,73 @@ title: Egzamin PP
 - stopy  
 	-  
   
-### Operacje Otwartego Rynku  
-- cele  
-- klasyfikacja  
-	- wpływanie na stopę procentową  
-	- operacje  
-		- podstawowe  
-		- dostrajające  
-			-  
-		- strukturalne  
-			-  
+#### Operacje Otwartego Rynku  
+##### Cele  
+- Kształtowanie płynności sektora bankowego i przez to jego zdolności do kreacji pieniądza  
+- Pośrednie lub bezpośrednie wpływanie na poziom stóp procentowych,  
+- Zwiększanie efektywności działania rynku pieniężnego.  
   
-- **POLONIA**  
-	- overnight  
+##### Podział  
+  
+###### Wpływ Na Płynność Sektora Bankowego  
+- Operacje Zasilające  
+	- Transakcje, w których **BC kupuje** papiery wartościowe -> BC daje sianko na rynek -> powodują **zwiększenie płynności** sektora bankowego  
+	- Mechanizm  
+		- BC chce obniżyć wysokość stóp % na rynku -> daje tańszy kredyt o niższym oprocentowaniu (kredyt ten jest w formie skupu papierów wartościowych posiadanych przez banki, ale wychodzi na to samo, tylko wyższy poziom komplikacji)  
+  
+- Operacje Absorbujące  
+	- Transakcje, w których BC sprzedaje lub emituje własne papiery wartościowe -> BC zabiera sianko w zamian za papierek -> powoduje to **zmniejszenie płynności** sektora bankowego  
+	- Mechanizm  
+		- BC chce podnieść wysokość stóp % na rynku -> Sprzedaje papiery wartościowe taniej niż na rynku -> wyższa stopa % dla banku -> **Wielkość płynnych środków** w obiegu **zmniejsza się** (zmniejsza się przez to możliwość kreacji pieniądza wkładowego przez banki) -> Rynkowe **stopy procentowe** lokat (i w konsekwencji kredytów) **ulegają podwyższeniu** z uwagi na konkurencyjność przeprowadzonych przez BC operacji sprzedaży i mniejszą dostępność pieniądza na rynku (bo bank centralny licytuje więcej niż Kowalski)  
+  
+  
+###### Warunkowość  
+- bezwarunkowe  
+	- natychmiastowe transakcje kupna / sprzedaży pap. wartościowych przez BC od instytucji kredytowych  
+- warunkowe  
+	- jednoczesne zawarcie pomiędzy BC a instytucjami kredytowymi transakcji natychmiastowej kupna / sprzedaży pap. wartościowych i przeciwstawnej do niej transakcji terminowej  
+  
+  
+|  <br>          |  Kupno                                                                                                                                                                                                                                     |  Sprzedaż                                                                                                                                                                                                                                                                                                                                                                |  
+|:---------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+|  Warunkowe     |  Repo<div><br><div>-&nbsp;BC kupuje od instytucji kredytowych papiery wartościowe **pod warunkiem** ich odsprzedaży w określonym terminie i po określonej cenie</div><div><br></div><div>- w pasywach banku (bo zobowiązanie)</div> </div> |  Reverse Repo<div><br><div>- BC sprzedaje instytucji kredytowej papiery wartościowe **pod warunkiem** ich odsprzedaży w określonym terminie i po określonej cenie<br></div><div><br></div><div>- w aktywach banków (bo aktywa finansowe)</div><div><br></div><div>- Cel: **ograniczenie podaży pieniądza** (zabiera siano, daje nic nie warty papier ;))) )</div> </div> |  
+|  Bezwarunkowe  |  Outright Purchase<div><br><div>-&nbsp;BC kupuje od inst. kred. papiery wartościowe</div>                                                                             </div>                                                               |  Outright Sale<div><br><div>-&nbsp;BC sprzedaje inst. kred. papiery wartościowe lub emituje własne walory</div>                                                             </div>                                                                                                                                                                                       |    
+  
+  
+  
+##### Operacje Podstawowe (RRCO)  
+- Regularność  
+	- standardowo przeprowadzane w sposób regularny raz w tygodniu, z reguły z 7-dniowym terminem zapadalności.  
+- Rentowność  
+	- na przetargach obowiązuje stała rentowność na poziomie stopy referencyjnej NBP.  
+- Charakter operacji:  
+	- Z uwagi na oczekiwane utrzymywanie się nadpłynności w sektorze bankowym operacje te polegają na emisji bonów pieniężnych NBP.  
+##### Operacje Dostrajające  
+- Operacje dostrajające mogą zostać podjęte w celu ograniczenia zmienności krótkoterminowych rynkowych stóp procentowych.  
+- operacje absorbujące:  
+	- emisja bonów pieniężnych NBP,  
+	- transakcje reverse repo;  
+- operacje zasilające:  
+	- przedterminowy wykup bonów pieniężnych NBP,  
+	- transakcje repo.  
+##### Stawka POLONIA  
+- Polish Overnight Index Average  
+- wprowadzona w 2005  
+- średnia stawka overnight ważona wielkością transakcji na rynku depozytów międzybankowych,  
+- poziom stawki odzwierciedla rzeczywiste oprocentowanie krótkoterminowych lokat międzybankowych.  
+  
+##### Operacje Strukturalne  
+- po co  
+	- przeprowadzone w celu długoterminowej zmiany struktury płynności w sektorze bankowym  
+- jak  
+	- emisja obligacji  
+	- zakup oraz sprzedaż papierów wartościowych na rynku wtórnym  
+- kiedy  
+	- 13 i 27 maja 2020: NBP przeprowadził operacje strukturalne, w postaci transakcji typu outright buy (purchase)  
+	- W reakcji na wybuch pandemii NBP uruchomił strukturalne operacje otwartego rynku polegające na skupie na rynku wtórnym dłużnych papierów wartościowych (od 19 marca 2020 r.). W ramach tych operacji początkowo NBP skupował obligacje skarbowe  
+	- W 2021 r. operacje strukturalne przeprowadzane były w okresie styczeń – listopad. Dokonywano ich w trybie regularnym, zgodnie z terminami ogłaszanymi przez NBP z wyprzedzeniem. W październiku i listopadzie ograniczono skalę, a w grudniu zakończono operacje strukturalne skupu obligacji na rynku wtórnym.  
+  
+  
   
 - absorbujące  
 	-  
@@ -389,6 +434,9 @@ title: Egzamin PP
   
 - mechanizm oddzialywania  
 	- ze wzgledu na rodzaj w klasyfikacji  
+  
+  
+  
   
 ### Stopy Procentowe  
 - rodzaje  
@@ -399,7 +447,7 @@ title: Egzamin PP
 ### Kursy I Operacje Walutowe  
 - podział  
 	- rodzaje kursów walutowych  
-		- ![assets/Egzamin PP/image-20230126183721086.png](./images/image-20230126183721086.png)  
+		- ![image-20230126183721086](./images/image-20230126183721086.png)  
   
   
   
@@ -426,7 +474,7 @@ title: Egzamin PP
   
 ### Polska W UE, Kryteria Konwergencji  
 - ostatnia prezentacja?  
-![assets/Egzamin PP/image-20230126194609826.png](./images/image-20230126194609826.png)  
+![image-20230126194609826](./images/image-20230126194609826.png)  
   
 - [ ] Ze względu na fakt, że złoty nie uczestniczy w ERM II, Polska nie wypełnia kryterium kursu walutowego  
 - [ ]  
