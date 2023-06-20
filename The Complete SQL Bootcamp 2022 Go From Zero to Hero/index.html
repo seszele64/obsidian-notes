@@ -1,0 +1,3987 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="https://seszele64.github.io/obsidian-notes/The%20Complete%20SQL%20Bootcamp%202022%20Go%20From%20Zero%20to%20Hero/" rel="canonical"/>
+<link href="../The%20Complete%20Pandas%20Bootcamp%202022%20Data%20Science%20with%20Python/" rel="prev"/>
+<link href="../Wyk%C5%82ad%20edif%20-%202022-10-07/" rel="next"/>
+<link href="../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.4.3, mkdocs-material-9.1.16" name="generator"/>
+<title>The Complete SQL Bootcamp 2022 Go From Zero to Hero - My Obsidian Notes</title>
+<link href="../assets/stylesheets/main.26e3688c.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.ecc896b0.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Noto Serif";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<!-- Open Graph -->
+<meta content="website" property="og:type">
+<meta content="The Complete SQL Bootcamp 2022 Go From Zero to Hero - My Obsidian Notes" property="og:title">
+<meta content=" - None" property="og:description">
+<meta content="https://seszele64.github.io/obsidian-notes/The%20Complete%20SQL%20Bootcamp%202022%20Go%20From%20Zero%20to%20Hero/" property="og:url"/>
+<meta content="https://seszele64.github.io/obsidian-notes/assets/banner.jpg" property="og:image"/>
+<meta content="image/png" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<!-- Twitter Cards -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="The Complete SQL Bootcamp 2022 Go From Zero to Hero - My Obsidian Notes" name="twitter:title"/>
+<meta content=" - None" name="twitter:description"/>
+<meta content="https://seszele64.github.io/obsidian-notes/assets/banner.jpg" name="twitter:image"/>
+</meta></meta></meta></head>
+<body data-md-color-accent="indigo" data-md-color-primary="pink" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#the-complete-sql-bootcamp-2022-go-from-zero-to-hero">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="" class="md-header__inner md-grid">
+<a aria-label="My Obsidian Notes" class="md-header__button md-logo" data-md-component="logo" href=".." title="My Obsidian Notes">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            My Obsidian Notes
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              The Complete SQL Bootcamp 2022 Go From Zero to Hero
+            
+          </span>
+</div>
+<style>
+                .md-header__nav {
+                    float: right;
+                }
+                .md-header__nav__inner:not([hidden]) {
+                    display: flex;
+                }
+            </style>
+<div class="md-header__nav">
+<nav class="md-header__nav__inner">
+<a aria-label="Previous: The Complete Pandas Bootcamp 2022 Data Science with Python" href="../The%20Complete%20Pandas%20Bootcamp%202022%20Data%20Science%20with%20Python/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+</a>
+<a aria-label="Next: Stacjonarność" href="../Wyk%C5%82ad%20edif%20-%202022-10-07/" rel="next">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="pink" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="blue" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="pink" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"></path></svg>
+</label>
+</form>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="..">
+      Obsidian Notes
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../ADHD%20-%20essential%20ideas/">
+      ADHD - essential ideas
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Alcohol%20consumption%20-%20health%20consequences/">
+      Alcohol consumption - health consequences
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Classes%20in%20Python/">
+      Classes in Python
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Commodities%20101/">
+      Commodities 101
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Common%20mistakes%20in%20English/">
+      Common mistakes in English
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Drinking%20as%20a%20public%20health%20problem%20in%20Poland/">
+      Drinking as a public health problem in Poland
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../EU%20poor%20economic%20outlook%20-%20mid-August%202022/">
+      EU poor economic outlook - mid-August 2022
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Egzamin%20EDIF/">
+      Egzamin EDIF
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Egzamin%20PP/">
+      Egzamin PP
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../From%20Soviet%20Communism%20to%20Russian%20Gangster%20Capitalism/">
+      From Soviet Communism to Russian Gangster Capitalism
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Koszty%20zbycia%20nieruchomo%C5%9Bci/">
+      Koszty zbycia nieruchomości
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../MPEOG%20-%20I%20wyk%C5%82ad%20-%202022-10-05/">
+      MPEOG - I wykład - 2022-10-05
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../MPEOG%20projekt/">
+      MPEOG projekt
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Metody%20pomiaru%20efektywno%C5%9Bci%20organizacji%20gospodarczych/">
+      Metody pomiaru efektywności organizacji gospodarczych
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Metody%20wnioskowania%20statystycznego/">
+      Metody wnioskowania statystycznego
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Polityka%20pieni%C4%99%C5%BCna%20-%20I%20wyk%C5%82ad/">
+      Polityka pieniężna - I wykład
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Prezentacja%20MPEOG/">
+      Prezentacja MPEOG
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Projekt%20EDIF/">
+      Projekt EDIF
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Projekt%20MPEOG%20-%20wersja%20robocza/">
+      Projekt MPEOG   wersja robocza
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Spo%C5%BCywanie%20alkoholu%20-%20konsekwencje%20zdrowotne/">
+      Spożywanie alkoholu - konsekwencje zdrowotne
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Statystyka/">
+      Statystyka
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../The%20Complete%20Pandas%20Bootcamp%202022%20Data%20Science%20with%20Python/">
+      The Complete Pandas Bootcamp 2022 Data Science with Python
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="./">
+      The Complete SQL Bootcamp 2022 Go From Zero to Hero
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../Wyk%C5%82ad%20edif%20-%202022-10-07/">
+      Stacjonarność
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../briefing%2011-09-22/">
+      briefing 11-09-22
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../executive%20functions/">
+      executive functions
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../free%20refinitiv%20access/">
+      Free Refinitiv Access
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../tags/">
+      Tags
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../tags/">
+        Tags
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="My Obsidian Notes" class="md-nav__button md-logo" data-md-component="logo" href=".." title="My Obsidian Notes">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    My Obsidian Notes
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="..">
+        Obsidian Notes
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../ADHD%20-%20essential%20ideas/">
+        ADHD - essential ideas
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Alcohol%20consumption%20-%20health%20consequences/">
+        Alcohol consumption - health consequences
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Classes%20in%20Python/">
+        Classes in Python
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Commodities%20101/">
+        Commodities 101
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Common%20mistakes%20in%20English/">
+        Common mistakes in English
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Drinking%20as%20a%20public%20health%20problem%20in%20Poland/">
+        Drinking as a public health problem in Poland
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../EU%20poor%20economic%20outlook%20-%20mid-August%202022/">
+        EU poor economic outlook - mid-August 2022
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Egzamin%20EDIF/">
+        Egzamin EDIF
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Egzamin%20PP/">
+        Egzamin PP
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../From%20Soviet%20Communism%20to%20Russian%20Gangster%20Capitalism/">
+        From Soviet Communism to Russian Gangster Capitalism
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Koszty%20zbycia%20nieruchomo%C5%9Bci/">
+        Koszty zbycia nieruchomości
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../MPEOG%20-%20I%20wyk%C5%82ad%20-%202022-10-05/">
+        MPEOG - I wykład - 2022-10-05
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../MPEOG%20projekt/">
+        MPEOG projekt
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Metody%20pomiaru%20efektywno%C5%9Bci%20organizacji%20gospodarczych/">
+        Metody pomiaru efektywności organizacji gospodarczych
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Metody%20wnioskowania%20statystycznego/">
+        Metody wnioskowania statystycznego
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Polityka%20pieni%C4%99%C5%BCna%20-%20I%20wyk%C5%82ad/">
+        Polityka pieniężna - I wykład
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Prezentacja%20MPEOG/">
+        Prezentacja MPEOG
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Projekt%20EDIF/">
+        Projekt EDIF
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Projekt%20MPEOG%20-%20wersja%20robocza/">
+        Projekt MPEOG   wersja robocza
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Spo%C5%BCywanie%20alkoholu%20-%20konsekwencje%20zdrowotne/">
+        Spożywanie alkoholu - konsekwencje zdrowotne
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Statystyka/">
+        Statystyka
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../The%20Complete%20Pandas%20Bootcamp%202022%20Data%20Science%20with%20Python/">
+        The Complete Pandas Bootcamp 2022 Data Science with Python
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" onchange='(function(){
+          var _pid = "__nav_24".slice(0, -2);
+          var _pel = document.getElementById(_pid);
+          _pel.checked  = false;
+        })()' type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          The Complete SQL Bootcamp 2022 Go From Zero to Hero
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        The Complete SQL Bootcamp 2022 Go From Zero to Hero
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#info">
+    Info
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#course">
+    Course
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#course-curriculum-overview">
+    Course Curriculum Overview
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#database-overview">
+    Database Overview
+  </a>
+<nav aria-label="Database Overview" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#from-spreadsheets-to-databases">
+    From Spreadsheets to Databases
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#install-postgresql">
+    Install Postgresql
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sql-statement-fundamentals">
+    Sql Statement Fundamentals
+  </a>
+<nav aria-label="Sql Statement Fundamentals" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#select-statement">
+    SELECT Statement
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge">
+    Challenge
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#select-distinct">
+    SELECT DISTINCT
+  </a>
+<nav aria-label="SELECT DISTINCT" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge_1">
+    Challenge
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#count">
+    COUNT
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#select-where">
+    SELECT WHERE
+  </a>
+<nav aria-label="SELECT WHERE" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax">
+    Syntax
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#operators">
+    Operators
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples">
+    Examples
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge_2">
+    Challenge
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#order-by">
+    ORDER BY
+  </a>
+<nav aria-label="ORDER BY" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#multiple-column-sort">
+    Multiple Column Sort
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#limit">
+    LIMIT
+  </a>
+<nav aria-label="LIMIT" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_1">
+    Examples
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-order-by-and-limit">
+    Challenge ORDER BY and LIMIT
+  </a>
+<nav aria-label="Challenge ORDER BY and LIMIT" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-task">
+    Challenge Task
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#expected-result">
+    Expected Result
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#solution">
+    Solution
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-task_1">
+    Challenge Task
+  </a>
+<nav aria-label="Challenge Task" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#hints">
+    Hints
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sample-solution">
+    Sample Solution
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#bonus-challenge">
+    Bonus Challenge
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#between">
+    BETWEEN
+  </a>
+<nav aria-label="BETWEEN" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dates">
+    Dates
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_2">
+    Examples
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#in">
+    IN
+  </a>
+<nav aria-label="IN" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_1">
+    Syntax
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#use">
+    Use
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#like-ilike">
+    LIKE, ILIKE
+  </a>
+<nav aria-label="LIKE, ILIKE" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#like">
+    LIKE
+  </a>
+<nav aria-label="LIKE" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_3">
+    Examples
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#general-challenge">
+    General Challenge
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#group-by">
+    GROUP BY
+  </a>
+<nav aria-label="GROUP BY" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#overview">
+    Overview
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#aggregate-functions">
+    Aggregate Functions
+  </a>
+<nav aria-label="Aggregate Functions" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#most-common">
+    Most Common
+  </a>
+<nav aria-label="Most Common" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#avg">
+    avg()
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#count_1">
+    count()
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#max">
+    max()
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#min">
+    min()
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sum">
+    sum()
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_2">
+    Syntax
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_3">
+    Syntax
+  </a>
+<nav aria-label="Syntax" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#example">
+    Example
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_4">
+    Examples
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge_3">
+    Challenge
+  </a>
+<nav aria-label="Challenge" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no-1">
+    No 1
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no-2">
+    No 2
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no3">
+    no3
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#having">
+    HAVING
+  </a>
+<nav aria-label="HAVING" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_4">
+    Syntax
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_5">
+    Examples
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge_4">
+    Challenge
+  </a>
+<nav aria-label="Challenge" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no-1_1">
+    No 1
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no-2_1">
+    No 2
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#assesment">
+    Assesment
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#joins">
+    JOINS
+  </a>
+<nav aria-label="JOINS" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#as">
+    AS
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inner-join">
+    Inner Join
+  </a>
+<nav aria-label="Inner Join" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_5">
+    Syntax
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#outer-joins">
+    Outer JOINs
+  </a>
+<nav aria-label="Outer JOINs" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#full-outer-join">
+    FULL OUTER JOIN
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#full-outer-join-with-where">
+    FULL OUTER JOIN with WHERE
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#left-outer-join">
+    LEFT OUTER JOIN
+  </a>
+<nav aria-label="LEFT OUTER JOIN" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_6">
+    Syntax
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#left-outer-join-with-where">
+    Left Outer Join with WHERE
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#right-outer-join">
+    RIGHT OUTER JOIN
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#full-joins">
+    Full Joins
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#unions">
+    Unions
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge_5">
+    Challenge
+  </a>
+<nav aria-label="Challenge" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no1">
+    no1
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no2">
+    no2
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#advanced-sql-commands">
+    Advanced Sql Commands
+  </a>
+<nav aria-label="Advanced Sql Commands" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#timestamps-and-extract">
+    Timestamps and Extract
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Wyk%C5%82ad%20edif%20-%202022-10-07/">
+        Stacjonarność
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../briefing%2011-09-22/">
+        briefing 11-09-22
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../executive%20functions/">
+        executive functions
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../free%20refinitiv%20access/">
+        Free Refinitiv Access
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../tags/">
+        Tags
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_30" id="__nav_30" type="checkbox"/>
+<label class="md-nav__link" for="__nav_30">
+          Tags
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Tags" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_30">
+<span class="md-nav__icon md-icon"></span>
+          Tags
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../tags/">
+        Tags
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+<br/>
+<br/>
+<div class="tag-cloud-nav">
+<style>
+    .tag-cloud {
+        margin-top:0;
+        margin-bottom: 0.5em;
+    }
+    .tag-cloud-content {
+        padding: 0 0.6rem;
+        
+    }
+</style>
+<p class="md-nav tag-cloud">
+<label class="md-nav__title">Tag cloud</label>
+</p>
+<div class="tag-cloud-content">
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#lecture">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.65rem;
+                    
+                    color:DarkGoldenrod;
+                ">lecture 
+                </span>
+<!--<sup class="tag-count">3</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#adhd">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkGreen;
+                ">adhd 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#Russell Barkley">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkOliveGreen;
+                ">Russell Barkley 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#psychiatry">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkCyan;
+                ">psychiatry 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#health">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkTurquoise;
+                ">health 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#public health">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkBlue;
+                ">public health 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#alcohol">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkMagenta;
+                ">alcohol 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#python">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.6rem;
+                    
+                    color:DarkViolet;
+                ">python 
+                </span>
+<!--<sup class="tag-count">2</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#data">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.65rem;
+                    
+                    color:DarkSlateBlue;
+                ">data 
+                </span>
+<!--<sup class="tag-count">3</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#edif">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkOrchid;
+                ">edif 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#PP">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkSlateGray;
+                ">PP 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#history">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkRed;
+                ">history 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#mpeog">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.6rem;
+                    
+                    color:DarkGoldenrod;
+                ">mpeog 
+                </span>
+<!--<sup class="tag-count">2</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#ue/semestr-i">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.7rem;
+                    
+                    color:DarkGreen;
+                ">ue/semestr-i 
+                </span>
+<!--<sup class="tag-count">4</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#wykład">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.7rem;
+                    
+                    color:DarkOliveGreen;
+                ">wykład 
+                </span>
+<!--<sup class="tag-count">4</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#laboratoria">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkCyan;
+                ">laboratoria 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#ćwiczenia">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkTurquoise;
+                ">ćwiczenia 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#data-science">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkBlue;
+                ">data-science 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#course">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.6rem;
+                    
+                    color:DarkMagenta;
+                ">course 
+                </span>
+<!--<sup class="tag-count">2</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#pandas">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkViolet;
+                ">pandas 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#skills">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkSlateBlue;
+                ">skills 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#sql">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkOrchid;
+                ">sql 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#course/doing">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkSlateGray;
+                ">course/doing 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#news">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkRed;
+                ">news 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#briefing">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkGoldenrod;
+                ">briefing 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#test">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkGreen;
+                ">test 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#refinitiv">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkOliveGreen;
+                ">refinitiv 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#info">
+    Info
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#course">
+    Course
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#course-curriculum-overview">
+    Course Curriculum Overview
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#database-overview">
+    Database Overview
+  </a>
+<nav aria-label="Database Overview" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#from-spreadsheets-to-databases">
+    From Spreadsheets to Databases
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#install-postgresql">
+    Install Postgresql
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sql-statement-fundamentals">
+    Sql Statement Fundamentals
+  </a>
+<nav aria-label="Sql Statement Fundamentals" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#select-statement">
+    SELECT Statement
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge">
+    Challenge
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#select-distinct">
+    SELECT DISTINCT
+  </a>
+<nav aria-label="SELECT DISTINCT" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge_1">
+    Challenge
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#count">
+    COUNT
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#select-where">
+    SELECT WHERE
+  </a>
+<nav aria-label="SELECT WHERE" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax">
+    Syntax
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#operators">
+    Operators
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples">
+    Examples
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge_2">
+    Challenge
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#order-by">
+    ORDER BY
+  </a>
+<nav aria-label="ORDER BY" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#multiple-column-sort">
+    Multiple Column Sort
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#limit">
+    LIMIT
+  </a>
+<nav aria-label="LIMIT" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_1">
+    Examples
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-order-by-and-limit">
+    Challenge ORDER BY and LIMIT
+  </a>
+<nav aria-label="Challenge ORDER BY and LIMIT" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-task">
+    Challenge Task
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#expected-result">
+    Expected Result
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#solution">
+    Solution
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-task_1">
+    Challenge Task
+  </a>
+<nav aria-label="Challenge Task" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#hints">
+    Hints
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sample-solution">
+    Sample Solution
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#bonus-challenge">
+    Bonus Challenge
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#between">
+    BETWEEN
+  </a>
+<nav aria-label="BETWEEN" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dates">
+    Dates
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_2">
+    Examples
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#in">
+    IN
+  </a>
+<nav aria-label="IN" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_1">
+    Syntax
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#use">
+    Use
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#like-ilike">
+    LIKE, ILIKE
+  </a>
+<nav aria-label="LIKE, ILIKE" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#like">
+    LIKE
+  </a>
+<nav aria-label="LIKE" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_3">
+    Examples
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#general-challenge">
+    General Challenge
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#group-by">
+    GROUP BY
+  </a>
+<nav aria-label="GROUP BY" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#overview">
+    Overview
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#aggregate-functions">
+    Aggregate Functions
+  </a>
+<nav aria-label="Aggregate Functions" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#most-common">
+    Most Common
+  </a>
+<nav aria-label="Most Common" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#avg">
+    avg()
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#count_1">
+    count()
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#max">
+    max()
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#min">
+    min()
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sum">
+    sum()
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_2">
+    Syntax
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_3">
+    Syntax
+  </a>
+<nav aria-label="Syntax" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#example">
+    Example
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_4">
+    Examples
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge_3">
+    Challenge
+  </a>
+<nav aria-label="Challenge" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no-1">
+    No 1
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no-2">
+    No 2
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no3">
+    no3
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#having">
+    HAVING
+  </a>
+<nav aria-label="HAVING" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_4">
+    Syntax
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_5">
+    Examples
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge_4">
+    Challenge
+  </a>
+<nav aria-label="Challenge" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no-1_1">
+    No 1
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no-2_1">
+    No 2
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#assesment">
+    Assesment
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#joins">
+    JOINS
+  </a>
+<nav aria-label="JOINS" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#as">
+    AS
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inner-join">
+    Inner Join
+  </a>
+<nav aria-label="Inner Join" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_5">
+    Syntax
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#outer-joins">
+    Outer JOINs
+  </a>
+<nav aria-label="Outer JOINs" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#full-outer-join">
+    FULL OUTER JOIN
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#full-outer-join-with-where">
+    FULL OUTER JOIN with WHERE
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#left-outer-join">
+    LEFT OUTER JOIN
+  </a>
+<nav aria-label="LEFT OUTER JOIN" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_6">
+    Syntax
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#left-outer-join-with-where">
+    Left Outer Join with WHERE
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#right-outer-join">
+    RIGHT OUTER JOIN
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#full-joins">
+    Full Joins
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#unions">
+    Unions
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge_5">
+    Challenge
+  </a>
+<nav aria-label="Challenge" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no1">
+    no1
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no2">
+    no2
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#advanced-sql-commands">
+    Advanced Sql Commands
+  </a>
+<nav aria-label="Advanced Sql Commands" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#timestamps-and-extract">
+    Timestamps and Extract
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<style>
+    .md-typeset .cover {
+        margin-bottom: 1em;
+    }
+    .md-typeset .page-category {
+        color: gray;
+        font-size: large;
+    }
+    .md-typeset .page-title {
+        margin-left: -0.0625em;
+    }
+    .md-typeset .page-extra {
+        color: gray;
+        font-size: small;
+    }
+    .md-typeset .page-tags {
+        margin: 0;
+    }
+    .md-typeset .page-date {
+        margin: 0;
+        text-align: end;
+    }
+    @media print {
+        .md-typeset .cover {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .md-typeset .cover + * {
+            margin-top: 0;
+        }
+    }
+</style>
+<div class="cover">
+<h1 class="page-title"> The Complete SQL Bootcamp 2022 Go From Zero to Hero </h1>
+<div class="page-extra row">
+<div class="col">
+<p class="page-tags">
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#sql">
+<span class="tag-name">
+                                #sql  
+                            </span>
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#data">
+<span class="tag-name">
+                                #data  
+                            </span>
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#course">
+<span class="tag-name">
+                                #course  
+                            </span>
+</a>
+<a class="tag" href="https://seszele64.github.io/obsidian-notes/tags/#course/doing">
+<span class="tag-name">
+                                #course/doing  
+                            </span>
+</a>
+</p>
+</div>
+<div class="col">
+<p class="page-date">
+<span>
+</span>
+</p>
+</div>
+</div>
+</div>
+<hr class="screen-only"/>
+<style>
+    .md-typeset .toc {
+        display: none;
+    }
+    .md-typeset .toc label {
+        display: none;
+    }
+    .md-typeset .toc .md-nav {
+        font-size: unset;
+        line-height: 1.6;
+    }
+    .md-typeset .toc .md-nav--secondary {
+        margin-left: -2em;
+    }
+    .md-typeset .toc .md-nav__list {
+        margin: 0;
+    }
+    .md-typeset .toc ul {
+        list-style: none;
+    }
+    @media print {
+        .md-typeset .toc {
+            display: block;
+            page-break-after: always;
+        }
+        .md-typeset .toc .md-nav__link {
+            color: var(--md-typeset-a-color);
+        }
+        .md-typeset .toc .md-nav__link.md-nav__link--active {
+            font-weight: unset;
+        }
+        .md-typeset .toc + * {
+            margin-top: 0;
+        }
+    }
+</style>
+<div class="toc">
+<h2>Table of Content</h2>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#info">
+    Info
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#course">
+    Course
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#course-curriculum-overview">
+    Course Curriculum Overview
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#database-overview">
+    Database Overview
+  </a>
+<nav aria-label="Database Overview" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#from-spreadsheets-to-databases">
+    From Spreadsheets to Databases
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#install-postgresql">
+    Install Postgresql
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sql-statement-fundamentals">
+    Sql Statement Fundamentals
+  </a>
+<nav aria-label="Sql Statement Fundamentals" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#select-statement">
+    SELECT Statement
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge">
+    Challenge
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#select-distinct">
+    SELECT DISTINCT
+  </a>
+<nav aria-label="SELECT DISTINCT" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge_1">
+    Challenge
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#count">
+    COUNT
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#select-where">
+    SELECT WHERE
+  </a>
+<nav aria-label="SELECT WHERE" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax">
+    Syntax
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#operators">
+    Operators
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples">
+    Examples
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge_2">
+    Challenge
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#order-by">
+    ORDER BY
+  </a>
+<nav aria-label="ORDER BY" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#multiple-column-sort">
+    Multiple Column Sort
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#limit">
+    LIMIT
+  </a>
+<nav aria-label="LIMIT" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_1">
+    Examples
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-order-by-and-limit">
+    Challenge ORDER BY and LIMIT
+  </a>
+<nav aria-label="Challenge ORDER BY and LIMIT" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-task">
+    Challenge Task
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#expected-result">
+    Expected Result
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#solution">
+    Solution
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-task_1">
+    Challenge Task
+  </a>
+<nav aria-label="Challenge Task" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#hints">
+    Hints
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sample-solution">
+    Sample Solution
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#bonus-challenge">
+    Bonus Challenge
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#between">
+    BETWEEN
+  </a>
+<nav aria-label="BETWEEN" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dates">
+    Dates
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_2">
+    Examples
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#in">
+    IN
+  </a>
+<nav aria-label="IN" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_1">
+    Syntax
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#use">
+    Use
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#like-ilike">
+    LIKE, ILIKE
+  </a>
+<nav aria-label="LIKE, ILIKE" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#like">
+    LIKE
+  </a>
+<nav aria-label="LIKE" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_3">
+    Examples
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#general-challenge">
+    General Challenge
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#group-by">
+    GROUP BY
+  </a>
+<nav aria-label="GROUP BY" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#overview">
+    Overview
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#aggregate-functions">
+    Aggregate Functions
+  </a>
+<nav aria-label="Aggregate Functions" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#most-common">
+    Most Common
+  </a>
+<nav aria-label="Most Common" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#avg">
+    avg()
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#count_1">
+    count()
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#max">
+    max()
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#min">
+    min()
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sum">
+    sum()
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_2">
+    Syntax
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_3">
+    Syntax
+  </a>
+<nav aria-label="Syntax" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#example">
+    Example
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_4">
+    Examples
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge_3">
+    Challenge
+  </a>
+<nav aria-label="Challenge" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no-1">
+    No 1
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no-2">
+    No 2
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no3">
+    no3
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#having">
+    HAVING
+  </a>
+<nav aria-label="HAVING" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_4">
+    Syntax
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_5">
+    Examples
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge_4">
+    Challenge
+  </a>
+<nav aria-label="Challenge" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no-1_1">
+    No 1
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no-2_1">
+    No 2
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#assesment">
+    Assesment
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#joins">
+    JOINS
+  </a>
+<nav aria-label="JOINS" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#as">
+    AS
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inner-join">
+    Inner Join
+  </a>
+<nav aria-label="Inner Join" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_5">
+    Syntax
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#outer-joins">
+    Outer JOINs
+  </a>
+<nav aria-label="Outer JOINs" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#full-outer-join">
+    FULL OUTER JOIN
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#full-outer-join-with-where">
+    FULL OUTER JOIN with WHERE
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#left-outer-join">
+    LEFT OUTER JOIN
+  </a>
+<nav aria-label="LEFT OUTER JOIN" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_6">
+    Syntax
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#left-outer-join-with-where">
+    Left Outer Join with WHERE
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#right-outer-join">
+    RIGHT OUTER JOIN
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#full-joins">
+    Full Joins
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#unions">
+    Unions
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge_5">
+    Challenge
+  </a>
+<nav aria-label="Challenge" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no1">
+    no1
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no2">
+    no2
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#advanced-sql-commands">
+    Advanced Sql Commands
+  </a>
+<nav aria-label="Advanced Sql Commands" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#timestamps-and-extract">
+    Timestamps and Extract
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+<h1 id="the-complete-sql-bootcamp-2022-go-from-zero-to-hero">The Complete SQL Bootcamp 2022 Go From Zero to Hero<a class="headerlink" href="#the-complete-sql-bootcamp-2022-go-from-zero-to-hero" title="Permanent link">¶</a></h1>
+<h2 id="info">Info<a class="headerlink" href="#info" title="Permanent link">¶</a></h2>
+<ol>
+<li>Our QA forums can be found by going to your course dashboard (top right button when viewing a lecture): (<a href="https://support.udemy.com/hc/en-us/articles/229233387-How-to-Use-The-Q-A)">https://support.udemy.com/hc/en-us/articles/229233387-How-to-Use-The-Q-A)</a> </li>
+<li>Our student chat channel is here: <a href="https://discord.gg/TztE6B8">https://discord.gg/TztE6B8</a> </li>
+<li>Video guide to the chat room: <a href="https://www.youtube.com/watch?v=bkH89OJ001M">https://www.youtube.com/watch?v=bkH89OJ001M</a> </li>
+<li>Our PDF Notes can be found as resources in the FAQ  lecture. (<a href="https://support.udemy.com/hc/en-us/articles/229604708-Downloading-Supplemental-Resources)">https://support.udemy.com/hc/en-us/articles/229604708-Downloading-Supplemental-Resources)</a> </li>
+<li>Info on certification:  <a href="https://support.udemy.com/hc/en-us/articles/229603868-Certificate-of-Completion">https://support.udemy.com/hc/en-us/articles/229603868-Certificate-of-Completion</a> </li>
+<li>Any video issues or certification issues, email: support@udemy.com  </li>
+<li>Please do not direct message with questions, due to the amount of students in the course, questions are ONLY answered in the QA Forums (<a href="https://support.udemy.com/hc/en-us/articles/229233387-How-to-Use-The-Q-A).">https://support.udemy.com/hc/en-us/articles/229233387-How-to-Use-The-Q-A).</a> </li>
+</ol>
+<h2 id="course">Course<a class="headerlink" href="#course" title="Permanent link">¶</a></h2>
+<ul>
+<li>for beginners (no prior knowledge needed)  </li>
+<li>using PostgreSQL  </li>
+</ul>
+<h2 id="course-curriculum-overview">Course Curriculum Overview<a class="headerlink" href="#course-curriculum-overview" title="Permanent link">¶</a></h2>
+<ol>
+<li>installation of postgreSQL  </li>
+<li>databases and tables basics  </li>
+<li>sql statement fundamentals  </li>
+<li>group by clause  </li>
+<li>assesment test 1  </li>
+<li>joins  </li>
+<li>advanced sql  </li>
+<li>commands  </li>
+<li>assessment test 2  </li>
+<li>create databases and tables  </li>
+<li>assessment test 3  </li>
+<li>extra lectures  <ul>
+<li>postresql with python  </li>
+</ul>
+</li>
+</ol>
+<h2 id="database-overview">Database Overview<a class="headerlink" href="#database-overview" title="Permanent link">¶</a></h2>
+<ul>
+<li>what are databases?  <ul>
+<li>dbs are systems that allow users to store and organize data  </li>
+</ul>
+</li>
+<li>why use databases?  <ul>
+<li>useful when dealing with large amounts of data  </li>
+</ul>
+</li>
+</ul>
+<h3 id="from-spreadsheets-to-databases">From Spreadsheets to Databases<a class="headerlink" href="#from-spreadsheets-to-databases" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p>spreadsheets  </p>
+<ul>
+<li>one time analysis  </li>
+<li>quickly need to chart something  </li>
+<li>reasonable (small) data size  </li>
+<li>good for newbies  </li>
+</ul>
+</li>
+<li>
+<p>databases  </p>
+<ul>
+<li>data integrity  </li>
+<li>can handle bigger amounts of data  </li>
+<li>quickly combine different datasets  </li>
+<li>automate steps for re-use  </li>
+<li>support for websites and applications  <ul>
+<li>websites and apps are linked to those dbs  </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>database structure  </p>
+<ul>
+<li>tables  </li>
+<li>columns  </li>
+<li>rows  </li>
+</ul>
+</li>
+<li>
+<p>database platform options  </p>
+<ul>
+<li>many  </li>
+<li>postgresql  <ul>
+<li>free  </li>
+<li>open source  </li>
+<li>multi platform  </li>
+<li>widely used on internet  </li>
+</ul>
+</li>
+<li>mysql / mariasql  <ul>
+<li>free  </li>
+<li>open source  </li>
+<li>widely used on internet  </li>
+<li>multiplatform  </li>
+</ul>
+</li>
+<li>ms sql server express  </li>
+<li>microsoft access  <ul>
+<li>cost  </li>
+</ul>
+</li>
+<li>sqlite  <ul>
+<li>free  </li>
+<li>open source  </li>
+<li>mainly cmd  </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>postgresql  </p>
+<ul>
+<li>good to learn sql  </li>
+</ul>
+</li>
+<li>
+<p>sql is useful for a lot of things!  </p>
+</li>
+</ul>
+<h2 id="install-postgresql">Install Postgresql<a class="headerlink" href="#install-postgresql" title="Permanent link">¶</a></h2>
+<ol>
+<li>install postgresql  <ul>
+<li>linux  <ul>
+<li><code>sudo apt install postgresql postgresql-contrib</code> </li>
+</ul>
+</li>
+<li>Ensure that the service is started:  <ul>
+<li><code>sudo systemctl start postgresql.service</code> </li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://www.pgadmin.org/download/pgadmin-4-apt/">install pgadmin</a> <ul>
+<li><code>curl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/packages-pgadmin-org.gpg</code> </li>
+<li><code>sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" &gt; /etc/apt/sources.list.d/pgadmin4.list &amp;&amp; apt update'</code> </li>
+<li><code>sudo apt install pgadmin4</code> </li>
+<li><code>sudo apt install pgadmin4-desktop</code> </li>
+<li><code>sudo apt install pgadmin4-web</code> </li>
+<li>Apache successfully restarted. You can now start using pgAdmin 4 in web mode at <a href="http://127.0.0.1/pgadmin4">http://127.0.0.1/pgadmin4</a> </li>
+</ul>
+</li>
+<li>download file "dvdrental.tar"  <ul>
+<li>don't open file directly, only via pgadmin  </li>
+</ul>
+</li>
+<li>restart computer  </li>
+<li>
+<p>restore the database  </p>
+</li>
+<li>
+<p>import database  </p>
+<ul>
+<li>data/objects  <ul>
+<li>sections  <ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> pre-data  </li>
+<li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> data  </li>
+<li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> post-data  </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>queries  </p>
+<ul>
+<li>right click &gt; query tool  </li>
+</ul>
+</li>
+<li>
+<p>select all  </p>
+<ul>
+<li><code>SELECT * FROM film</code> </li>
+</ul>
+</li>
+</ol>
+<h2 id="sql-statement-fundamentals">Sql Statement Fundamentals<a class="headerlink" href="#sql-statement-fundamentals" title="Permanent link">¶</a></h2>
+<ul>
+<li>sql syntax  </li>
+<li>syntax can be applied to major types of sql database  <ul>
+<li>mysql, oracle  </li>
+</ul>
+</li>
+</ul>
+<h3 id="select-statement">SELECT Statement<a class="headerlink" href="#select-statement" title="Permanent link">¶</a></h3>
+<ul>
+<li>the most common statement  </li>
+<li>
+<p>allows to <mark>retrieve</mark> the information from a table  </p>
+</li>
+<li>
+<p>syntax  </p>
+<ul>
+<li><code>SELECT column_name FROM table_name</code> </li>
+<li>capitalize syntax statements  <ul>
+<li>easier to read!  </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>inside a db you will have a few tables  </p>
+<ul>
+<li>a table consists of rows and columns  </li>
+</ul>
+</li>
+<li>
+<p>query knows which db you use, since you open a query inside/within it  </p>
+</li>
+<li>
+<p>one column  </p>
+<ul>
+<li><code>SELECT c1 FROM table_1</code> </li>
+</ul>
+</li>
+<li>multiple columns  <ul>
+<li>separated by comma  </li>
+<li><code>SELECT c1, c3 FROM table_1</code> </li>
+</ul>
+</li>
+<li>
+<p>all columns  </p>
+<ul>
+<li><code>SELECT * FROM table_1</code> <ul>
+<li><mark>not a good practice</mark> to use asterisk, if you don't need all the columns  </li>
+<li>it will automatically query everything, which <mark>increases traffic</mark> between the database server and the applications  </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>what tables are available to me?  </p>
+<ul>
+<li>schemas &gt; public &gt; tables &gt; expand  </li>
+</ul>
+</li>
+<li>
+<p>view whole table using query  </p>
+<ul>
+<li><code>SELECT * FROM table_name;</code> </li>
+</ul>
+</li>
+<li>
+<p>semicolon at the end of the query  </p>
+<ul>
+<li>readability  </li>
+</ul>
+</li>
+<li>
+<p>query history!  </p>
+</li>
+</ul>
+<h3 id="challenge">Challenge<a class="headerlink" href="#challenge" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p>structure  </p>
+<ul>
+<li>business situation  </li>
+<li>question  </li>
+<li>expected answer  </li>
+<li>hints  </li>
+<li>solution  </li>
+</ul>
+</li>
+<li>
+<p>situation  </p>
+<ul>
+<li>existing customers  </li>
+</ul>
+</li>
+<li>
+<p>challenge  </p>
+<ul>
+<li>use <code>SELECT</code> to grab the first and last names of the existing customers, also their emails  </li>
+</ul>
+</li>
+<li>
+<p>answer  </p>
+<ul>
+<li><code>SELECT first_name, last_name, email FROM customer;</code> </li>
+</ul>
+</li>
+</ul>
+<h2 id="select-distinct">SELECT DISTINCT<a class="headerlink" href="#select-distinct" title="Permanent link">¶</a></h2>
+<ul>
+<li><code>SELECT DISTINCT</code> </li>
+<li>
+<p>sometimes there may be duplicate values in a column, thus  </p>
+<ul>
+<li>return only the unique values in a column  </li>
+</ul>
+</li>
+<li>
+<p>syntax  </p>
+<ul>
+<li><code>SELECT DISTINCT column FROM table;</code> </li>
+<li><code>SELECT DISTINCT(column) FROM table;</code> <ul>
+<li>more readability  </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>when is it useful to use <code>SELECT DISTINCT</code>?  </p>
+<ul>
+<li>ranks  </li>
+</ul>
+</li>
+</ul>
+<h3 id="challenge_1">Challenge<a class="headerlink" href="#challenge_1" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p>situation  </p>
+<ul>
+<li>mpaa movie ratings (pg, pg-13, R, etc.)  </li>
+<li>what ratings do we have available  </li>
+</ul>
+</li>
+<li>
+<p>sql challenge  </p>
+<ul>
+<li>retrieve unique rating types  </li>
+</ul>
+</li>
+<li>
+<p>solution  </p>
+<ul>
+<li><code>SELECT DISTINCT(rating) FROM film;</code> </li>
+<li>output  </li>
+</ul>
+</li>
+</ul>
+<pre><code>"PG"  
+"R"  
+"G"  
+"PG-13"  
+"NC-17"  
+</code></pre>
+<h2 id="count">COUNT<a class="headerlink" href="#count" title="Permanent link">¶</a></h2>
+<ul>
+<li>returns the <mark>number of rows that match</mark> a specific <strong>condition</strong> of a query  </li>
+<li>
+<p>we can apply <code>COUNT</code> on a specific column <code>COUNT(column)</code> or just pass <code>COUNT(*)</code> </p>
+<ul>
+<li>output is usually the same, since all columns have the same number of rows (generally), unless we use a specific condition  </li>
+</ul>
+</li>
+<li>
+<p>syntax  </p>
+<ul>
+<li><code>SELECT COUNT(column_name) FROM table;</code> </li>
+</ul>
+</li>
+<li>
+<p>combine  </p>
+<ul>
+<li>with <code>DISTINCT</code> </li>
+<li><code>SELECT COUNT(DISTINCT(column_name)) FROM table;</code> </li>
+</ul>
+</li>
+</ul>
+<h2 id="select-where">SELECT WHERE<a class="headerlink" href="#select-where" title="Permanent link">¶</a></h2>
+<ul>
+<li><code>SELECT</code> and <code>WHERE</code> most fundamental statements  </li>
+<li><code>WHERE</code> statement allows us to specify conditions on columns for the rows to be returned  </li>
+</ul>
+<h3 id="syntax">Syntax<a class="headerlink" href="#syntax" title="Permanent link">¶</a></h3>
+<pre><code class="language-SQL">SELECT column1, column2  
+FROM table  
+WHERE conditions;  
+</code></pre>
+<ul>
+<li>
+<p><code>WHERE</code> specifies conditions  </p>
+<ul>
+<li>conditions are used to filter the rows returned from the <code>SELECT</code> statement  </li>
+</ul>
+</li>
+<li>
+<p>appears after <code>FROM</code> clause  </p>
+</li>
+<li>
+<p>not unique to postgreSQL  </p>
+</li>
+<li>
+<p>compare operators  </p>
+<ul>
+<li>compare column value to something  <ul>
+<li>is the price greater than $3?  </li>
+<li>is the pet's name equal to "Sam"?  </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="operators">Operators<a class="headerlink" href="#operators" title="Permanent link">¶</a></h3>
+<ul>
+<li>operators  <ul>
+<li>math operators  <ul>
+<li>=, &gt;, &lt;, &gt;=, &lt;=, &lt;&gt; or !=  </li>
+</ul>
+</li>
+<li>logical operators  <ul>
+<li><code>AND</code> <ul>
+<li>conjunction  </li>
+</ul>
+</li>
+<li><code>OR</code> <ul>
+<li>alternative  </li>
+</ul>
+</li>
+<li><code>NOT</code> <ul>
+<li>opposite  </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p>name = "David"  </p>
+<ul>
+<li><code>SELECT name, choice FROM table WHERE name = 'David'</code> <ul>
+<li>single quotes  </li>
+<li>capitalization does matter  </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>multiple WHERE conditions  </p>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT * FROM film  
+WHERE (rental_rate &gt; 4) AND (replacement_cost &gt;= 19.99);  
+</code></pre>
+<h3 id="challenge_2">Challenge<a class="headerlink" href="#challenge_2" title="Permanent link">¶</a></h3>
+<ul>
+<li>email for Nancy Thomas  </li>
+</ul>
+<pre><code class="language-sql">SELECT email FROM customer  
+WHERE (first_name = 'Nancy') AND (last_name = 'Thomas');  
+</code></pre>
+<ul>
+<li>description of movie 'Outlaw Hanky'  </li>
+</ul>
+<pre><code class="language-sql">SELECT description FROM film  
+WHERE title = 'Outlaw Hanky';  
+</code></pre>
+<ul>
+<li>phone number for customer living at <code>259 Ipoh Drive</code> </li>
+</ul>
+<pre><code class="language-sql">SELECT phone FROM address  
+WHERE address = '259 Ipoh Drive'  
+</code></pre>
+<h2 id="order-by">ORDER BY<a class="headerlink" href="#order-by" title="Permanent link">¶</a></h2>
+<ul>
+<li>same query may return the same results in a different order  </li>
+<li>you can use ORDER BY to sort rows based on a column value in either <mark>ascending</mark> or <mark>descending</mark> order  </li>
+</ul>
+<pre><code>SELECT column_1, column2  
+FROM table  
+ORDER BY column_1 ASC/DESC  
+</code></pre>
+<ul>
+<li>at the end of the query  </li>
+</ul>
+<h3 id="multiple-column-sort">Multiple Column Sort<a class="headerlink" href="#multiple-column-sort" title="Permanent link">¶</a></h3>
+<ul>
+<li>on multiple column  <ul>
+<li>makes sense when column has duplicate entries  </li>
+<li>sort everything based on first column  <ul>
+<li>second sort for second column  </li>
+</ul>
+</li>
+<li>sorts may be different for different column  <ul>
+<li>`ORDER BY store_id DESC, first_name ASC  </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="limit">LIMIT<a class="headerlink" href="#limit" title="Permanent link">¶</a></h2>
+<ul>
+<li>limit the number of rows returned for a query  </li>
+<li>useful for not wanting to return every single row, but <mark>only a top</mark> </li>
+<li>also becomes useful with <code>ORDER BY</code> <ul>
+<li>top X rows  </li>
+</ul>
+</li>
+<li><code>LIMIT</code> is at the very end of a query  </li>
+<li>last command to be executed  </li>
+</ul>
+<h3 id="examples_1">Examples<a class="headerlink" href="#examples_1" title="Permanent link">¶</a></h3>
+<ul>
+<li>TOP 100 recent_payment  </li>
+</ul>
+<pre><code class="language-sql">SELECT * FROM payment  
+ORDER BY payment_date ASC;  
+LIMIT 100  
+</code></pre>
+<ul>
+<li>data structure  </li>
+</ul>
+<pre><code class="language-sql">SELECT * FROM payment  
+ORDER BY payment_date ASC;  
+LIMIT 1  
+</code></pre>
+<h3 id="challenge-order-by-and-limit">Challenge <code>ORDER BY</code> and <code>LIMIT</code><a class="headerlink" href="#challenge-order-by-and-limit" title="Permanent link">¶</a></h3>
+<h4 id="challenge-task">Challenge Task<a class="headerlink" href="#challenge-task" title="Permanent link">¶</a></h4>
+<ul>
+<li>reward first ten customers who pay  </li>
+</ul>
+<h4 id="expected-result">Expected Result<a class="headerlink" href="#expected-result" title="Permanent link">¶</a></h4>
+<ul>
+<li>use payment table  </li>
+<li>customer_id  </li>
+</ul>
+<h4 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">¶</a></h4>
+<pre><code class="language-sql">SELECT customer_id FROM payment  
+ORDER BY payment_date ASC # need to order, otherwise the data can be random  
+LIMIT 10  
+</code></pre>
+<h3 id="challenge-task_1">Challenge Task<a class="headerlink" href="#challenge-task_1" title="Permanent link">¶</a></h3>
+<ul>
+<li>customer wants to rent a short video to watch during lunch  </li>
+<li>what are the 5 shortest titles?  </li>
+</ul>
+<h4 id="hints">Hints<a class="headerlink" href="#hints" title="Permanent link">¶</a></h4>
+<ul>
+<li>use film table  </li>
+<li><code>length</code> column represents length with integer values  </li>
+</ul>
+<h4 id="sample-solution">Sample Solution<a class="headerlink" href="#sample-solution" title="Permanent link">¶</a></h4>
+<pre><code class="language-sql">SELECT title, length FROM film  
+ORDER BY length ASC  
+LIMIT 5;  
+</code></pre>
+<ul>
+<li>length may get highlighted since it is sql keyword, use capitalization to avoid confusion  </li>
+<li>does not guarantee that there are only 5 movies with this exact runtime (46 minutes)  </li>
+</ul>
+<h3 id="bonus-challenge">Bonus Challenge<a class="headerlink" href="#bonus-challenge" title="Permanent link">¶</a></h3>
+<ul>
+<li>how many movies 50 minutes or less in time are there?  </li>
+<li>sample answer  </li>
+</ul>
+<pre><code class="language-sql">SELECT COUNT(*) FROM film # count the number of rows  
+WHERE length &lt;= 50  
+</code></pre>
+<hr>
+<h2 id="between">BETWEEN<a class="headerlink" href="#between" title="Permanent link">¶</a></h2>
+<ul>
+<li>goes after  </li>
+<li>
+<p>the same as  </p>
+<ul>
+<li><code>value &gt;= low AND value &lt;= high</code> </li>
+<li><code>value BETWEEN low AND high</code> </li>
+</ul>
+</li>
+<li>
+<p>you can also ask for the negation using <code>NOT</code> operator  </p>
+<ul>
+<li><code>value &lt; low OR value &gt; high</code> </li>
+<li><code>value NOT BETWEEN low AND high</code> </li>
+</ul>
+</li>
+</ul>
+<h3 id="dates">Dates<a class="headerlink" href="#dates" title="Permanent link">¶</a></h3>
+<ul>
+<li>operator can be used with dates  </li>
+<li>
+<p>you need to format dates in <code>ISO 8601</code> format  </p>
+<ul>
+<li><code>YYYY-MM-DD</code> </li>
+<li>example: <code>date BETWEEN '2007-01-01' AND '2007-02-01'</code> </li>
+</ul>
+</li>
+<li>
+<p>inclusivity and exclusivity is tricky with <code>BETWEEN</code> </p>
+<ul>
+<li>especially for datetimes  </li>
+<li>more indepth knowledge for that needed  </li>
+</ul>
+</li>
+</ul>
+<h3 id="examples_2">Examples<a class="headerlink" href="#examples_2" title="Permanent link">¶</a></h3>
+<pre><code class="language-sql">SELECT * FROM payment  
+WHERE payment_date BETWEEN '2007-02-15' AND '2007-03-15'  
+</code></pre>
+<hr/>
+<h2 id="in">IN<a class="headerlink" href="#in" title="Permanent link">¶</a></h2>
+<blockquote>
+<p>if X value in list of values?  </p>
+</blockquote>
+<ul>
+<li>create condition to check if value is included in list of multiple options  </li>
+</ul>
+<h3 id="syntax_1">Syntax<a class="headerlink" href="#syntax_1" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p><code>value IN (option1, option2, ..., option_n)</code> </p>
+</li>
+<li>
+<p>example  </p>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT color FROM table  
+WHERE color IN ('red', 'blue')  
+</code></pre>
+<h3 id="use">Use<a class="headerlink" href="#use" title="Permanent link">¶</a></h3>
+<ul>
+<li>is X in value list?  </li>
+<li>is X not in value list?  <ul>
+<li><code>WHERE x NOT IN ('a', 'b', 'c')</code> </li>
+</ul>
+</li>
+</ul>
+<h2 id="like-ilike">LIKE, ILIKE<a class="headerlink" href="#like-ilike" title="Permanent link">¶</a></h2>
+<ul>
+<li>pattern matching  <ul>
+<li>postgreSQL does support <strong>regex</strong> capabilities⚠️  <ul>
+<li>postgresql.org/docs/12/functions-matching.html  </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>match against a general pattern in a string  <ul>
+<li>all emails ending in <code>@gmail.com</code> </li>
+<li>all names that begin with an <code>A</code> </li>
+</ul>
+</li>
+</ul>
+<h3 id="like">LIKE<a class="headerlink" href="#like" title="Permanent link">¶</a></h3>
+<ul>
+<li>allows to perform pattern matching with the use of <strong>wildcard</strong> characters  </li>
+<li>
+<p><code>LIKE</code> is <strong>case-sensetive</strong>⚠️  </p>
+<ul>
+<li>use <code>ILIKE</code> if you want case insensitive pattern search  </li>
+</ul>
+</li>
+<li>
+<p>percent <code>%</code> </p>
+<ul>
+<li>matches <strong>any number</strong> of characters  </li>
+<li>character can be <strong>blank</strong> </li>
+</ul>
+</li>
+<li>
+<p>underscore <code>_</code> </p>
+<ul>
+<li>matches any <strong>single</strong> character  </li>
+<li>you can use multiple underscores  </li>
+</ul>
+</li>
+<li>
+<p>complex <code>_</code> + <code>%</code> </p>
+</li>
+</ul>
+<h4 id="examples_3">Examples<a class="headerlink" href="#examples_3" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p>all names that begin with an <code>A</code> </p>
+<ul>
+<li><code>WHERE name LIKE A%</code> <ul>
+<li><code>A + wildcard characters</code> </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>all names that end with an <code>A</code> </p>
+<ul>
+<li><code>WHERE name LIKE %a</code> </li>
+</ul>
+</li>
+</ul>
+<h2 id="general-challenge">General Challenge<a class="headerlink" href="#general-challenge" title="Permanent link">¶</a></h2>
+<ul>
+<li>utilize all the skills you've learned so far  </li>
+<li>
+<p>structure  </p>
+<ul>
+<li>hints  </li>
+<li>solution  </li>
+</ul>
+</li>
+<li>
+<p>try to break down the problem into individual tasks  </p>
+</li>
+<li>
+<p>how many payments were greater than $5?  </p>
+<ul>
+<li>3618  </li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT COUNT(*) FROM payment  
+WHERE amount &gt; 5.00  
+</code></pre>
+<ul>
+<li>how many actors have a first name that starts with the letter P?  <ul>
+<li>5  </li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT COUNT(*) FROM actor  
+WHERE first_name ILIKE 'p%'   
+</code></pre>
+<ul>
+<li>how many unique districts are our customers from?  <ul>
+<li>378  </li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT COUNT(DISTINCT(district)) FROM address  
+</code></pre>
+<ul>
+<li>retrieve the list of names of the unique districts  </li>
+</ul>
+<pre><code class="language-sql">SELECT DISTINCT(district) FROM address  
+</code></pre>
+<ul>
+<li>how many films have a rating R and a replacing cost between $5 and $15  </li>
+</ul>
+<pre><code class="language-sql">SELECT COUNT(*) FROM film  
+WHERE replacement_cost BETWEEN 5 AND 15 AND rating = 'R'  
+</code></pre>
+<ul>
+<li>how many films have the word <code>Truman</code> somewhere in the title?  </li>
+</ul>
+<pre><code class="language-sql">SELECT COUNT(*) FROM film  
+WHERE title LIKE '%Truman%'  
+</code></pre>
+<h2 id="group-by">GROUP BY<a class="headerlink" href="#group-by" title="Permanent link">¶</a></h2>
+<ul>
+<li>aggregate data and apply functions to see how data is distributed per category  </li>
+</ul>
+<h3 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">¶</a></h3>
+<ul>
+<li>theory  </li>
+<li>implementation  </li>
+<li>challenge  </li>
+<li>having  </li>
+<li>challenge with having  </li>
+</ul>
+<h3 id="aggregate-functions">Aggregate Functions<a class="headerlink" href="#aggregate-functions" title="Permanent link">¶</a></h3>
+<ul>
+<li>sql provides variety of aggregate functions  <ul>
+<li><a href="../functions-aggregate.html">postgres</a> </li>
+</ul>
+</li>
+<li>main idea  <ul>
+<li>multiple inputs -&gt; single output  </li>
+</ul>
+</li>
+</ul>
+<h4 id="most-common">Most Common<a class="headerlink" href="#most-common" title="Permanent link">¶</a></h4>
+<h5 id="avg"><code>avg()</code><a class="headerlink" href="#avg" title="Permanent link">¶</a></h5>
+<ul>
+<li>protip⚠️  <ul>
+<li>use <code>ROUND(x, y)</code> to specify precision to <code>y</code> digits after decimal place  </li>
+<li>`ROUND(AVG(column_name), 2)  <ul>
+<li>round to 2 decimal places  </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="count_1"><code>count()</code><a class="headerlink" href="#count_1" title="Permanent link">¶</a></h5>
+<h5 id="max"><code>max()</code><a class="headerlink" href="#max" title="Permanent link">¶</a></h5>
+<h5 id="min"><code>min()</code><a class="headerlink" href="#min" title="Permanent link">¶</a></h5>
+<h5 id="sum"><code>sum()</code><a class="headerlink" href="#sum" title="Permanent link">¶</a></h5>
+<h4 id="syntax_2">Syntax<a class="headerlink" href="#syntax_2" title="Permanent link">¶</a></h4>
+<ul>
+<li>aggregate function calls happen only in the <code>SELECT</code> or <code>HAVING</code> clause  </li>
+</ul>
+<h3 id="syntax_3">Syntax<a class="headerlink" href="#syntax_3" title="Permanent link">¶</a></h3>
+<ul>
+<li>choose categorical column to perform <code>GROUP BY</code> <ul>
+<li>categorical columns are non-continuous  </li>
+</ul>
+</li>
+<li><img alt="" src="https://i.imgur.com/ERoyA51.png"/> </li>
+</ul>
+<p>⚠️<br>
+- <code>GROUP BY</code> statement must appear right after <code>FROM</code> or <code>WHERE</code><br>
+- in a <code>SELECT</code> statement<br/>
+    1. there must be a <strong>aggregate function</strong> called or<br/>
+    2. the column is a part of <code>GROUP BY</code> call  </br></br></p>
+<h4 id="example">Example<a class="headerlink" href="#example" title="Permanent link">¶</a></h4>
+<ul>
+<li>after <code>FROM</code> </li>
+</ul>
+<pre><code class="language-sql">SELECT category_col, AGG(data_col)  
+FROM table  
+GROUP BY category_col  
+</code></pre>
+<ul>
+<li>after <code>WHERE</code> </li>
+</ul>
+<pre><code class="language-sql">SELECT category_col, AGG(data_col)  
+FROM table  
+WHERE category_col != 'A'  
+GROUP BY category_col  
+</code></pre>
+<h3 id="examples_4">Examples<a class="headerlink" href="#examples_4" title="Permanent link">¶</a></h3>
+<pre><code class="language-sql">SELECT staff_id, customer_id, SUM(amount) FROM payment  
+GROUP BY customer_id, staff_id  
+ORDER BY SUM(amount)  
+</code></pre>
+<h3 id="challenge_3">Challenge<a class="headerlink" href="#challenge_3" title="Permanent link">¶</a></h3>
+<h4 id="no-1">No 1<a class="headerlink" href="#no-1" title="Permanent link">¶</a></h4>
+<ul>
+<li>two staff members, staff id 1 and staff id 2  </li>
+<li>give a bonus to the staff member that handled the most payments (number of payments)  </li>
+<li>questions  <ul>
+<li>how many payments did each staff member handle and who gets the bonus  </li>
+<li>id 2 - 7304 - gets the bonus  </li>
+<li>id 1 - 7292  </li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT staff_id, COUNT(*) FROM payment  
+GROUP BY staff_id  
+ORDER BY COUNT(payment_id) DESC  
+</code></pre>
+<h4 id="no-2">No 2<a class="headerlink" href="#no-2" title="Permanent link">¶</a></h4>
+<ul>
+<li>relationship between replacement cost and a movie MPAA rating (eg. G, PG, R...)  </li>
+<li>questions  <ul>
+<li>average replacement cost per mpaa rating  </li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT rating, ROUND(AVG(replacement_cost), 2) FROM film  
+GROUP BY rating  
+</code></pre>
+<ul>
+<li>answer  <ul>
+<li>"rating"  "avg"  <ul>
+<li>"PG"  18.9590721649484536  </li>
+<li>"R"   20.2310256410256410  </li>
+<li>"G"   20.1248314606741573  </li>
+<li>"PG-13"   20.4025560538116592  </li>
+<li>"NC-17"   20.1376190476190476  </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="no3">no3<a class="headerlink" href="#no3" title="Permanent link">¶</a></h4>
+<ul>
+<li>customer coupon  </li>
+<li>
+<p>what are the customer ids of the top 5 customers by total amount spent  </p>
+</li>
+<li>
+<p>"customer_id" "sum"  </p>
+<ul>
+<li>148   211.55  </li>
+<li>526   208.58  </li>
+<li>178   194.61  </li>
+<li>137   191.62  </li>
+<li>144   189.60  </li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT customer_id, SUM(amount) FROM payment  
+GROUP BY customer_id  
+ORDER BY SUM(amount) DESC  
+LIMIT 5  
+</code></pre>
+<h2 id="having">HAVING<a class="headerlink" href="#having" title="Permanent link">¶</a></h2>
+<ul>
+<li>
+<p>allows us to filter <strong>after</strong> the aggregation has already taken place  </p>
+</li>
+<li>
+<p>filtering before <code>GROUP BY</code> statement = <code>WHERE</code> </p>
+</li>
+<li><strong>filtering after</strong> <code>GROUP BY</code> statement = <code>HAVING</code> </li>
+</ul>
+<h3 id="syntax_4">Syntax<a class="headerlink" href="#syntax_4" title="Permanent link">¶</a></h3>
+<ul>
+<li>after <code>GROUP BY</code> statement  </li>
+</ul>
+<pre><code class="language-sql">SELECT company, SUM(sales)  
+FROM finance_table  
+WHERE company != 'Google'  
+GROUP BY company  
+HAVING SUM(sales) &gt; 1000  
+</code></pre>
+<h3 id="examples_5">Examples<a class="headerlink" href="#examples_5" title="Permanent link">¶</a></h3>
+<pre><code class="language-sql">SELECT customer_id, SUM(amount) FROM payment  
+WHERE customer_id NOT IN (184, 87, 477)  
+GROUP BY customer_id  
+HAVING SUM(amount) &gt; 100  
+ORDER BY SUM(amount) DESC  
+LIMIT 10  
+</code></pre>
+<h3 id="challenge_4">Challenge<a class="headerlink" href="#challenge_4" title="Permanent link">¶</a></h3>
+<h4 id="no-1_1">No 1<a class="headerlink" href="#no-1_1" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p>platinum service for our most loyal customers, assign platinum status to customers that have had 40+ transaction payments  </p>
+</li>
+<li>
+<p>output  </p>
+<ul>
+<li>"customer_id" "count"  <ul>
+<li>148   45  </li>
+<li>526   42  </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>code  </p>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT customer_id, COUNT(payment_id) FROM payment  
+GROUP BY customer_id  
+HAVING COUNT(payment_id) &gt;= 40  
+ORDER BY COUNT(payment_id) DESC  
+</code></pre>
+<h4 id="no-2_1">No 2<a class="headerlink" href="#no-2_1" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p>customer ids who spent more than $100 in payment transactions with staff id 2  </p>
+</li>
+<li>
+<p>output  </p>
+</li>
+</ul>
+<pre><code>"customer_id"   "sum"   "staff_id"  
+522 102.80  2  
+187 110.81  2  
+211 108.77  2  
+526 101.78  2  
+148 110.78  2  
+</code></pre>
+<ul>
+<li>code  </li>
+</ul>
+<pre><code class="language-sql">SELECT customer_id, SUM(amount), staff_id FROM payment  
+WHERE (staff_id = 2)  
+GROUP BY customer_id, staff_id  
+HAVING SUM(amount) &gt; 100  
+</code></pre>
+<h2 id="assesment">Assesment<a class="headerlink" href="#assesment" title="Permanent link">¶</a></h2>
+<ul>
+<li>3 quick questions  </li>
+<li>provided with answers to test again  </li>
+<li>
+<p>solutions provided in the lecture after test  </p>
+</li>
+<li>
+<ol>
+<li>Return the customer IDs of customers who have spent at least $110 with the staff member who has an ID of 2.  </li>
+</ol>
+</li>
+<li>
+<p>output  </p>
+<ul>
+<li>187, 148  </li>
+</ul>
+</li>
+<li>
+<p>code  </p>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT customer_id FROM payment  
+WHERE (staff_id = 2)  
+GROUP BY customer_id  
+HAVING SUM(amount) &gt; 110  
+</code></pre>
+<ul>
+<li>
+<ol>
+<li>How many films begin with the letter J?  </li>
+<li>20  </li>
+</ol>
+</li>
+<li>
+<p>code  </p>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT COUNT(*) FROM film  
+WHERE title ILIKE 'j%'  
+</code></pre>
+<ul>
+<li>
+<ol>
+<li>What customer has the highest customer ID number whose name starts <strong>with</strong> an 'E' <strong>and</strong> has an address ID lower than 500?  </li>
+<li>434, Eddie Tomlin  </li>
+</ol>
+</li>
+<li>
+<p>code  </p>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT customer_id FROM customer  
+WHERE (first_name ILIKE 'e%') AND (address_id &lt; 500)  
+ORDER BY customer_id DESC  
+LIMIT 1  
+</code></pre>
+<h2 id="joins">JOINS<a class="headerlink" href="#joins" title="Permanent link">¶</a></h2>
+<p>sources<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> </p>
+<ul>
+<li>generally: join serves purpose to combine info from different tables  </li>
+<li>combine tables together  </li>
+<li>different types<br/>
+<img alt="assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230104164143830.png" src="../images/image-20230104164143830.png"/> </li>
+</ul>
+<h3 id="as">AS<a class="headerlink" href="#as" title="Permanent link">¶</a></h3>
+<ul>
+<li><code>AS</code> keyword  </li>
+<li>alias for column name  </li>
+<li><code>SELECT column_name AS new_name</code> </li>
+<li><code>AS</code> gets <strong>executed</strong> at <strong>the very end of a query</strong>, meaning that we cannot use it inside <code>WHERE</code> or <code>HAVING</code> operator  </li>
+</ul>
+<pre><code class="language-sql">SELECT customer_id, SUM(amount) AS total_spent  
+FROM payment  
+GROUP BY customer_id  
+HAVING SUM(amount)&gt;100  
+</code></pre>
+<h3 id="inner-join">Inner Join<a class="headerlink" href="#inner-join" title="Permanent link">¶</a></h3>
+<ul>
+<li><strong>records</strong> that are <strong>in both tables</strong> </li>
+<li>table order does not matter in <code>INNER JOIN</code> </li>
+<li><strong>Inner join</strong> produces only the set of records that match in both Table A and Table B.  </li>
+<li><img alt="inner join" src="https://blog.codinghorror.com/content/images/uploads/2007/10/6a0120a85dcdae970b012877702708970c-pi.png"/> </li>
+</ul>
+<h4 id="syntax_5">Syntax<a class="headerlink" href="#syntax_5" title="Permanent link">¶</a></h4>
+<pre><code class="language-sql">SELECT * FROM TableA  
+INNER JOIN TableB  
+ON TableA.name = TableB.name  
+</code></pre>
+<pre><code class="language-sql">SELECT * FROM TableA # select all columns from table A  
+INNER JOIN TableB # type of join, what to join  
+ON TableA.col_match = TableB.col_match # what are we matching on  
+</code></pre>
+<ul>
+<li>
+<p>TableA - TableA name  </p>
+</li>
+<li>
+<p>TableB - TableB name  </p>
+</li>
+<li>
+<p>example  </p>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT * FROM Registrations  
+INNER JOIN Logins  
+ON Registrations.name = Logins.name  
+</code></pre>
+<ul>
+<li>
+<p>result<br/>
+<img alt="assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230104164735840.png" src="../images/image-20230104164735840.png"/> </p>
+</li>
+<li>
+<p>example -&gt; skip duplicate column in the output  </p>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT reg_id, Logins.name, log_id  
+FROM Registrations  
+INNER JOIN Logins  
+ON Registrations.name = Logins.name  
+</code></pre>
+<ul>
+<li>
+<p>result -&gt; no duplicate column, only name column from Logins table<br/>
+<img alt="assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230104165000172.png" src="../images/image-20230104165000172.png"/> </p>
+</li>
+<li>
+<p>duplicate column name, when selecting <strong>after join</strong> i should specify what table im referring to in regards to the name column  </p>
+</li>
+</ul>
+<h3 id="outer-joins">Outer JOINs<a class="headerlink" href="#outer-joins" title="Permanent link">¶</a></h3>
+<ul>
+<li>there are few types of outer join  </li>
+<li>they allow us to specify with the values <strong>only present in one</strong> of the <strong>table</strong>s being joined  </li>
+<li>more complex type of joins  </li>
+</ul>
+<h4 id="full-outer-join">FULL OUTER JOIN<a class="headerlink" href="#full-outer-join" title="Permanent link">¶</a></h4>
+<ul>
+<li><strong>Full outer join</strong> produces the set of all records in Table A and Table B, with matching records from both sides where available. If there is no match, the missing side will contain null.  </li>
+<li><img alt="outer join" src="https://blog.codinghorror.com/content/images/uploads/2007/10/6a0120a85dcdae970b012877702725970c-pi.png"/> </li>
+</ul>
+<pre><code class="language-sql">SELECT * FROM TableA  
+FULL OUTER JOIN TableB  
+ON TableA.name = TableB.name  
+</code></pre>
+<ul>
+<li>table order does not matter  </li>
+<li>grabs <strong>everything</strong>, matches on columns  </li>
+<li>rest gets filled with null  </li>
+</ul>
+<h4 id="full-outer-join-with-where">FULL OUTER JOIN with WHERE<a class="headerlink" href="#full-outer-join-with-where" title="Permanent link">¶</a></h4>
+<p><img alt="assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230104170907751.png" src="../images/image-20230104170907751.png"/><br/>
+- exact opposite of INNER JOIN<br/>
+- get rows unique to either table  </p>
+<pre><code class="language-sql">SELECT * FROM TableA  
+FULL OUTER JOIN TableB  
+ON TableA.col_match = TableB.col_match  
+WHERE TableA.id IS null OR TableB.id IS null  
+</code></pre>
+<ul>
+<li>key clause <code>WHERE</code> </li>
+</ul>
+<pre><code class="language-sql">WHERE TableA.column IS null OR TableB.column IS null  
+</code></pre>
+<ul>
+<li>
+<p>previously -&gt; rows present in both tables exist in output<br/>
+<img alt="assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230104171316268.png" src="../images/image-20230104171316268.png"/> </p>
+</li>
+<li>
+<p>after <code>WHERE</code> clause<br/>
+<img alt="assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230104171335612.png" src="../images/image-20230104171335612.png"/> </p>
+</li>
+</ul>
+<h4 id="left-outer-join">LEFT OUTER JOIN<a class="headerlink" href="#left-outer-join" title="Permanent link">¶</a></h4>
+<p><img alt="assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230107135011220.png" src="../images/image-20230107135011220.png"/> </p>
+<ul>
+<li>otherwise known as <strong>left join</strong> </li>
+<li>
+<p><strong>order matters</strong> </p>
+<ul>
+<li>trips up beginners  </li>
+<li>most complicated join  </li>
+</ul>
+</li>
+<li>
+<p>results that are in the left table, if there is no match in the right table, the results are null  </p>
+<ul>
+<li>if something is only in TableB (right table <a href="The%20Complete%20SQL%20Bootcamp%202022%20Go%20from%20Zero%20to%20Hero#LEFT%20OUTER%20JOIN#syntax.md">see-&gt;</a>), it is not going to be returned by the query  </li>
+</ul>
+</li>
+</ul>
+<h5 id="syntax_6">Syntax<a class="headerlink" href="#syntax_6" title="Permanent link">¶</a></h5>
+<pre><code class="language-sql">SELECT * FROM TableA  
+LEFT OUTER JOIN TableB  
+ON TableA.col_match = TableB.col_match  
+</code></pre>
+<h5 id="left-outer-join-with-where">Left Outer Join with WHERE<a class="headerlink" href="#left-outer-join-with-where" title="Permanent link">¶</a></h5>
+<p><img alt="assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230107135640941.png" src="../images/image-20230107135640941.png"/><br/>
+- get rows unique to left table<br/>
+    - only in left table<br/>
+- example uses<br/>
+    - we have information about movie, but don't have it for rental  </p>
+<ul>
+<li>syntax  </li>
+</ul>
+<pre><code class="language-sql">SELECT * FROM TableA  
+LEFT OUTER JOIN TableB  
+ON TableA.col_match = TableB.col_match  
+WHERE TableB.id IS null  
+</code></pre>
+<ul>
+<li>example  </li>
+</ul>
+<pre><code class="language-sql">SELECT film.film_id, film.title, inventory.inventory_id FROM film  
+LEFT JOIN inventory  
+ON film.film_id = inventory.film_id   
+WHERE inventory.film_id IS null  
+</code></pre>
+<h4 id="right-outer-join">RIGHT OUTER JOIN<a class="headerlink" href="#right-outer-join" title="Permanent link">¶</a></h4>
+<p><img alt="assets/The Complete SQL Bootcamp 2022 Go from Zero to Hero/image-20230107140835209.png" src="../images/image-20230107140835209.png"/> </p>
+<ul>
+<li>the <strong>same thing as LEFT JOIN</strong>, but with <strong>different order</strong> of tables  </li>
+</ul>
+<h3 id="full-joins">Full Joins<a class="headerlink" href="#full-joins" title="Permanent link">¶</a></h3>
+<h3 id="unions">Unions<a class="headerlink" href="#unions" title="Permanent link">¶</a></h3>
+<ul>
+<li>combine the result-set of two or more select statements  </li>
+<li>
+<p>concatenate two results together  </p>
+</li>
+<li>
+<p>syntax  </p>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT column_name FROM table1  
+UNION  
+SELECT column_name FROM table2  
+</code></pre>
+<ul>
+<li>will be later explored, with different database  </li>
+</ul>
+<h3 id="challenge_5">Challenge<a class="headerlink" href="#challenge_5" title="Permanent link">¶</a></h3>
+<h4 id="no1">no1<a class="headerlink" href="#no1" title="Permanent link">¶</a></h4>
+<ul>
+<li>sales tax law has changed, we want to alert the customers who live in california  </li>
+<li>emails for customers living in CA  </li>
+</ul>
+<p>mails -&gt; customer.email, id-&gt; address_id<br/>
+state -&gt; address.dictrict, id -&gt; address_id  </p>
+<ul>
+<li>answer  </li>
+</ul>
+<pre><code class="language-sql">SELECT email FROM customer  
+JOIN address  
+ON customer.address_id = address.address_id  
+WHERE address.district = 'California'  
+</code></pre>
+<h4 id="no2">no2<a class="headerlink" href="#no2" title="Permanent link">¶</a></h4>
+<ul>
+<li>fan of <code>Nick Wahlberg</code> </li>
+<li>wants to see list of movies with <code>Nick Wahlberg</code> </li>
+</ul>
+<p>actor -&gt; actor_id = 1  </p>
+<pre><code class="language-sql">SELECT actor_id FROM actor  
+WHERE first_name = 'Nick' AND last_name = 'Wahlberg'  
+</code></pre>
+<p>film -&gt; film_id, title  </p>
+<p>film_actor -&gt; actor_id, film_id  </p>
+<ul>
+<li>nested query  </li>
+</ul>
+<pre><code class="language-sql">SELECT * FROM film_actor  
+WHERE actor_id = (  
+    SELECT actor_id FROM actor  
+    WHERE first_name = 'Nick' AND last_name = 'Wahlberg')  
+</code></pre>
+<ul>
+<li>nested query + join  </li>
+</ul>
+<pre><code class="language-sql">SELECT * FROM film_actor  
+JOIN film  
+ON film_actor.film_id = film.film_id  
+WHERE actor_id = (  
+    SELECT actor_id FROM actor  
+    WHERE first_name = 'Nick' AND last_name = 'Wahlberg')  
+</code></pre>
+<ul>
+<li>2 joins  </li>
+</ul>
+<pre><code class="language-sql">SELECT actor.first_name, actor.last_name, film.title FROM film_actor  
+JOIN film  
+ON film_actor.film_id = film.film_id  
+JOIN actor  
+ON actor.actor_id = film_actor.actor_id  
+WHERE actor.first_name = 'Nick' AND actor.last_name = 'Wahlberg'  
+</code></pre>
+<h2 id="advanced-sql-commands">Advanced Sql Commands<a class="headerlink" href="#advanced-sql-commands" title="Permanent link">¶</a></h2>
+<h3 id="timestamps-and-extract">Timestamps and Extract<a class="headerlink" href="#timestamps-and-extract" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p>displaying current time info  </p>
+</li>
+<li>
+<p>more useful when creating tables and databases, which will be covered later in the course  </p>
+</li>
+<li>
+<p><code>TIME</code> - contains time  </p>
+</li>
+<li><code>DATE</code> - only date  </li>
+<li><code>TIMESTAMP</code> - date and time  </li>
+<li>
+<p><code>TIMESTAMPTZ</code> - date, time and timezone  </p>
+<ul>
+<li>
+<blockquote>
+<p>⚠️you can always remove historical information, but you cannot add it!⚠️  </p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>functions and operations  </p>
+<ul>
+<li><code>TIMEZONE()</code> </li>
+<li><code>NOW()</code> <ul>
+<li><code>SELECT NOW()</code> </li>
+</ul>
+</li>
+<li><code>TIMEOFDAY()</code> <ul>
+<li>returns as text string  </li>
+</ul>
+</li>
+<li><code>CURRENT_TIME</code> </li>
+<li><code>CURRENT_DATE</code> <ul>
+<li><code>YYYY-MM-DD</code> </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>SHOW ALL</code> </p>
+<ul>
+<li>show value of runtime parameters  </li>
+</ul>
+</li>
+</ul>
+<h1 id="todo">todo<a class="headerlink" href="#todo" title="Permanent link">¶</a></h1>
+<h3 id="mathemetical-functions">Mathemetical Functions<a class="headerlink" href="#mathemetical-functions" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p>url: <a href="https://www.postgresql.org/docs/9.1/functions-math.html">https://www.postgresql.org/docs/9.1/functions-math.html</a> </p>
+</li>
+<li>
+<p>example  </p>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT ROUND(rental_rate/replacement_cost, 4)*100 FROM film  
+</code></pre>
+<h3 id="subquery">Subquery<a class="headerlink" href="#subquery" title="Permanent link">¶</a></h3>
+<ul>
+<li>query on top of query  </li>
+</ul>
+<h4 id="examples_6">Examples<a class="headerlink" href="#examples_6" title="Permanent link">¶</a></h4>
+<ul>
+<li>list of students who performed better than the average grade  </li>
+</ul>
+<pre><code class="language-sql">SELECT student, grade  
+FROM test_scores  
+WHERE grade &gt; (  
+SELECT AVG(grade) FROM test_scores  
+)  
+</code></pre>
+<ol>
+<li>get average  </li>
+<li>
+<p>run outside query -&gt; list of students with grades above average  </p>
+</li>
+<li>
+<p>subquery is performed first  </p>
+</li>
+<li><code>IN</code> <ul>
+<li>conjunction of subqueries  </li>
+</ul>
+</li>
+</ol>
+<pre><code class="language-sql">SELECT student, grade  
+FROM test_scores  
+WHERE student IN  
+(  
+SELECT student  
+FROM honor_roll_table #list of values  
+)  
+</code></pre>
+<ul>
+<li><code>EXISTS</code> operator  </li>
+</ul>
+<pre><code class="language-sql">SELECT colummn_name  
+FROM table_name  
+WHERE EXISTS  
+(SELECT column_name  
+FROM table_name  
+WHERE condition)  
+</code></pre>
+<ul>
+<li>film table  <ul>
+<li>rental_rate &gt; AVG(rental_rate)  </li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-sql">SELECT * FROM film  
+WHERE rental_rate &gt;  
+(SELECT AVG(rental_rate)  
+ FROM film)  
+</code></pre>
+<ul>
+<li>combine two subqueries  </li>
+</ul>
+<pre><code class="language-sql">SELECT * FROM film  
+WHERE  
+rental_rate &gt; (SELECT AVG(rental_rate) FROM film) AND  
+rental_rate &lt; (SELECT 2*AVG(rental_rate) FROM film)  
+</code></pre>
+<ul>
+<li>continue: <a href="https://udemy.toolzbuy.com/course/the-complete-sql-bootcamp/learn/lecture/18573946#overview">https://udemy.toolzbuy.com/course/the-complete-sql-bootcamp/learn/lecture/18573946#overview</a> </li>
+</ul>
+<h2 id="assessment-test-2">Assessment Test 2<a class="headerlink" href="#assessment-test-2" title="Permanent link">¶</a></h2>
+<ul>
+<li>
+<p>two schemas  </p>
+<ul>
+<li>public and cd schema  </li>
+</ul>
+</li>
+<li>
+<p>tables exist in cd schema  </p>
+<ul>
+<li>we need to specify the queries for the <code>FROM</code> tables <code>cd.</code> in front of them  <ul>
+<li><code>SELECT * FROM cd.bookings</code> </li>
+<li><code>SELECT * FROM cd.facilities</code> </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>in postgres  </p>
+<ul>
+<li>right-click Databases &gt; create database &gt; give whatever name you like  <ul>
+<li>right-click the database you created &gt; restore &gt; select .tar file  <ul>
+<li>
+<blockquote>
+<p>⚠️show all files!⚠️  </p>
+</blockquote>
+</li>
+<li>data/objects &gt; select pre-data, data, post-data  </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>query different db  </p>
+<ul>
+<li>right click db &gt; query tool  </li>
+</ul>
+</li>
+<li>
+<p>init query  </p>
+<ul>
+<li><code>SELECT * FROM cd.facilities</code> </li>
+</ul>
+</li>
+</ul>
+<h3 id="data-structure">Data Structure<a class="headerlink" href="#data-structure" title="Permanent link">¶</a></h3>
+<ul>
+<li><code>cd.facilities</code> <ul>
+<li>actual facilities  </li>
+</ul>
+</li>
+<li><code>cd.bookings</code> <ul>
+<li>bookings  </li>
+</ul>
+</li>
+<li><code>cd.members</code> <ul>
+<li>members (who booked?)  </li>
+</ul>
+</li>
+</ul>
+<h3 id="questions">Questions<a class="headerlink" href="#questions" title="Permanent link">¶</a></h3>
+<ol>
+<li>
+<p>How can you retrieve all the information from the cd.facilities table?  </p>
+<ul>
+<li><code>SELECT * FROM cd.facilities</code> </li>
+</ul>
+</li>
+<li>
+<p>You want to print out a list of all of the facilities and their cost to members. How would you retrieve a list of only facility names and costs?  </p>
+</li>
+</ol>
+<pre><code class="language-sql">SELECT name, membercost FROM cd.facilities  
+WHERE membercost != 0  
+</code></pre>
+<ol>
+<li>How can you produce a list of facilities that charge a fee to members?  </li>
+</ol>
+<pre><code class="language-sql">SELECT * FROM cd.facilities  
+WHERE membercost != 0  
+</code></pre>
+<ol>
+<li>How can you produce a list of facilities that charge a fee to members, and that fee is less than 1/50th of the monthly maintenance cost?  </li>
+</ol>
+<pre><code class="language-sql">SELECT * FROM cd.facilities  
+WHERE membercost != 0 AND membercost &lt; monthlymaintenance/50  
+</code></pre>
+<ol>
+<li>How can you produce a list of all facilities with the word 'Tennis' in their name?  </li>
+</ol>
+<pre><code class="language-sql">SELECT * FROM cd.facilities  
+WHERE name ILIKE '%tennis%'  
+</code></pre>
+<ol>
+<li>
+<p>How can you retrieve the details of facilities with ID 1 and 5? Try to do it without using the OR operator  </p>
+</li>
+<li>
+<p>id = 1  </p>
+</li>
+<li>id = 5  </li>
+</ol>
+<pre><code class="language-sql">SELECT * FROM cd.facilities  
+WHERE facid IN (1,5)  
+</code></pre>
+<div class="footnote">
+<hr/>
+<ol>
+<li id="fn:1">
+<p><a href="https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/">https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/</a> <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+<!-- Get setting from mkdocs.yml, but allow page-level overrides -->
+<!-- Inject Disqus into current page -->
+</hr></article>
+</div>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            Back to top
+          </button>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": ["navigation.top", "navigation.tracking", "navigation.tabs"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../assets/javascripts/bundle.a51614de.min.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+<script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+<script src="../javascripts/tablesort.js"></script>
+</body>
+</html>
